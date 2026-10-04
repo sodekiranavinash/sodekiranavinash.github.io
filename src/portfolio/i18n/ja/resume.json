@@ -1,0 +1,30 @@
+{
+  "resumeUrl": "https://flowcv.com/resume/nu87onw75u2e",
+  "section": {
+    "eyebrow": "レジュメセンター",
+    "heading": "履歴書・CV",
+    "subtitle": "履歴書の全体プレビューを確認するか、採用担当向けの PDF をダウンロードできます。",
+    "reviewOrDownload": "確認 / ダウンロード",
+    "reviewResume": "履歴書を確認",
+    "downloadResume": "履歴書をダウンロード",
+    "highlights": "ハイライト",
+    "certifications": "認定資格・専門資格",
+    "verifyCredential": "資格を確認"
+  },
+  "certifications": [
+    {
+      "id": "cert-1",
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services（AWS）",
+      "date": "2025年",
+      "credentialUrl": "https://aws.amazon.com"
+    },
+    {
+      "id": "cert-2",
+      "title": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta / Coursera",
+      "date": "2023年",
+      "credentialUrl": "https://coursera.org"
+    }
+  ]
+}

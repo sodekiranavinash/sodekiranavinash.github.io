@@ -1,0 +1,65 @@
+{
+  "section": {
+    "eyebrow": "推薦",
+    "heading": "推薦文",
+    "description": "共に働いた同僚・協力者からの言葉です。",
+    "previous": "前の推薦文",
+    "next": "次の推薦文"
+  },
+  "items": [
+    {
+      "id": "rec-1",
+      "name": "Dylan Willis",
+      "profileUrl": "https://www.linkedin.com/in/dylan-willis-13148029",
+      "role": "スクラムマスター & デリバリリード",
+      "company": "Shutterfly LLC（米国）",
+      "experience": "10 年以上の経験",
+      "quote": "Shutterfly Lab Eng チームで Avinash と一緒に働けて幸運でした。彼は技術力・課題解決力・協働姿勢のすべてにおいて印象的でした。複雑な課題を実践的に解決できる点は、どのエンジニアリングチームにも貴重な存在です。技術面だけでなく、フィードバックを素直に受け入れ、学び続け、周囲を助ける姿勢も素晴らしかったです。彼の前向きさと献身はチームに大きな影響を与えました。フルスタックエンジニアとして非常に有能かつ信頼できる人物だと強く推薦します。"
+    },
+    {
+      "id": "rec-2",
+      "name": "Sunil Babu",
+      "profileUrl": "https://www.linkedin.com/in/sunilbhai/",
+      "role": "クラウドアーキテクト & GenAI",
+      "company": "Genpact India - Shutterfly",
+      "experience": "25 年以上の経験",
+      "quote": "Avinash とは一緒に働き、彼の Python スキルは非常に高く、常にクリーンで効率的、構造の整ったコードを提供していました。複雑な技術環境を素早く理解し、プロジェクトにスムーズに統合して着実に成果を出します。課題解決力も優れており、単に問題を解決するだけでなく最適な解を見出すことで、チームの生産性とプロジェクト成功に大きく貢献しました。Python 開発力を求めるどのポジションにも強く推薦します。"
+    },
+    {
+      "id": "rec-3",
+      "name": "Sourav Basu",
+      "profileUrl": "https://www.linkedin.com/in/srvbasu/",
+      "role": "プリンシパルエンジニア",
+      "company": "Genpact India - Shutterfly",
+      "experience": "16 年以上の経験",
+      "quote": "Genpact で Avinash と密に協働しました。彼は常にプロフェッショナルで高い技術力を持ち、質の高い成果物を着実に提供します。システム最適化への深い理解と優れた問題解決力により、クリーンで効率的なコードを一貫して書きます。どのチーム・組織にも有益な存在となるでしょう。心から推薦します。"
+    },
+    {
+      "id": "rec-4",
+      "name": "Samrat Sen",
+      "profileUrl": "https://www.linkedin.com/in/samrat-sen-262751159/",
+      "role": "データベースエンジニア",
+      "company": "Creditsafe - LI チーム",
+      "experience": "10 年以上の経験",
+      "quote": "Avinash とは一緒に働き、技術力とタイトな納期でも成果を出す力に感心しました。彼はジュニアという印象はなく、課題を先回りして行動する姿勢が際立っていました。問題解決力と品質へのこだわりは、どのチームにも価値ある財産です。フルスタックエンジニアとして強く推薦します。"
+    },
+    {
+      "id": "rec-5",
+      "name": "Poonam G",
+      "profileUrl": "https://www.linkedin.com/in/poonam-ghutukade-5100ab155/",
+      "role": "ソフトウェアエンジニア",
+      "company": "Creditsafe - LI チーム",
+      "experience": "7 年以上の経験",
+      "quote": "Creditsafe Technology の Ledger Insight プロジェクトで Avinash と協働しました。UI 設計から複雑なデータ分析まで高い技術力を発揮し、実用的なインサイトを提供しました。困難な課題を解決し、API を構築し、革新的なアイデアを形にする力は素晴らしいです。今後の活躍を期待しています。"
+    },
+    {
+      "id": "rec-6",
+      "name": "Uday Kumar",
+      "profileUrl": "https://www.linkedin.com/in/uday-kumar-59a10a227/",
+      "role": "シニア QA エンジニア",
+      "company": "Creditsafe - LI チーム",
+      "experience": "9 年以上の経験",
+      "quote": "Ledger Insights チームで Avinash と働きました。彼の献身性・積極性・チーム志向は際立っています。責任を果たすだけでなく、チームの成功のために率先して行動します。プロダクト思考も優れており、ユーザー価値とビジネス目標の両方を常に意識しています。"
+    }
+  ]
+}

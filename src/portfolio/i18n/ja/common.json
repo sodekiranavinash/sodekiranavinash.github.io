@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "私について",
+    "experience": "職務経験",
+    "projects": "プロジェクト",
+    "recommendations": "推薦文",
+    "skills": "スキル"
+  },
+  "footer": {
+    "tagline": "規律は自由を築く",
+    "rights": "All rights reserved.",
+    "privacyPolicy": "プライバシーポリシー",
+    "lastUpdated": "最終更新日",
+    "back": "戻る"
+  },
+  "a11y": {
+    "selectLanguage": "言語を選択",
+    "toggleTheme": "テーマを切り替え",
+    "toggleMenu": "メニューを切り替え",
+    "closeModal": "モーダルを閉じる",
+    "previousRecommendation": "前の推薦文",
+    "nextRecommendation": "次の推薦文",
+    "viewLinkedInProfile": "{name} さんの LinkedIn プロフィールを見る"
+  }
+}

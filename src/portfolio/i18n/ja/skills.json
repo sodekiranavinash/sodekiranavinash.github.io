@@ -1,0 +1,57 @@
+{
+  "section": {
+    "eyebrow": "コアスキル",
+    "heading": "スキル & 専門性",
+    "description": "エージェント型 AI、フルスタック開発、クラウドプラットフォームエンジニアリングで主に活用している技術スタックです。"
+  },
+  "categories": [
+    {
+      "categoryName": "AI & エージェント",
+      "skills": [
+        { "name": "エージェント型 AI" },
+        { "name": "Agent Harnesses" },
+        { "name": "マルチエージェントオーケストレーション" },
+        { "name": "LangGraph / LangChain" },
+        { "name": "RAG（ハイブリッド検索・リランキング）" },
+        { "name": "ベクトル検索" },
+        { "name": "MCP サーバー・クライアント" },
+        { "name": "OAuth 2.0" },
+        { "name": "Tool Calling" },
+        { "name": "プロンプト・コンテキストエンジニアリング" },
+        { "name": "評価・ガードレール" },
+        { "name": "LLM ジャッジ（Ragas）" },
+        { "name": "OpenSearch Vector DB" }
+      ]
+    },
+    {
+      "categoryName": "フルスタック",
+      "skills": [
+        { "name": "Python（FastAPI、Flask）" },
+        { "name": "React（TypeScript）" },
+        { "name": "JavaScript" },
+        { "name": "REST API" },
+        { "name": "PostgreSQL" },
+        { "name": "Oracle DB" },
+        { "name": "RabbitMQ" },
+        { "name": "Celery" },
+        { "name": "Docker" }
+      ]
+    },
+    {
+      "categoryName": "クラウド & プラットフォーム",
+      "skills": [
+        { "name": "AWS - Lambda、ECS、Bedrock、AgentCore" },
+        { "name": "API Gateway & Step Functions" },
+        { "name": "SQS、EventBridge、S3 Vectors" },
+        { "name": "DynamoDB" },
+        { "name": "Kubernetes" },
+        { "name": "Helm" },
+        { "name": "Kong API Gateway" },
+        { "name": "Terraform" },
+        { "name": "CI/CD（GitHub Actions、Jenkins）" },
+        { "name": "オブザーバビリティ（OpenTelemetry、CloudWatch）" },
+        { "name": "KMS" }
+      ]
+    }
+  ]
+}

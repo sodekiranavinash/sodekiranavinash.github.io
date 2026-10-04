@@ -1,0 +1,163 @@
+{
+  "section": {
+    "eyebrow": "選定プロジェクト",
+    "heading": "注目プロジェクト",
+    "description": "個人でエンドツーエンドに構築したプロダクトと、チームと共にリリース・スケールしたプロフェッショナルプロジェクト。",
+    "personal": "個人プロジェクト",
+    "professional": "プロフェッショナルプロジェクト",
+    "live": "ライブ",
+    "source": "ソースコード",
+    "architecture": "アーキテクチャ",
+    "readMore": "続きを読む",
+    "close": "閉じる",
+    "caseStudy": "ケーススタディ",
+    "highlights": "ハイライト",
+    "skills": "スキル"
+  },
+  "personal": [
+    {
+      "id": "personal-1",
+      "title": "get1agent",
+      "category": "personal",
+      "summary": "エージェント、MCP ツール、RAG パイプラインを構築・実行・共有できる、完全サーバーレスなマルチテナント AWS プラットフォーム。AI アシスト MCP サーバービルダー、LLM ジャッジ・アノテーションキューを備えた評価ラボ、Bedrock Guardrails、エージェントマーケットプレイス、スキルカタログを提供。",
+      "bullets": [
+        "プランナー・長期記憶・コンテキスト圧縮・ヒューマンインザループ割り込みを備えたエージェントランタイム（インライン引用付き）。",
+        "マルチエージェントワークフロービルダー：決定論的 Graph と動的 Swarm オーケストレーション、ライブ実行タイムライン。",
+        "引用付き RAG：セマンティック＋BM25 ハイブリッド検索を RRF で統合、Bedrock Rerank と small-to-big 検索に対応。"
+      ],
+      "fullDetails": [
+        "AWS Lambda と Bedrock AgentCore 上のマルチテナントサーバーレスプラットフォーム。ユーザーごとにナレッジベース、エージェント、ワークフロー、スキル、ツールを作成・共有可能。KMS 暗号化・オペレーター非参照の BYOK ボールトとユーザー別クォータを実装。",
+        "エージェントランタイム：リクエストをサブクエリ・タスクへ分解するプランナー、長期記憶、コンテキスト圧縮、ヒューマンインザループ割り込み、インライン引用・フィードバック付きチャット（Strands Agents + Bedrock AgentCore）。",
+        "Strands Agents ベースのワークフロービルダー：決定論的 Graph と動的 Swarm オーケストレーション（コーディネーターホスト、並列実行、ノード単位上書き、ライブ実行タイムライン）。",
+        "MCP レイヤー：5 種類のサーバー（knowledge、code interpreter、web fetch、browser、custom tools）、サードパーティ向け OAuth 2.0 ブローカー、ポリシーチェック付き AgentCore Gateway ルーティング。加えて AI アシストビルダーでカスタム MCP サーバーを生成・マイクロVM 上でサンドボックステスト。",
+        "引用付き検索：イベント駆動型取り込み（PDF、DOCX、XLSX）、Titan 埋め込み（S3 Vectors）＋BM25 ハイブリッド検索を RRF 統合、Bedrock Rerank、small-to-big 検索、ページ・シート単位の引用を実装。",
+        "品質・運用：トレースリプレイ（A/B モデル比較）、データセット・アノテーションキュー、Ragas 準拠 LLM ジャッジ、署名付きトレースリンク、Bedrock Guardrails、CloudWatch/X-Ray への OpenTelemetry、AI クレジット予算、コスト最適化（プロンプトキャッシュ、セマンティックキャッシュ）。"
+      ],
+      "topSkills": [
+        "AWS Lambda",
+        "Bedrock AgentCore",
+        "Strands Agents",
+        "MCP Server Builder",
+        "Bedrock Guardrails",
+        "評価ラボ"
+      ],
+      "allSkills": [
+        "Python",
+        "AWS Lambda",
+        "Amazon Bedrock",
+        "Bedrock AgentCore",
+        "Strands Agents",
+        "MCP サーバー & OAuth 2.0",
+        "S3 Vectors",
+        "DynamoDB",
+        "RAG（ハイブリッド検索、RRF、リランキング）",
+        "OpenTelemetry",
+        "React",
+        "GitHub Actions"
+      ],
+      "liveUrl": "https://www.get1agent.com/",
+      "sourceUrl": "https://github.com/sodekiranavinash/get1agent",
+      "architectureUrl": "https://www.get1agent.com/architecture"
+    }
+  ],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "エージェント型営業インテリジェンスプラットフォーム。調査から送信可能なピッチ資料までを自動生成し、ピッチレポート作成時間を約 3 日から約 30 分に短縮。ドラッグ&ドロップのエージェントワークフロービルダーと多形式出力に対応。",
+      "bullets": [
+        "ピッチレポート作成時間を約 3 日から約 30 分に短縮。",
+        "再利用可能なエージェントからワークフローを構成するドラッグ&ドロップビルダー（共有ギャラリー、RBAC 対応）。",
+        "インフォグラフィック・HTML・PDF・PowerPoint 形式でレポートを出力。"
+      ],
+      "caseStudy": "営業・価格設定チームはピッチ前に公開情報・社内データ・過去実績を収集するのに数日を要していた。AI が調査に基づくピッチ資料を自動生成することで、この時間を大幅に削減することが目的でした。",
+      "fullDetails": [
+        "プランナーエージェントと専門サブエージェント（ウェブ調査、現行パッケージ、バトルカード、ピッチ生成）を単一ワークフローでオーケストレーション。",
+        "ドラッグ&ドロップ UI で再利用可能なエージェントからワークフローを構成・共有ギャラリーへ公開・ロールベースでアクセス制御。",
+        "承認済みウェブソース・社内データ・営業用 MCP サーバーに基づく根拠あるレポートをインフォグラフィック・HTML・PDF・PowerPoint で出力。",
+        "任意の MCP サーバーとそのツールをワークフローに組み込み可能。"
+      ],
+      "highlights": [
+        "作業時間：3 日 → 30 分",
+        "エージェントギャラリー＆RBAC 対応ワークフロービルダー",
+        "多形式出力（インフォグラフィック、HTML、PDF、PPT）"
+      ],
+      "skills": [
+        "LangGraph",
+        "FastMCP",
+        "React",
+        "OpenSearch",
+        "FastAPI",
+        "PostgreSQL",
+        "Kubernetes",
+        "AWS"
+      ]
+    },
+    {
+      "id": "prof-2",
+      "title": "Chat AI MCP Server",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "顧客が Microsoft Copilot、Claude、Databricks などの MCP クライアントから SPGCI データへ安全にアクセスできる顧客向け MCP サーバー。100 社以上に採用。",
+      "bullets": [
+        "100 社以上に採用",
+        "SPGCI Python SDK を MCP として公開",
+        "LLM 回答と SME 回答の一貫性を維持"
+      ],
+      "caseStudy": "顧客は自分たちが普段使う AI ツール（Copilot、Claude 等）から SPGCI データに直接アクセスしたいと要望。MCP サーバーとして安全に機能を公開することで解決しました。",
+      "fullDetails": [
+        "FastMCP により SPGCI 関数を MCP ツールとして公開（スキーマ・説明付き）。",
+        "構造化データは LLM 生成コード実行、非構造化データは AIRD API を活用。",
+        "クライアント認証・ログ・セキュリティガードレールを実装。",
+        "複数の LLM プラットフォームで 100 社以上に採用。"
+      ],
+      "highlights": [
+        "100 社以上の顧客採用",
+        "Copilot、Claude、Databricks と連携",
+        "安全なコード実行によるデータクエリ"
+      ],
+      "skills": [
+        "FastMCP",
+        "Python",
+        "MCP",
+        "AWS",
+        "Kubernetes",
+        "Kong API Gateway"
+      ]
+    },
+    {
+      "id": "prof-3",
+      "title": "RAPID MCP Server",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "300 以上の既存 API を 4 つのインテリジェントな MCP ツール（instructions、search、metadata、execute）に統合。バックエンドマイクロサービスへの変更は不要。",
+      "bullets": [
+        "300 以上の API を 4 ツールに統合",
+        "LLM の API 選択精度：85% → 95% 以上",
+        "既存マイクロサービスへの変更ゼロ"
+      ],
+      "caseStudy": "数百の API を直接 LLM に公開すると API 選択精度が低下。抽象化レイヤー（指示・発見・メタデータ・実行）を MCP として提供し、既存 API を再利用する形で解決しました。",
+      "fullDetails": [
+        "4 つの MCP ツール：instructions（利用ガイド）、search（セマンティック＋キーワード＋リランキング）、metadata（API スキーマ）、execute（API 呼び出し・レスポンス整形）。",
+        "API 仕様・サンプルをインデックス化し、ユーザー意図に基づく発見を実現。",
+        "検索・リランキングにより API 選択精度を約 85% から 95% 以上に向上。",
+        "既存マイクロサービスに一切変更不要な非侵襲設計。"
+      ],
+      "highlights": [
+        "300 以上の API をカバー",
+        "選択精度：85% → 95% 以上",
+        "非侵襲アーキテクチャ"
+      ],
+      "skills": [
+        "FastMCP",
+        "LangGraph",
+        "OpenSearch",
+        "RAG",
+        "FastAPI",
+        "Kong API Gateway"
+      ]
+    }
+  ]
+}

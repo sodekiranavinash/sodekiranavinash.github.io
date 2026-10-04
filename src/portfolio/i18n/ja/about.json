@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "welcome": "ようこそ、私のワークスペースへ",
+    "greeting": "こんにちは、私は",
+    "subtitle": "AI エンジニア | FDE",
+    "description": "エージェント型 AI、MCP サーバー、RAG — AWS と Kubernetes でプロトタイプから本番環境まで。",
+    "availability": "インド・ハイデラバード · 転居可能",
+    "downloadCv": "履歴書をダウンロード",
+    "tryOneAgent": "One Agent を試す",
+    "tryOneAgentUrl": "https://www.get1agent.com/",
+    "scrollDown": "下にスクロール"
+  },
+  "section": {
+    "heading": "私について",
+    "nameLabel": "名前",
+    "titleLabel": "役職",
+    "aboutLabel": "FDE としての働き方",
+    "approachEyebrow": "アプローチ",
+    "approachDescription": "会話からチームが本番環境で動かせるものにするための 3 つの習慣。",
+    "educationLabel": "学歴",
+    "skillsLabel": "スキル",
+    "socialLabel": "つながる",
+    "experienceText": "職務経験"
+  },
+  "name": "Kiran Avinash Sode",
+  "title": "AI エンジニア | フォワードデプロイドエンジニア",
+  "bioParagraphs": [
+    "私は AI エンジニア兼フォワードデプロイドエンジニア (FDE) で、5 年間にわたり GenAI およびフルスタックシステムを POC から本番環境まで構築・運用してきました。製品・営業・エンジニアリングと密に連携し、曖昧な要件を動作するプロトタイプに変換し、その上で LLM ワークフローと基盤となる Kubernetes およびサーバーレス AWS プラットフォームを本番環境向けに堅牢化します。"
+  ],
+  "metrics": [
+    {
+      "label": "経験年数",
+      "value": "5+",
+      "description": "GenAI & フルスタックシステム"
+    },
+    {
+      "label": "FDE 経験年数",
+      "value": "2+",
+      "description": "製品・営業とともに顧客現場で稼働"
+    },
+    {
+      "label": "リリースした AI プロダクト",
+      "value": "5+",
+      "description": "エージェント、MCP サーバー、RAG"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/sodekiranavinash",
+      "iconName": "GitBranch"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sode-kiran-avinash",
+      "iconName": "Link"
+    }
+  ],
+  "email": "kiranavinash.sode@gmail.com",
+  "emailLabel": "メール",
+  "connect": {
+    "text": "インド・ハイデラバード在住 — オランダ、日本への転居およびグローバルリモート可。AI プロダクト、エージェントプラットフォーム、FDE のポジションについてはいつでも話したいです。"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "section": {
+    "eyebrow": "キャリアタイムライン",
+    "heading": "職務経験",
+    "description": "私が関わったチーム、リリースしたプロダクト、そして達成した定量的な成果の概要です。",
+    "readMore": "続きを読む",
+    "close": "閉じる",
+    "roleAndResponsibilities": "役割と責任",
+    "projects": "プロジェクト"
+  },
+  "items": [
+    {
+      "id": "exp-1",
+      "roleOrDegree": "エンジニア II (AI)",
+      "organization": "S&P Global — Commodity Insights (エネルギー部門)",
+      "period": "2025年3月 – 現在",
+      "description": [
+        "Pitch Intel、Chat AI、RAPID、MCP Playground の 4 名チームをフォワードデプロイでリード。要件定義・アーキテクチャ・納品をビジネス・エンジニアリングと協働で推進。",
+        "エージェント型営業インテリジェンスプラットフォーム「Pitch Intel」により、ピッチレポート作成時間を約 3 日から約 30 分に短縮。",
+        "Chat AI MCP サーバーは 100 社以上に採用。RAPID は 300 以上の API を 1 つの MCP ツールセットに統合し、LLM の API 選択精度を約 85% から 95% 以上に向上。"
+      ],
+      "tags": [
+        "LangGraph",
+        "FastMCP",
+        "OpenSearch",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Kong API Gateway",
+        "AWS",
+        "LangSmith"
+      ],
+      "roleAndResponsibilities": [
+        "ビジネス・エンジニアリングと密に連携し、エージェント・API・UI 層を横断する 4 名のフォワードデプロイドチームをリード。",
+        "営業・価格設定・プロダクトチームと技術要件を整理・設計し、本番環境へのリリースまでをオーナーシップ。",
+        "15 以上のマイクロサービスのプラットフォーム納品を担当（Helm パッケージング、Kubernetes アップグレード、セキュリティ強化、本番リリース）。"
+      ],
+      "projectHighlights": [
+        "Pitch Intel — エージェント型営業インテリジェンスプラットフォーム。ドラッグ&ドロップのワークフロービルダー、RBAC 対応の共有エージェントギャラリー、調査に基づくレポートをインフォグラフィック・HTML・PDF・PowerPoint で出力。",
+        "Chat AI MCP Server — 顧客向け MCP サーバーとして SPGCI Python SDK を公開。Microsoft Copilot、Claude、Databricks などで 100 社以上が採用。構造化データ向けの LLM 生成コード実行と非構造化データ向けの AIRD API により、SME レビューなしでも回答の一貫性を維持。",
+        "RAPID MCP Server — 4 つのツール（instructions、search、metadata、execute）で 300 以上の API を統一。既存マイクロサービスの変更なしで実現し、検索・再ランクによって API 選択精度を約 85% から 95% 以上に向上。",
+        "MCP Playground — 10 チーム以上が複数モデル・実データで MCP サーバーをテスト可能に。ツール呼び出し・引数の再現性を比較・スコアリングする一貫性フレームワークを実装。",
+        "API Platform — 15 以上のマイクロサービスを生の Kubernetes マニフェストから Helm チャートへ移行（デプロイ作業を約 25% 削減）。重大脆弱性の修正、10 リポジトリにわたる git 履歴からの機密情報削除、OpenSearch によるクラスタイベント・メトリクスの可視化を実施。"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleOrDegree": "コンサルタント — 顧客：Shutterfly（米国）",
+      "organization": "Genpact",
+      "period": "2024年2月 – 2025年3月",
+      "description": [
+        "受注・クレーム・商品を自然言語で問い合わせ可能な Text2SQL チャットアプリを構築。データチームへのアドホック依頼を約 25% 削減。",
+        "紙不足・代替素材・廃棄・遅延などを早期検出するウォッチドッグエージェントを追加。",
+        "レガシー Forge システムを RabbitMQ + Celery マイクロサービスへ置換し、スループットを約 50% 向上。"
+      ],
+      "tags": [
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "Oracle DB",
+        "Azure OpenAI",
+        "EC2",
+        "RabbitMQ",
+        "Celery",
+        "Jenkins"
+      ],
+      "roleAndResponsibilities": [
+        "米国顧客向けに GenAI およびモダナイゼーションを要件定義から本番サポートまで担当。",
+        "オンコールを担当し、繁忙期も顧客システムの安定稼働を維持。",
+        "顧客のプロダクト・エンジニアリングと直接協働し、ビジネス要件を機能として実装。"
+      ],
+      "projectHighlights": [
+        "Product Intelligence Agent — 注文・クレーム・商品データに対する Text2SQL チャットアプリ。LangGraph フィードバックループで SQL エラーを自己修正し、データチームへのアドホック依頼を約 25% 削減。",
+        "Watchdog Agent — 同一のプロダクトロジック上に構築し、紙不足・代替素材・廃棄・配送遅延などの潜在的課題をプロアクティブに検出。",
+        "Forge Module — PDF 生成・カットライン・テンプレートマッピングなどの本番マイクロサービスを RabbitMQ + Celery ワーカーで実装し、スループットを約 50% 向上。",
+        "Mnesia DB Viewer — Python サブプロセス＋Erlang OTP クラスタツールによるフルスタックデータ修正・復旧ツール。1 件あたり約 $10,000 の生産インシデントコストを削減。"
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleOrDegree": "ジュニアフルスタックエンジニア",
+      "organization": "Creditsafe Technology",
+      "period": "2021年10月 – 2024年2月",
+      "description": [
+        "Ledger Insights をレガシー .NET から Python、React、AWS、PostgreSQL へ移行。UX 向上とともに顧客継続率を約 35% 向上。",
+        "プレミアム機能（AR Requests、CFO Reports、Trade Groups、Combined Experience）を拡張し、約 15 万ドル相当の B2B 取引を支援。",
+        "全エンティティで利用可能なデータ編集ツールを構築し、企業データ品質を約 85% から約 95% に向上。"
+      ],
+      "tags": [
+        "FastAPI",
+        "Flask",
+        "React",
+        "PostgreSQL",
+        "ECS",
+        "S3",
+        "Terraform",
+        "Azure Pipelines"
+      ],
+      "roleAndResponsibilities": [
+        "B2B 金融分析アプリケーションの E2E 機能開発とクリティカルサービスの保守。",
+        "プロダクト・QA・オペレーションと協働し、信頼性・スケーラビリティを確保。",
+        "アーキテクチャ改善と CI/CD パイプライン最適化に貢献。"
+      ],
+      "projectHighlights": [
+        "Ledger Insights — B2B 財務レポートアプリをモダンスタック（Python/FastAPI、React、PostgreSQL）へフルリライトし、AWS ECS にデプロイ。顧客継続率を約 35% 向上。",
+        "Premium Modules — AR Requests、CFO Reports、Trade Groups、Combined Experience を拡張・スケールし、約 15 万ドル相当の B2B 商談を支援。",
+        "Data Quality Toolkit — マルチエンティティ対応のデータ編集ツール（バリデーション・監査機能付き）を構築し、データ品質を約 85% から約 95% に向上。",
+        "Infrastructure as Code — Terraform と Azure Pipelines による再現可能なデプロイ基盤を標準化。"
+      ]
+    }
+  ]
+}

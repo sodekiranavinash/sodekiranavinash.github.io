@@ -1,4 +1,4 @@
-export const LOCALES = ['en', 'fr', 'de', 'nl', 'da', 'sv', 'es', 'it', 'pt', 'ro'] as const;
+export const LOCALES = ['en', 'fr', 'de', 'nl', 'da', 'sv', 'es', 'it', 'pt', 'ro', 'ja'] as const;
 
 export type Locale = (typeof LOCALES)[number];
 
@@ -15,6 +15,7 @@ export const LOCALE_NATIVE_NAMES: Record<Locale, string> = {
   it: 'Italiano',
   pt: 'Português',
   ro: 'Română',
+  ja: '日本語',
 };
 
 export const isLocale = (value: string): value is Locale =>

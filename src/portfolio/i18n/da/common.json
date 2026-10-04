@@ -4,7 +4,7 @@
     "experience": "Erfaring",
     "projects": "Projekter",
     "recommendations": "Anbefalinger",
-    "skills": "Kompetencer"
+    "skills": "Færdigheder"
   },
   "footer": {
     "tagline": "Disciplin skaber frihed",
@@ -16,8 +16,8 @@
   "a11y": {
     "selectLanguage": "Vælg sprog",
     "toggleTheme": "Skift tema",
-    "toggleMenu": "Åbn menu",
-    "closeModal": "Luk vindue",
+    "toggleMenu": "Skift menu",
+    "closeModal": "Luk modal",
     "previousRecommendation": "Forrige anbefaling",
     "nextRecommendation": "Næste anbefaling",
     "viewLinkedInProfile": "Se {name}s LinkedIn-profil"

@@ -1,47 +1,47 @@
 {
   "hero": {
     "welcome": "Welkom in mijn werkruimte",
-    "greeting": "Hoi, ik ben",
-    "subtitle": "Full-stack engineer en AI-specialist",
-    "description": "Ik bouw de volgende generatie van intelligente, gebruikersgerichte webapplicaties.",
-    "viewWork": "Bekijk mijn werk",
-    "tryOneAgent": "Probeer een agent",
+    "greeting": "Hallo, ik ben",
+    "subtitle": "AI Engineer | FDE",
+    "description": "Agentische AI, MCP-servers en RAG — van prototype naar productie op AWS en Kubernetes.",
+    "availability": "Hyderabad, India · Open voor verhuizing",
+    "downloadCv": "CV downloaden",
+    "tryOneAgent": "One Agent proberen",
     "tryOneAgentUrl": "https://www.get1agent.com/",
-    "downloadCv": "Download cv",
-    "scrollDown": "Scroll omlaag"
+    "scrollDown": "Scroll naar beneden"
   },
   "section": {
     "heading": "Over mij",
     "nameLabel": "Naam",
     "titleLabel": "Titel",
-    "aboutLabel": "Zo werk ik als FDE",
+    "aboutLabel": "Hoe ik werk als FDE",
     "approachEyebrow": "Aanpak",
-    "approachDescription": "Drie gewoonten die bepalen hoe ik AI-werk van een gesprek breng naar iets wat teams in productie kunnen draaien.",
+    "approachDescription": "Drie gewoonten die bepalen hoe ik AI-werk van een gesprek naar iets breng dat teams in productie kunnen draaien.",
     "educationLabel": "Opleiding",
     "skillsLabel": "Vaardigheden",
-    "socialLabel": "Contact",
+    "socialLabel": "Verbinden",
     "experienceText": "Werkervaring"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI Forward Deployed Engineer",
+  "title": "AI Engineer | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Ik ben AI Forward Deployed Engineer. Samen met product, sales en engineering maak ik vage AI-vragen concreet, lever ik snel een werkend prototype en breng ik LLM-workflows daarna stabiel naar productie — met betrouwbaarheid, monitoring, veilige deploys en security vanaf het begin."
+    "Ik ben een AI Engineer en Forward Deployed Engineer (FDE) met 5 jaar ervaring in het shippen van GenAI- en full-stack systemen van POC naar productie. Ik integreer met product, sales en engineering om ambigue behoeften om te zetten in werkende prototypes — en harden vervolgens de LLM-workflows en het onderliggende Kubernetes- en serverless AWS-platform voor echte productie."
   ],
   "metrics": [
     {
-      "label": "Jaar ervaring",
+      "label": "Jaren ervaring",
       "value": "5+",
-      "description": "Enterprise-apps bouwen"
+      "description": "GenAI & full-stack systemen"
     },
     {
-      "label": "Afgeronde projecten",
-      "value": "10+",
-      "description": "Naar productie gebracht"
+      "label": "Jaren als FDE",
+      "value": "2+",
+      "description": "Forward-deployed met product & sales"
     },
     {
-      "label": "AI-integraties",
+      "label": "AI-producten opgeleverd",
       "value": "5+",
-      "description": "LLM-workflows"
+      "description": "Agenten, MCP-servers & RAG"
     }
   ],
   "socialLinks": [
@@ -59,6 +59,6 @@
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "E-mail",
   "connect": {
-    "text": "Ik sta altijd open om te praten over nieuwe AI-producten, platformwerk of samenwerking."
+    "text": "Gevestigd in Hyderabad, India — open voor verhuizing (Nederland, Japan) en wereldwijd remote werk. Altijd blij om te praten over AI-producten, agent-platformen of FDE-rollen."
   }
 }

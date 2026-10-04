@@ -2,15 +2,15 @@
   "section": {
     "eyebrow": "Akademisk baggrund",
     "heading": "Uddannelse",
-    "description": "Uddannelser og programmer, der har formet mit tekniske fundament og designtænkning."
+    "description": "Grader og programmer, der har formet min tekniske grundlag og design-tænkning."
   },
   "items": [
     {
       "id": "edu-1",
-      "degree": "Bachelor of Technology",
+      "degree": "Bachelor of Technology (B.Tech)",
       "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
-      "college": "Chaitanya Institute of Science and Technology",
-      "period": "2021"
+      "college": "Chaitanya Institute of Science and Technology (CIST), Kakinada",
+      "period": "2018 – 2021"
     }
   ]
 }

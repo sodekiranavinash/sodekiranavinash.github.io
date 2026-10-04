@@ -2,15 +2,15 @@
   "section": {
     "eyebrow": "Akademischer Hintergrund",
     "heading": "Ausbildung",
-    "description": "Abschlüsse und Programme, die meine technische Grundlage und mein Design-Denken geprägt haben."
+    "description": "Abschlüsse und Programme, die meine technischen Grundlagen und mein Design-Denken geprägt haben."
   },
   "items": [
     {
       "id": "edu-1",
-      "degree": "Bachelor of Technology",
+      "degree": "Bachelor of Technology (B.Tech)",
       "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
-      "college": "Chaitanya Institute of Science and Technology",
-      "period": "2021"
+      "college": "Chaitanya Institute of Science and Technology (CIST), Kakinada",
+      "period": "2018 – 2021"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "experience": "Experiencia",
     "projects": "Proyectos",
     "recommendations": "Recomendaciones",
-    "skills": "Competencias"
+    "skills": "Habilidades"
   },
   "footer": {
     "tagline": "La disciplina construye libertad",
@@ -16,10 +16,10 @@
   "a11y": {
     "selectLanguage": "Seleccionar idioma",
     "toggleTheme": "Cambiar tema",
-    "toggleMenu": "Abrir menú",
-    "closeModal": "Cerrar ventana",
+    "toggleMenu": "Alternar menú",
+    "closeModal": "Cerrar modal",
     "previousRecommendation": "Recomendación anterior",
     "nextRecommendation": "Recomendación siguiente",
-    "viewLinkedInProfile": "Ver el perfil de LinkedIn de {name}"
+    "viewLinkedInProfile": "Ver perfil de LinkedIn de {name}"
   }
 }

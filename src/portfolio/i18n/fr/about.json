@@ -2,12 +2,12 @@
   "hero": {
     "welcome": "Bienvenue dans mon espace de travail",
     "greeting": "Bonjour, je suis",
-    "subtitle": "Ingénieur full stack et spécialiste IA",
-    "description": "Je construis la prochaine génération d'applications web intelligentes, centrées sur l'utilisateur.",
-    "viewWork": "Voir mes projets",
-    "tryOneAgent": "Essayer un agent",
-    "tryOneAgentUrl": "https://www.get1agent.com/",
+    "subtitle": "Ingénieur IA | FDE",
+    "description": "IA agentique, serveurs MCP et RAG — du prototype à la production sur AWS et Kubernetes.",
+    "availability": "Hyderabad, Inde · Ouvert à la relocalisation",
     "downloadCv": "Télécharger le CV",
+    "tryOneAgent": "Essayer One Agent",
+    "tryOneAgentUrl": "https://www.get1agent.com/",
     "scrollDown": "Défiler vers le bas"
   },
   "section": {
@@ -16,32 +16,32 @@
     "titleLabel": "Titre",
     "aboutLabel": "Comment je travaille en tant que FDE",
     "approachEyebrow": "Approche",
-    "approachDescription": "Trois habitudes qui guident mon travail d’IA, de la conversation jusqu’à un système que les équipes peuvent faire tourner en production.",
+    "approachDescription": "Trois habitudes qui guident la manière dont je fais passer le travail d'IA d'une conversation à quelque chose que les équipes peuvent exécuter en production.",
     "educationLabel": "Formation",
     "skillsLabel": "Compétences",
-    "socialLabel": "Contact",
+    "socialLabel": "Se connecter",
     "experienceText": "Expérience professionnelle"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI Forward Deployed Engineer",
+  "title": "Ingénieur IA | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Je suis ingénieur forward deployed spécialisé en IA. Je collabore avec le produit, les ventes et l’ingénierie pour clarifier le besoin, livrer rapidement un prototype qui fonctionne, puis le rendre fiable en production — observabilité, exploitation au quotidien, contrôles de sécurité et déploiements sûrs dès le départ."
+    "Je suis un ingénieur IA et Forward Deployed Engineer (FDE) avec 5 ans d'expérience dans le déploiement de systèmes GenAI et full-stack du POC à la production. Je m'intègre aux équipes produit, ventes et ingénierie pour transformer des besoins ambigus en prototypes fonctionnels — puis je renforce les workflows LLM et la plateforme Kubernetes et serverless AWS sous-jacente pour une véritable production."
   ],
   "metrics": [
     {
       "label": "Années d'expérience",
       "value": "5+",
-      "description": "Applications d'entreprise"
+      "description": "Systèmes GenAI & full-stack"
     },
     {
-      "label": "Projets livrés",
-      "value": "10+",
-      "description": "Mis en production"
+      "label": "Années en tant que FDE",
+      "value": "2+",
+      "description": "Déployé avec produit & ventes"
     },
     {
-      "label": "Intégrations IA",
+      "label": "Produits IA expédiés",
       "value": "5+",
-      "description": "Workflows LLM"
+      "description": "Agents, serveurs MCP & RAG"
     }
   ],
   "socialLinks": [
@@ -57,8 +57,8 @@
     }
   ],
   "email": "kiranavinash.sode@gmail.com",
-  "emailLabel": "E-mail",
+  "emailLabel": "Email",
   "connect": {
-    "text": "Je suis toujours ouvert à discuter de nouveaux produits IA, de travail plateforme ou d'opportunités de collaboration."
+    "text": "Basé à Hyderabad, Inde — ouvert à la relocalisation (Pays-Bas, Japon) et au travail à distance mondial. Toujours heureux de parler de produits IA, de plateformes d'agents ou de rôles FDE."
   }
 }

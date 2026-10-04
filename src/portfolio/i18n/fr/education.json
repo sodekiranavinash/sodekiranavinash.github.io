@@ -2,15 +2,15 @@
   "section": {
     "eyebrow": "Parcours académique",
     "heading": "Formation",
-    "description": "Les diplômes et programmes qui ont façonné mes bases techniques et ma façon de concevoir."
+    "description": "Diplômes et programmes qui ont façonné mes fondations techniques et ma réflexion en design."
   },
   "items": [
     {
       "id": "edu-1",
-      "degree": "Bachelor of Technology",
+      "degree": "Licence en Technologie (B.Tech)",
       "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
-      "college": "Chaitanya Institute of Science and Technology",
-      "period": "2021"
+      "college": "Chaitanya Institute of Science and Technology (CIST), Kakinada",
+      "period": "2018 – 2021"
     }
   ]
 }

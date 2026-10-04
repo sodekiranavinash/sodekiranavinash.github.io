@@ -1,15 +1,15 @@
 {
   "resumeUrl": "https://flowcv.com/resume/nu87onw75u2e",
   "section": {
-    "eyebrow": "Area CV",
-    "heading": "CV",
-    "subtitle": "Apri l'anteprima completa del CV o scarica un PDF per recruiter e team di hiring.",
-    "reviewOrDownload": "Consulta o scarica",
-    "reviewResume": "Consulta il CV",
-    "downloadResume": "Scarica il CV",
+    "eyebrow": "Centro CV",
+    "heading": "Curriculum Vitae",
+    "subtitle": "Apri l'anteprima completa del CV o scarica una copia PDF curata per reclutatori e team di assunzione.",
+    "reviewOrDownload": "Visualizza o scarica",
+    "reviewResume": "Visualizza CV",
+    "downloadResume": "Scarica CV",
     "highlights": "Punti salienti",
     "certifications": "Certificazioni e specializzazioni",
-    "verifyCredential": "Verifica il certificato"
+    "verifyCredential": "Verifica credenziale"
   },
   "certifications": [
     {

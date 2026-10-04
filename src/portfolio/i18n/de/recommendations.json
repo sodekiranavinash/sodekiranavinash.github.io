@@ -1,7 +1,8 @@
 {
   "section": {
+    "eyebrow": "Soziales Proof",
     "heading": "Empfehlungen",
-    "description": "Was Kolleginnen, Kollegen und Partner über die Zusammenarbeit sagen.",
+    "description": "Was Kollegen und Mitarbeiter über die Zusammenarbeit sagen.",
     "previous": "Vorherige Empfehlung",
     "next": "Nächste Empfehlung"
   },
@@ -10,55 +11,19 @@
       "id": "rec-1",
       "name": "Dylan Willis",
       "profileUrl": "https://www.linkedin.com/in/dylan-willis-13148029",
-      "role": "Scrum Master und Delivery Lead",
+      "role": "Scrum Master & Delivery Lead",
       "company": "Shutterfly LLC, USA",
-      "experience": "Über 10 Jahre Erfahrung",
-      "quote": "Ich hatte das Vergnügen, mit Avinash im Shutterfly Lab Eng Team zu arbeiten, und er hat mich mit seiner technischen Expertise, seiner Problemlösungskompetenz und seinem kollaborativen Ansatz beeindruckt. Er kann komplexe Herausforderungen zerlegen und praktische Lösungen finden. Über seine technischen Fähigkeiten hinaus ist Avinash ein starker Teamplayer: offen für Feedback, lernbereit und proaktiv, anderen zu helfen. Seine positive Haltung und sein Einsatz haben unser Team spürbar geprägt. Ich empfehle Avinash jeder Organisation, die einen fähigen und zuverlässigen Full-Stack-Ingenieur sucht. Alles Gute, Kiran!"
+      "experience": "10+ Jahre Erfahrung",
+      "quote": "Ich hatte das Vergnügen, mit Avinash im Shutterfly Lab Eng Team zu arbeiten, und er beeindruckte mich mit seiner technischen Expertise, seinen Problemlösungsfähigkeiten und seinem kollaborativen Ansatz. Er kann komplexe Herausforderungen in praktische Lösungen zerlegen, was ihn zu einem wertvollen Asset für jedes Engineering-Team macht. Über seine technischen Fähigkeiten hinaus ist Avinash ein großartiger Teamplayer — immer offen für Feedback, lernwillig und proaktiv bei der Unterstützung anderer. Seine positive Einstellung und Hingabe haben unseren Team einen echten Mehrwert gebracht, und ich zweifle nicht daran, dass er in seiner Karriere weiterhin erfolgreich sein wird. Ich empfehle Avinash uneingeschränkt jedem Unternehmen, das einen kompetenten und zuverlässigen Full-Stack-Ingenieur sucht."
     },
     {
       "id": "rec-2",
       "name": "Sunil Babu",
       "profileUrl": "https://www.linkedin.com/in/sunilbhai/",
-      "role": "Cloud-Architekt und GenAI",
+      "role": "Cloud Architect & GenAI",
       "company": "Genpact India - Shutterfly",
-      "experience": "Über 25 Jahre Erfahrung",
-      "quote": "Ich hatte das Vergnügen, mit Avinash zu arbeiten. Er beherrscht Python sehr gut und liefert durchgängig sauberen, effizienten und gut strukturierten Code. Seine Fähigkeit, komplexe technische Umgebungen schnell zu erfassen, lässt ihn nahtlos in Projekte einsteigen und echten Fortschritt treiben. Mit außergewöhnlicher Problemlösungskompetenz löst er nicht nur schwierige Themen, sondern optimiert Lösungen und steigert Produktivität und Projekterfolg. Ich empfehle Avinash für jede Rolle, die starke Python-Entwicklung verlangt."
-    },
-    {
-      "id": "rec-3",
-      "name": "Sourav Basu",
-      "profileUrl": "https://www.linkedin.com/in/srvbasu/",
-      "role": "Principal Engineer",
-      "company": "Genpact India - Shutterfly",
-      "experience": "Über 16 Jahre Erfahrung",
-      "quote": "Ich empfehle Avinash sehr gerne, mit dem ich bei Genpact eng zusammengearbeitet habe. In unserer gemeinsamen Zeit hat Avinash durchgängig außergewöhnlichen Professionalismus, technische Expertise und ein starkes Commitment zu hochwertigen Ergebnissen gezeigt. Seine Problemlösungskompetenz und sein tiefes Verständnis für Systemoptimierung ermöglichen ihm, sauberen, effizienten und gut strukturierten Code zu liefern. Ich bin überzeugt, dass Avinash für jedes Team ein Gewinn ist. Ich empfehle ihn rückhaltlos."
-    },
-    {
-      "id": "rec-4",
-      "name": "Samrat Sen",
-      "profileUrl": "https://www.linkedin.com/in/samrat-sen-262751159/",
-      "role": "Datenbankingenieur",
-      "company": "Creditsafe - LI Team",
-      "experience": "Über 10 Jahre Erfahrung",
-      "quote": "Ich hatte das Vergnügen, mit Avinash zu arbeiten, und war durchgängig beeindruckt von seiner technischen Expertise und seiner Fähigkeit, auch unter engen Deadlines Ergebnisse zu liefern. Avinash hat ein Kompetenzniveau gezeigt, bei dem ich ihn nie als Junior gesehen habe: Er hat Herausforderungen antizipiert und proaktiv gehandelt. Seine Problemlösungsfähigkeit und sein Qualitätsanspruch machen ihn wertvoll. Ich empfehle Avinash als Full-Stack-Entwickler sehr."
-    },
-    {
-      "id": "rec-5",
-      "name": "Poonam G",
-      "profileUrl": "https://www.linkedin.com/in/poonam-ghutukade-5100ab155/",
-      "role": "Softwareingenieurin",
-      "company": "Creditsafe - LI Team",
-      "experience": "Über 7 Jahre Erfahrung",
-      "quote": "Ich habe mit Avinash am Ledger-Insight-Projekt von Creditsafe Technology gearbeitet. Er hat durchgängig außergewöhnliche technische Fähigkeiten beim Gestalten von Benutzeroberflächen und beim Analysieren komplexer Daten gezeigt, um umsetzbare Insights zu liefern. Avinash hat eine bemerkenswerte Fähigkeit, schwierige Probleme zu lösen, APIs zu bauen und zu innovieren. Ich wünsche ihm alles Gute."
-    },
-    {
-      "id": "rec-6",
-      "name": "Uday Kumar",
-      "profileUrl": "https://www.linkedin.com/in/uday-kumar-59a10a227/",
-      "role": "Senior QA Engineer",
-      "company": "Creditsafe - LI Team",
-      "experience": "Über 9 Jahre Erfahrung",
-      "quote": "Ich hatte das Vergnügen, mit Avinash im Ledger-Insights-Team zu arbeiten, und war beeindruckt von seinem Einsatz, seinem proaktiven Ansatz und seiner Teamorientierung. Avinash ist jemand, der nicht nur seine Aufgaben erfüllt, sondern darüber hinausgeht, damit das Team erfolgreich ist. Sein Produkt-Mindset ist außergewöhnlich: Er fokussiert sich auf Nutzerwert und behält zugleich die Geschäftsziele im Blick."
+      "experience": "25+ Jahre Erfahrung",
+      "quote": "Ich hatte das Vergnügen, mit Avinash zu arbeiten, der über fundierte Python-Kenntnisse verfügt und konsequent sauberen, effizienten und gut strukturierten Code liefert. Seine Fähigkeit, komplexe technische Umgebungen schnell zu erfassen, ermöglicht ihm eine reibungslose Integration in Projekte und den Vorantreibung bedeutsamer Fortschritte. Mit herausragenden Problemlösungsfähigkeiten löst er nicht nur anspruchsvolle Probleme, sondern optimiert auch Lösungen, was die Teamproduktivität und den Projekterfolg erheblich steigert. Ich empfehle Avinash nachdrücklich für jede Rolle, die starke Python-Entwicklungskenntnisse erfordert."
     }
   ]
 }

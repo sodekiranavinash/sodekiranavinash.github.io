@@ -4,22 +4,22 @@
     "experience": "Erfahrung",
     "projects": "Projekte",
     "recommendations": "Empfehlungen",
-    "skills": "Kompetenzen"
+    "skills": "Fähigkeiten"
   },
   "footer": {
     "tagline": "Disziplin schafft Freiheit",
     "rights": "Alle Rechte vorbehalten.",
-    "privacyPolicy": "Datenschutzerklärung",
+    "privacyPolicy": "Datenschutzrichtlinie",
     "lastUpdated": "Zuletzt aktualisiert",
     "back": "Zurück"
   },
   "a11y": {
     "selectLanguage": "Sprache auswählen",
-    "toggleTheme": "Design wechseln",
-    "toggleMenu": "Menü öffnen",
-    "closeModal": "Fenster schließen",
+    "toggleTheme": "Theme wechseln",
+    "toggleMenu": "Menü umschalten",
+    "closeModal": "Modal schließen",
     "previousRecommendation": "Vorherige Empfehlung",
     "nextRecommendation": "Nächste Empfehlung",
-    "viewLinkedInProfile": "LinkedIn-Profil von {name} ansehen"
+    "viewLinkedInProfile": "{name}s LinkedIn-Profil ansehen"
   }
 }

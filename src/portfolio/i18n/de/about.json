@@ -2,46 +2,46 @@
   "hero": {
     "welcome": "Willkommen in meinem Arbeitsbereich",
     "greeting": "Hallo, ich bin",
-    "subtitle": "Full-Stack-Ingenieur und KI-Spezialist",
-    "description": "Ich baue die nächste Generation intelligenter, nutzerzentrierter Webanwendungen.",
-    "viewWork": "Meine Arbeit ansehen",
-    "tryOneAgent": "Agent ausprobieren",
-    "tryOneAgentUrl": "https://www.get1agent.com/",
+    "subtitle": "KI-Ingenieur | FDE",
+    "description": "Agentische KI, MCP-Server und RAG — vom Prototyp zur Produktion auf AWS und Kubernetes.",
+    "availability": "Hyderabad, Indien · Offen für Umzug",
     "downloadCv": "Lebenslauf herunterladen",
+    "tryOneAgent": "One Agent testen",
+    "tryOneAgentUrl": "https://www.get1agent.com/",
     "scrollDown": "Nach unten scrollen"
   },
   "section": {
     "heading": "Über mich",
     "nameLabel": "Name",
     "titleLabel": "Titel",
-    "aboutLabel": "So arbeite ich als FDE",
+    "aboutLabel": "Wie ich als FDE arbeite",
     "approachEyebrow": "Ansatz",
-    "approachDescription": "Drei Gewohnheiten, die bestimmen, wie ich KI-Arbeit vom Gespräch bis zu etwas bringe, das Teams in Produktion betreiben können.",
+    "approachDescription": "Drei Gewohnheiten, die bestimmen, wie ich KI-Arbeit von einem Gespräch zu etwas mache, das Teams in Produktion betreiben können.",
     "educationLabel": "Ausbildung",
-    "skillsLabel": "Kompetenzen",
-    "socialLabel": "Kontakt",
+    "skillsLabel": "Fähigkeiten",
+    "socialLabel": "Verbinden",
     "experienceText": "Berufserfahrung"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI Forward Deployed Engineer",
+  "title": "KI-Ingenieur | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Ich bin AI Forward Deployed Engineer. Gemeinsam mit Produkt, Vertrieb und Engineering kläre ich unscharfe KI-Anforderungen, liefere schnell einen funktionierenden Prototyp und bringe LLM-Workflows dann robust in den Produktivbetrieb — mit Zuverlässigkeit, Monitoring, sicherem Deploy und Security von Anfang an."
+    "Ich bin ein KI-Ingenieur und Forward Deployed Engineer (FDE) mit 5 Jahren Erfahrung beim Einsatz von GenAI- und Full-Stack-Systemen vom POC bis zur Produktion. Ich arbeite eng mit Produkt-, Vertriebs- und Engineering-Teams zusammen, um unklare Anforderungen in funktionierende Prototypen zu verwandeln — und dann LLM-Workflows sowie die zugrunde liegende Kubernetes- und serverlose AWS-Plattform für den Produktionsbetrieb zu härten."
   ],
   "metrics": [
     {
       "label": "Jahre Erfahrung",
       "value": "5+",
-      "description": "Enterprise-Anwendungen"
+      "description": "GenAI & Full-Stack-Systeme"
     },
     {
-      "label": "Abgeschlossene Projekte",
-      "value": "10+",
-      "description": "In Produktion gebracht"
+      "label": "Jahre als FDE",
+      "value": "2+",
+      "description": "Forward-deployed mit Produkt & Vertrieb"
     },
     {
-      "label": "KI-Integrationen",
+      "label": "Ausgelieferte KI-Produkte",
       "value": "5+",
-      "description": "LLM-Workflows"
+      "description": "Agenten, MCP-Server & RAG"
     }
   ],
   "socialLinks": [
@@ -59,6 +59,6 @@
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "E-Mail",
   "connect": {
-    "text": "Ich bin jederzeit offen für Gespräche über neue KI-Produkte, Plattformarbeit oder Zusammenarbeit."
+    "text": "Sitz in Hyderabad, Indien — offen für Umzug (Niederlande, Japan) und globales Remote. Immer gerne bereit, über KI-Produkte, Agenten-Plattformen oder FDE-Rollen zu sprechen."
   }
 }

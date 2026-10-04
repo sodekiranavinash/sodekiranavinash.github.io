@@ -7,19 +7,19 @@
     "skills": "Competențe"
   },
   "footer": {
-    "tagline": "Disciplina construiește libertate",
+    "tagline": "Disciplina construiește libertatea",
     "rights": "Toate drepturile rezervate.",
     "privacyPolicy": "Politica de confidențialitate",
     "lastUpdated": "Ultima actualizare",
     "back": "Înapoi"
   },
   "a11y": {
-    "selectLanguage": "Selectează limba",
-    "toggleTheme": "Schimbă tema",
-    "toggleMenu": "Deschide meniul",
-    "closeModal": "Închide fereastra",
+    "selectLanguage": "Selectați limba",
+    "toggleTheme": "Comutați tema",
+    "toggleMenu": "Comutați meniul",
+    "closeModal": "Închideți modalul",
     "previousRecommendation": "Recomandarea anterioară",
     "nextRecommendation": "Recomandarea următoare",
-    "viewLinkedInProfile": "Vezi profilul LinkedIn al lui {name}"
+    "viewLinkedInProfile": "Vizualizați profilul LinkedIn al {name}"
   }
 }

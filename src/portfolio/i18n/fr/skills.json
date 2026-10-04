@@ -1,122 +1,56 @@
 {
   "section": {
     "eyebrow": "Forces principales",
-    "heading": "Compétences et expertise",
-    "description": "Les outils, plateformes et disciplines que j'utilise pour livrer des expériences soignées, prêtes pour la production."
+    "heading": "Compétences & Expertise",
+    "description": "Les stacks que j'utilise pour l'IA agentique, la livraison full-stack et l'ingénierie de plateforme cloud."
   },
   "categories": [
     {
-      "categoryName": "IA",
+      "categoryName": "IA & Agentique",
       "skills": [
-        {
-          "name": "Prompt Engineering"
-        },
-        {
-          "name": "RAG"
-        },
-        {
-          "name": "A2A Communication"
-        },
-        {
-          "name": "Multi-Agent Systems"
-        },
-        {
-          "name": "MCP"
-        },
-        {
-          "name": "AI Evaluation"
-        },
-        {
-          "name": "Lang Chain"
-        },
-        {
-          "name": "Langraph"
-        },
-        {
-          "name": "OpenSearch Vector DB"
-        }
+        { "name": "IA agentique" },
+        { "name": "Harnesses d'agents" },
+        { "name": "Orchestration multi-agents" },
+        { "name": "LangGraph / LangChain" },
+        { "name": "RAG (recherche hybride, reranking)" },
+        { "name": "Recherche vectorielle" },
+        { "name": "Serveurs & clients MCP" },
+        { "name": "OAuth 2.0" },
+        { "name": "Tool Calling" },
+        { "name": "Ingénierie de prompts & contexte" },
+        { "name": "Évaluation & garde-fous" },
+        { "name": "Juges LLM (Ragas)" },
+        { "name": "OpenSearch Vector DB" }
       ]
     },
     {
-      "categoryName": "Full stack",
+      "categoryName": "Full Stack",
       "skills": [
-        {
-          "name": "FastAPI"
-        },
-        {
-          "name": "React JS"
-        },
-        {
-          "name": "Python"
-        },
-        {
-          "name": "JavaScript"
-        },
-        {
-          "name": "TypeScript"
-        },
-        {
-          "name": "SQL"
-        },
-        {
-          "name": "PostgreSQL"
-        },
-        {
-          "name": "Oracle DB"
-        },
-        {
-          "name": "MariaDB"
-        },
-        {
-          "name": "Flask MVT"
-        },
-        {
-          "name": "Golang(basics)"
-        },
-        {
-          "name": ".NET(basics)"
-        }
+        { "name": "Python (FastAPI, Flask)" },
+        { "name": "React (TypeScript)" },
+        { "name": "JavaScript" },
+        { "name": "API REST" },
+        { "name": "PostgreSQL" },
+        { "name": "Oracle DB" },
+        { "name": "RabbitMQ" },
+        { "name": "Celery" },
+        { "name": "Docker" }
       ]
     },
     {
-      "categoryName": "Cloud et infra",
+      "categoryName": "Cloud & Plateforme",
       "skills": [
-        {
-          "name": "AWS - EC2, ECS, EKS, Lambda, S3, RDS, SES, etc"
-        },
-        {
-          "name": "Kubernetes"
-        },
-        {
-          "name": "Open Search"
-        },
-        {
-          "name": "Helm"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "Jenkins"
-        },
-        {
-          "name": "Ansible"
-        },
-        {
-          "name": "Kong API Gateway"
-        },
-        {
-          "name": "Open Telemetry"
-        },
-        {
-          "name": "Jaeger"
-        },
-        {
-          "name": "Goldilocks"
-        },
-        {
-          "name": "Grafana"
-        }
+        { "name": "AWS - Lambda, ECS, Bedrock, AgentCore" },
+        { "name": "API Gateway & Step Functions" },
+        { "name": "SQS, EventBridge, S3 Vectors" },
+        { "name": "DynamoDB" },
+        { "name": "Kubernetes" },
+        { "name": "Helm" },
+        { "name": "Kong API Gateway" },
+        { "name": "Terraform" },
+        { "name": "CI/CD (GitHub Actions, Jenkins)" },
+        { "name": "Observabilité (OpenTelemetry, CloudWatch)" },
+        { "name": "KMS" }
       ]
     }
   ]

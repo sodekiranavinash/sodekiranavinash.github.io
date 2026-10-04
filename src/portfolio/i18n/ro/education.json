@@ -1,16 +1,16 @@
 {
   "section": {
-    "eyebrow": "Parcurs academic",
+    "eyebrow": "Background academic",
     "heading": "Educație",
-    "description": "Diplomele și programele care mi-au format baza tehnică și modul de a gândi designul."
+    "description": "Diplome și programe care mi-au format fundația tehnică și gândirea de design."
   },
   "items": [
     {
       "id": "edu-1",
-      "degree": "Bachelor of Technology",
+      "degree": "Licență în Tehnologie (B.Tech)",
       "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
-      "college": "Chaitanya Institute of Science and Technology",
-      "period": "2021"
+      "college": "Chaitanya Institute of Science and Technology (CIST), Kakinada",
+      "period": "2018 – 2021"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "resumeUrl": "https://flowcv.com/resume/nu87onw75u2e",
   "section": {
     "eyebrow": "CV-center",
-    "heading": "CV",
-    "subtitle": "Åbn den fulde CV-forhåndsvisning, eller download en PDF til rekrutterere og hiring-teams.",
-    "reviewOrDownload": "Se eller download",
-    "reviewResume": "Se CV",
+    "heading": "CV & Curriculum Vitae",
+    "subtitle": "Åbn fuld CV-preview eller download en poleret PDF-kopi til rekruttere og ansættelsesteams.",
+    "reviewOrDownload": "Gennemse eller download",
+    "reviewResume": "Gennemse CV",
     "downloadResume": "Download CV",
     "highlights": "Højdepunkter",
-    "certifications": "Certificeringer og specialiseringer",
-    "verifyCredential": "Bekræft certifikat"
+    "certifications": "Certificeringer & specialiseringer",
+    "verifyCredential": "Verificér legitimationsoplysninger"
   },
   "certifications": [
     {

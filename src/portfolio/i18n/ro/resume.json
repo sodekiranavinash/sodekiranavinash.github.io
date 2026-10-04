@@ -2,14 +2,14 @@
   "resumeUrl": "https://flowcv.com/resume/nu87onw75u2e",
   "section": {
     "eyebrow": "Centru CV",
-    "heading": "CV",
-    "subtitle": "Deschide previzualizarea completă a CV-ului sau descarcă un PDF pentru recruiteri și echipe de hiring.",
-    "reviewOrDownload": "Consultă sau descarcă",
-    "reviewResume": "Consultă CV-ul",
-    "downloadResume": "Descarcă CV-ul",
-    "highlights": "Repere",
-    "certifications": "Certificări și specializări",
-    "verifyCredential": "Verifică certificatul"
+    "heading": "CV & Curriculum Vitae",
+    "subtitle": "Deschideți previzualizarea completă a CV-ului sau descărcați o copie PDF îngrijită pentru recrutori și echipe de angajare.",
+    "reviewOrDownload": "Vizualizați sau descărcați",
+    "reviewResume": "Vizualizați CV",
+    "downloadResume": "Descărcați CV",
+    "highlights": "Puncte cheie",
+    "certifications": "Certificări & specializări",
+    "verifyCredential": "Verificați acreditarea"
   },
   "certifications": [
     {

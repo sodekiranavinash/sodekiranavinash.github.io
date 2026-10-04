@@ -14,9 +14,9 @@
     "back": "Retour"
   },
   "a11y": {
-    "selectLanguage": "Choisir la langue",
-    "toggleTheme": "Changer le thème",
-    "toggleMenu": "Ouvrir le menu",
+    "selectLanguage": "Sélectionner la langue",
+    "toggleTheme": "Changer de thème",
+    "toggleMenu": "Ouvrir/Fermer le menu",
     "closeModal": "Fermer la fenêtre",
     "previousRecommendation": "Recommandation précédente",
     "nextRecommendation": "Recommandation suivante",

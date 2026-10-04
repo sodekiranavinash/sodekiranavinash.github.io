@@ -1,78 +1,80 @@
 {
   "section": {
+    "eyebrow": "Karriereverlauf",
     "heading": "Berufserfahrung",
-    "description": "Ein kompakter Überblick über die Teams, die ich mit aufgebaut habe, die Produkte, die ich ausgeliefert habe, und die messbaren Ergebnisse, die ich erzielt habe.",
+    "description": "Ein kompakter Überblick über Teams, bei deren Aufbau ich geholfen habe, Produkte, die ich ausgeliefert habe, und messbare Ergebnisse, die ich erzielt habe.",
     "readMore": "Mehr lesen",
     "close": "Schließen",
-    "roleAndResponsibilities": "Rolle und Verantwortlichkeiten",
+    "roleAndResponsibilities": "Rolle & Verantwortlichkeiten",
     "projects": "Projekte"
   },
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Engineer II",
-      "organization": "S&P Energy",
-      "period": "März 2025 - heute",
+      "roleOrDegree": "Ingenieur II (KI)",
+      "organization": "S&P Global — Commodity Insights (Energie)",
+      "period": "März 2025 – Heute",
       "description": [
-        "Ich entwickle derzeit eine Sales-Intelligence-Plattform mit LLM-gesteuerten Content-Workflows.",
-        "Ich habe Rapid- und Chat-AI-MCP-Server als Lieferweg für strukturierte und unstrukturierte Daten an Kunden entwickelt.",
-        "Ich habe Legacy-Manifest-Anwendungen nach Helm migriert und Kubernetes-Komponenten proaktiv aktualisiert, um Image-Schwachstellen zu reduzieren."
+        "Forward-deployed Lead für ein Team von 4 Personen für Pitch Intel, Chat AI, RAPID und MCP Playground — verantwortlich für Discovery, Architektur und Lieferung, eng eingebunden in Business und Engineering.",
+        "Pitch Intel, eine agentische Vertriebsintelligenz-Plattform, reduzierte die Pitch-Berichtserstellung von ~3 Tagen auf ~30 Minuten.",
+        "Chat AI MCP-Server von über 100 Kunden übernommen; RAPID verwandelte über 300 APIs in ein einziges MCP-Toolset und steigerte die LLM-API-Auswahlgenauigkeit von ~85% auf 95%+."
       ],
-      "tags": [],
+      "tags": [
+        "LangGraph",
+        "FastMCP",
+        "OpenSearch",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Kong API Gateway",
+        "AWS",
+        "LangSmith"
+      ],
       "roleAndResponsibilities": [
-        "Ich habe als Forward Deployed Engineer mit Teams zusammengearbeitet, um KI-Lösungen vom POC in die Produktion zu bringen.",
-        "Ich habe Produkte durchgängig verantwortet: Design, Entwicklung, Tests und Deployment.",
-        "Ich habe Sicherheitsverbesserungen vorangetrieben, indem ich Mend, Fortify, SonarQube, Secret Scanning und Claude-Scans integriert habe."
+        "Leitung eines forward-deployed Teams von 4 Ingenieuren, eingebunden in Business und Engineering, über Agent-, API- und UI-Ebenen.",
+        "Technische Discovery und Lösungsfindung mit Vertriebs-, Commercial-Pricing- und Produktteams, dann Aufbau bis zur Produktion.",
+        "Plattformverantwortung für über 15 Microservices, einschließlich Helm-Pakete, Kubernetes-Upgrades, Sicherheits-Härtung und Produktionsreleases."
       ],
       "projectHighlights": [
-        "Ich entwickle derzeit eine Sales-Intelligence-Plattform für das Commercial-Team, die Pitches als Text, Infografiken, HTML, PDF, PPT usw. aus öffentlichen Informationen, proprietären Daten und Historie erzeugt und die Arbeit des Sales-Teams um 50 % reduziert.",
-        "Ich habe die Entwicklung des Chat-AI-MCP-Servers geleitet, aufgebaut auf der spgci-pysdk-Bibliothek; Daten werden durch Ausführen von Code abgerufen, den LLM-Clients schreiben (MS Copilot, Claude, Databricks usw.).",
-        "Ich habe die Entwicklung des RAPID-MCP-Servers geleitet, aufgebaut auf dem Rapid-API-Manifest; Daten werden geliefert, indem echte APIs mit von LLM-Clients gebildeten Queries ausgeführt werden, und das wird intern in KI-Anwendungen breit genutzt.",
-        "Im API-Platform-Team habe ich alte Manifest-Anwendungen in Helm-basierte Anwendungen überführt, Kubernetes-Komponenten (OTel, Data Prepper, Jaeger usw.) proaktiv aktualisiert, um Image-Schwachstellen zu minimieren, und mehrere Produktions-Releases getrieben."
+        "Pitch Intel — agentische Vertriebsintelligenz-Plattform mit Drag-and-Drop-Workflow-Builder, gemeinsamer Agenten-Galerie mit RBAC und forschungsbasierten Berichten als Infografiken, HTML, PDF und PowerPoint.",
+        "Chat AI MCP Server — kundenseitiger MCP-Server, der das SPGCI Python SDK exponiert, von über 100 Kunden auf MS Copilot, Claude und Databricks übernommen; LLM-generierte Codeausführung für strukturierte Daten und AIRD-APIs für unstrukturierte Daten hielten Antwortparität ohne SME-Review-Zyklen.",
+        "RAPID MCP Server — über 300 APIs hinter vier Tools (instructions, search, metadata, execute) ohne Änderungen an Microservices, sparte hunderte Engineering-Stunden; Search-and-Rerank steigerte API-Auswahlgenauigkeit von ~85% auf 95%+.",
+        "MCP Playground — initiiert und jetzt von über 10 Teams genutzt zum Testen von Servern gegen mehrere Modelle mit echten Abfragen, plus Konsistenz-Framework zum Vergleich von Tool-Calls und Argumenten über wiederholte Läufe und Bewertung der Release-Sicherheit.",
+        "API Platform — Migration von über 15 Microservices von rohen Kubernetes-Manifests zu Helm-Charts (~25% weniger Friktion am Deployment-Tag), Behebung kritischer Schwachstellen, Bereinigung hartcodierter Secrets aus Git-Historie in 10 Repos, und OpenSearch-Dashboards für Cluster-Events und Metriken."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "roleOrDegree": "Berater — Kunde: Shutterfly, USA",
       "organization": "Genpact",
-      "period": "März 2025 - Feb. 2024",
+      "period": "Februar 2024 – März 2025",
       "description": [
-        "Ich habe einen Text2SQL-KI-Agenten für Kundendatenanalysen gebaut, der die Effizienz steigerte und die Abhängigkeit vom Data-Team um 25 % senkte.",
-        "Ich habe ein Mnesia-DB-Managementsystem für Datenkorrektur und -wiederherstellung gebaut und damit 10.000 $ pro Vorfall eingespart.",
-        "Ich habe Microservices für Forge-Batching-Anwendungen gebaut, die die Press-Batching-Kapazität erhöhten und den Workflow um 50 % verbesserten."
+        "Aufbau einer Text2SQL-Chat-App, damit das Produktteam Bestellungen, Beschwerden und Produkte in natürlicher Sprache abfragen konnte — Reduktion ad-hoc Data-Team-Anfragen um ~25%.",
+        "Erweitert mit Watchdog-Agent, der proaktiv aufkommende Probleme erkennt — Papiermangel, Materialalternativen, Abfall und Verzögerungen.",
+        "Ersetzt Legacy Forge-Systeme durch RabbitMQ + Celery Microservices — Durchsatzsteigerung um ~50%."
       ],
-      "tags": [],
+      "tags": [
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "Oracle DB",
+        "Azure OpenAI",
+        "EC2",
+        "RabbitMQ",
+        "Celery",
+        "Jenkins"
+      ],
       "roleAndResponsibilities": [
-        "Ich habe ein Team von 3 Entwicklern bei Codebase-Modernisierung, cloud-nativen Lösungen und GenAI-Initiativen geführt.",
-        "Ich habe die produktive Nutzung von GenAI-Initiativen vorangetrieben, über POCs hinaus.",
-        "Ich habe PagerDuty-Verantwortung geteilt und On-Call-Rotationen für den Produktionssupport gesteuert."
+        "Lieferung von GenAI- und Modernisierungsarbeiten für US-Kunde von Discovery bis Produktionssupport.",
+        "Teilnahme an On-Call-Rotationen und Sicherstellung des Betriebs während Spitzenlasten.",
+        "Direkte Zusammenarbeit mit Produkt- und Engineering-Stakeholdern zur Übersetzung von Geschäftsanforderungen in ausgelieferte Features."
       ],
       "projectHighlights": [
-        "Ich habe einen Text2SQL-KI-Agenten entwickelt, um Kundendaten wie Bestellhistorie, Reklamationen und Produkttypen abzufragen und zu analysieren; das steigerte die Effizienz und senkte die Abhängigkeit von Data-Teams um 25 %.",
-        "Ich habe ein Datenbankmanagementsystem für Mnesia DB entwickelt, das bei Korrektur und Wiederherstellung half, wenn Upstream-Asset- oder Auftragsdaten fehlerhaft waren, und das Unternehmen 10.000 $ pro Vorfall unterstützte.",
-        "Ich habe Microservices (PDF-Erzeugung, Cutlines, Templates usw.) für Forge-Batching-Anwendungen gebaut, erhöhte die Kapazität und verbesserte den Workflow um 50 %."
-      ]
-    },
-    {
-      "id": "exp-3",
-      "roleOrDegree": "Junior Full-Stack-Ingenieur",
-      "organization": "Creditsafe",
-      "period": "Feb. 2024 - Okt. 2021",
-      "description": [
-        "Schlüsselbeitrag zur Migration von Ledger Insights von Legacy-.NET auf einen modernen Stack aus Python, React, AWS und PostgreSQL.",
-        "Ich habe kritische Microservices und skalierbare UI-Komponenten gebaut und B2B-Deals im Wert von 500.000 $ unterstützt.",
-        "Ich habe ein Data-Editing-Tool für Governance-Teams gebaut und die Datenqualität von 88 % auf 98 % verbessert."
-      ],
-      "tags": [],
-      "roleAndResponsibilities": [
-        "Ich habe eng mit Engineering- und Produktteams zusammengearbeitet, um skalierbare, produktionsreife Lösungen zu liefern.",
-        "Ich habe Codequalität, Performance und Sicherheit proaktiv durch Reviews, Pair Programming und Wissensteilung vorangetrieben.",
-        "Ich habe technische Dokumentation und Architektur-Wikis gepflegt, um Alignment und Wissensteilung zu verbessern."
-      ],
-      "projectHighlights": [
-        "Ich habe eine Schlüsselrolle bei der Migration der Ledger-Insights-Plattform von Legacy-.NET auf einen modernen Stack (Python, React, AWS, Postgres) gespielt.",
-        "Ich habe kritische Microservices (AR Requests, CFO-Reports, Combined Experience usw.) sowie skalierbare Frontend-Komponenten und Seiten entwickelt, die B2B-Deals im Wert von 500.000 $ absicherten.",
-        "Ich habe ein Data-Editing-Tool für Data-Governance-Teams in allen Entitäten entwickelt, um falsche und redundante Unternehmensdaten zu korrigieren (Datenqualität von 88 % auf 98 %)."
+        "Product Intelligence Agent — Text2SQL-Chat-App über Bestellungen, Beschwerden und Produkte mit LangGraph-Feedback-Loop zur Selbstkorrektur von SQL-Fehlern; Reduktion ad-hoc Data-Team-Anfragen um ~25%.",
+        "Watchdog Agent — auf derselben Produktlogik aufbauend zur proaktiven Erkennung von Problemen wie Papiermangel, Materialalternativen, Abfall und Lieferverzögerungen.",
+        "Forge Module — Produktions-Microservices (PDF-Generierung, Schnittlinien, Template-Mapping) auf RabbitMQ mit Celery-Workern; Durchsatzsteigerung um ~50%.",
+        "Mnesia DB Viewer — Full-Stack-Tool (Python-Subprozess) mit Erlang OTP Cluster-Tools zur Datenkorrektur und -wiederherstellung, Einsparung von ~$10K pro Produktionsvorfall."
       ]
     }
   ]

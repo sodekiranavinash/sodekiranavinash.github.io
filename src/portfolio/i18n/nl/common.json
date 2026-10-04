@@ -16,10 +16,10 @@
   "a11y": {
     "selectLanguage": "Taal selecteren",
     "toggleTheme": "Thema wisselen",
-    "toggleMenu": "Menu openen",
-    "closeModal": "Venster sluiten",
+    "toggleMenu": "Menu wisselen",
+    "closeModal": "Modal sluiten",
     "previousRecommendation": "Vorige aanbeveling",
     "nextRecommendation": "Volgende aanbeveling",
-    "viewLinkedInProfile": "LinkedIn-profiel van {name} bekijken"
+    "viewLinkedInProfile": "Bekijk LinkedIn-profiel van {name}"
   }
 }

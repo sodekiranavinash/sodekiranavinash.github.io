@@ -1,14 +1,14 @@
 {
   "hero": {
-    "welcome": "Bine ai venit în spațiul meu de lucru",
-    "greeting": "Salut, sunt",
-    "subtitle": "Inginer full stack și specialist AI",
-    "description": "Construiesc următoarea generație de aplicații web inteligente, centrate pe utilizator.",
-    "viewWork": "Vezi munca mea",
-    "tryOneAgent": "Încearcă un agent",
+    "welcome": "Bine ați venit în spațiul meu de lucru",
+    "greeting": "Bună, sunt",
+    "subtitle": "Inginer IA | FDE",
+    "description": "IA agentică, servere MCP și RAG — de la prototip la producție pe AWS și Kubernetes.",
+    "availability": "Hyderabad, India · Deschis pentru relocare",
+    "downloadCv": "Descărcați CV",
+    "tryOneAgent": "Încercați One Agent",
     "tryOneAgentUrl": "https://www.get1agent.com/",
-    "downloadCv": "Descarcă CV-ul",
-    "scrollDown": "Derulează în jos"
+    "scrollDown": "Derulați în jos"
   },
   "section": {
     "heading": "Despre mine",
@@ -16,32 +16,32 @@
     "titleLabel": "Titlu",
     "aboutLabel": "Cum lucrez ca FDE",
     "approachEyebrow": "Abordare",
-    "approachDescription": "Trei obiceiuri care definesc cum duc munca de AI de la o conversație la ceva pe care echipele îl pot rula în producție.",
+    "approachDescription": "Trei obiceiuri care definesc modul în care transform munca de IA dintr-o conversație în ceva ce echipele pot rula în producție.",
     "educationLabel": "Educație",
     "skillsLabel": "Competențe",
-    "socialLabel": "Contact",
+    "socialLabel": "Conectați-vă",
     "experienceText": "Experiență profesională"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI Forward Deployed Engineer",
+  "title": "Inginer IA | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Sunt AI Forward Deployed Engineer. Colaborez cu product, sales și engineering pentru a clarifica nevoi AI încă neclare, a livra rapid un prototip funcțional și apoi a aduce workflow-urile LLM în producție în mod solid — cu fiabilitate, observabilitate, deploy-uri sigure și securitate de la început."
+    "Sunt un inginer IA și Forward Deployed Engineer (FDE) cu 5 ani de experiență în livrarea sistemelor GenAI și full-stack de la POC la producție. Mă integrez cu echipele de produs, vânzări și inginerie pentru a transforma nevoile ambigue în prototipuri funcționale — apoi întăresc fluxurile LLM și platforma Kubernetes și serverless AWS subiacentă pentru producție reală."
   ],
   "metrics": [
     {
       "label": "Ani de experiență",
       "value": "5+",
-      "description": "Aplicații enterprise"
+      "description": "Sisteme GenAI & full-stack"
     },
     {
-      "label": "Proiecte finalizate",
-      "value": "10+",
-      "description": "Livrate în producție"
+      "label": "Ani ca FDE",
+      "value": "2+",
+      "description": "Forward-deployed cu produs & vânzări"
     },
     {
-      "label": "Integrări AI",
+      "label": "Produse IA livrate",
       "value": "5+",
-      "description": "Fluxuri LLM"
+      "description": "Agenti, servere MCP & RAG"
     }
   ],
   "socialLinks": [
@@ -57,8 +57,8 @@
     }
   ],
   "email": "kiranavinash.sode@gmail.com",
-  "emailLabel": "E-mail",
+  "emailLabel": "Email",
   "connect": {
-    "text": "Sunt mereu deschis să discut despre produse AI noi, lucru de platformă sau oportunități de colaborare."
+    "text": "Bază în Hyderabad, India — deschis pentru relocare (Țările de Jos, Japonia) și muncă la distanță globală. Mereu bucuros să discut despre produse IA, platforme de agenți sau roluri FDE."
   }
 }

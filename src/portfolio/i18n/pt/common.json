@@ -4,22 +4,22 @@
     "experience": "Experiência",
     "projects": "Projetos",
     "recommendations": "Recomendações",
-    "skills": "Competências"
+    "skills": "Habilidades"
   },
   "footer": {
-    "tagline": "A disciplina constrói liberdade",
+    "tagline": "Disciplina constrói liberdade",
     "rights": "Todos os direitos reservados.",
-    "privacyPolicy": "Política de Privacidade",
+    "privacyPolicy": "Política de privacidade",
     "lastUpdated": "Última atualização",
     "back": "Voltar"
   },
   "a11y": {
     "selectLanguage": "Selecionar idioma",
     "toggleTheme": "Alternar tema",
-    "toggleMenu": "Abrir menu",
-    "closeModal": "Fechar janela",
+    "toggleMenu": "Alternar menu",
+    "closeModal": "Fechar modal",
     "previousRecommendation": "Recomendação anterior",
-    "nextRecommendation": "Próxima recomendação",
-    "viewLinkedInProfile": "Ver o perfil do LinkedIn de {name}"
+    "nextRecommendation": "Recomendação seguinte",
+    "viewLinkedInProfile": "Ver perfil LinkedIn de {name}"
   }
 }

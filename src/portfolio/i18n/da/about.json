@@ -1,47 +1,47 @@
 {
   "hero": {
-    "welcome": "Velkommen til mit arbejdsrum",
+    "welcome": "Velkommen til mit arbejdsområde",
     "greeting": "Hej, jeg er",
-    "subtitle": "Full stack-ingeniør og AI-specialist",
-    "description": "Jeg bygger næste generation af intelligente, brugercentrerede webapplikationer.",
-    "viewWork": "Se mit arbejde",
-    "tryOneAgent": "Prøv en agent",
-    "tryOneAgentUrl": "https://www.get1agent.com/",
+    "subtitle": "AI-ingeniør | FDE",
+    "description": "Agentisk AI, MCP-servere og RAG — fra prototype til produktion på AWS og Kubernetes.",
+    "availability": "Hyderabad, Indien · Åben for flytning",
     "downloadCv": "Download CV",
-    "scrollDown": "Scroll ned"
+    "tryOneAgent": "Prøv One Agent",
+    "tryOneAgentUrl": "https://www.get1agent.com/",
+    "scrollDown": "Rul ned"
   },
   "section": {
     "heading": "Om mig",
     "nameLabel": "Navn",
     "titleLabel": "Titel",
-    "aboutLabel": "Sådan arbejder jeg som FDE",
+    "aboutLabel": "Hvordan jeg arbejder som FDE",
     "approachEyebrow": "Tilgang",
-    "approachDescription": "Tre vaner, der former, hvordan jeg tager AI-arbejde fra en samtale til noget teams kan køre i produktion.",
+    "approachDescription": "Tre vaner, der former, hvordan jeg bringer AI-arbejde fra en samtale til noget, teams kan køre i produktion.",
     "educationLabel": "Uddannelse",
-    "skillsLabel": "Kompetencer",
-    "socialLabel": "Kontakt",
+    "skillsLabel": "Færdigheder",
+    "socialLabel": "Forbind",
     "experienceText": "Erhvervserfaring"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI Forward Deployed Engineer",
+  "title": "AI-ingeniør | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Jeg er AI Forward Deployed Engineer. Jeg samarbejder med produkt, salg og engineering om at gøre uklare AI-behov konkrete, levere en fungerende prototype hurtigt og derefter gøre LLM-workflows klar til produktion — med pålidelighed, overvågning, sikker deploy og security fra starten."
+    "Jeg er en AI-ingeniør og Forward Deployed Engineer (FDE) med 5 års erfaring i at levere GenAI- og full-stack-systemer fra POC til produktion. Jeg integrerer med produkt, salg og engineering for at omdanne tvetydige behov til fungerende prototyper — og hærder derefter LLM-workflows og den underliggende Kubernetes- og serverless AWS-platform til ægte produktion."
   ],
   "metrics": [
     {
       "label": "Års erfaring",
       "value": "5+",
-      "description": "Enterprise-apps"
+      "description": "GenAI & full-stack systemer"
     },
     {
-      "label": "Afsluttede projekter",
-      "value": "10+",
-      "description": "Leveret til produktion"
+      "label": "År som FDE",
+      "value": "2+",
+      "description": "Forward-deployed med produkt & salg"
     },
     {
-      "label": "AI-integrationer",
+      "label": "AI-produkter leveret",
       "value": "5+",
-      "description": "LLM-workflows"
+      "description": "Agenter, MCP-servere & RAG"
     }
   ],
   "socialLinks": [
@@ -57,8 +57,8 @@
     }
   ],
   "email": "kiranavinash.sode@gmail.com",
-  "emailLabel": "E-mail",
+  "emailLabel": "Email",
   "connect": {
-    "text": "Jeg er altid åben for at tale om nye AI-produkter, platformarbejde eller samarbejde."
+    "text": "Baseret i Hyderabad, Indien — åben for flytning (Holland, Japan) og globalt remote arbejde. Altid glad for at tale om AI-produkter, agentplatforme eller FDE-roller."
   }
 }

@@ -14,12 +14,12 @@
     "back": "Indietro"
   },
   "a11y": {
-    "selectLanguage": "Seleziona la lingua",
+    "selectLanguage": "Seleziona lingua",
     "toggleTheme": "Cambia tema",
-    "toggleMenu": "Apri il menu",
-    "closeModal": "Chiudi la finestra",
+    "toggleMenu": "Apri/Chiudi menu",
+    "closeModal": "Chiudi modal",
     "previousRecommendation": "Raccomandazione precedente",
     "nextRecommendation": "Raccomandazione successiva",
-    "viewLinkedInProfile": "Vedi il profilo LinkedIn di {name}"
+    "viewLinkedInProfile": "Visualizza profilo LinkedIn di {name}"
   }
 }

@@ -2,15 +2,15 @@
   "section": {
     "eyebrow": "Academische achtergrond",
     "heading": "Opleiding",
-    "description": "Diploma's en programma's die mijn technische basis en ontwerpdenken hebben gevormd."
+    "description": "Diploma's en programma's die mijn technische basis en design thinking hebben gevormd."
   },
   "items": [
     {
       "id": "edu-1",
-      "degree": "Bachelor of Technology",
+      "degree": "Bachelor of Technology (B.Tech)",
       "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
-      "college": "Chaitanya Institute of Science and Technology",
-      "period": "2021"
+      "college": "Chaitanya Institute of Science and Technology (CIST), Kakinada",
+      "period": "2018 – 2021"
     }
   ]
 }

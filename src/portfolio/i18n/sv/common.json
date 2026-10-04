@@ -4,7 +4,7 @@
     "experience": "Erfarenhet",
     "projects": "Projekt",
     "recommendations": "Rekommendationer",
-    "skills": "Kompetenser"
+    "skills": "Färdigheter"
   },
   "footer": {
     "tagline": "Disciplin bygger frihet",
@@ -15,9 +15,9 @@
   },
   "a11y": {
     "selectLanguage": "Välj språk",
-    "toggleTheme": "Byt tema",
-    "toggleMenu": "Öppna menyn",
-    "closeModal": "Stäng fönstret",
+    "toggleTheme": "Växla tema",
+    "toggleMenu": "Växla meny",
+    "closeModal": "Stäng modal",
     "previousRecommendation": "Föregående rekommendation",
     "nextRecommendation": "Nästa rekommendation",
     "viewLinkedInProfile": "Visa {name}s LinkedIn-profil"

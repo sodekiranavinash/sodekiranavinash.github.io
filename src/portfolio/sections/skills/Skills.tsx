@@ -4,7 +4,7 @@ import { useLocale } from '@shared/context/ThemeContext';
 import { Container } from '@shared/ui/Container';
 import { Section } from '@shared/ui/Section';
 import { SectionHeader } from '@shared/ui/SectionHeader';
-import { SkillCategoryCard } from './SkillCategoryCard';
+import { SkillRow } from './SkillRow';
 
 export const Skills: React.FC = () => {
   const { locale } = useLocale();
@@ -14,10 +14,14 @@ export const Skills: React.FC = () => {
   return (
     <Section id="skills" tone="muted">
       <Container>
-        <SectionHeader title={t.heading} description={t.description} />
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <SectionHeader
+          eyebrow={t.eyebrow}
+          title={t.heading}
+          description={t.description}
+        />
+        <div className="divide-y divide-[var(--border)] border-y border-[var(--border)]">
           {content.categories.map((category) => (
-            <SkillCategoryCard key={category.categoryName} category={category} />
+            <SkillRow key={category.categoryName} category={category} />
           ))}
         </div>
       </Container>

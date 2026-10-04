@@ -13,6 +13,7 @@ export interface RecommendationItem {
 }
 
 export interface RecommendationsSectionLabels {
+  eyebrow?: string;
   heading: string;
   description: string;
   previous: string;

@@ -15,7 +15,7 @@ export const NavControls: React.FC = () => {
       <select
         value={locale}
         onChange={(e) => setLocale(e.target.value as Locale)}
-        className="h-9 appearance-none rounded-md border border-default bg-base px-2.5 pr-6 font-mono text-xs uppercase tracking-wide text-muted outline-none transition-colors hover:border-strong hover:text-fg"
+        className="h-8 appearance-none rounded-lg border border-default bg-transparent px-2.5 pr-6 font-mono text-xs uppercase tracking-wide text-muted outline-none transition-colors hover:border-strong hover:text-fg"
         aria-label={a11y.selectLanguage}
       >
         {LOCALES.map((code) => (
@@ -27,7 +27,7 @@ export const NavControls: React.FC = () => {
 
       <button
         onClick={toggleTheme}
-        className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-default text-muted transition-colors hover:border-strong hover:text-fg"
+        className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-default text-muted transition-colors hover:border-strong hover:text-fg"
         aria-label={a11y.toggleTheme}
       >
         {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}

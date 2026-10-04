@@ -21,7 +21,7 @@ const arrowButtonClass = (enabled: boolean) =>
   [
     'inline-flex h-9 w-9 shrink-0 self-center items-center justify-center rounded-full border transition-all duration-200',
     enabled
-      ? 'carousel-arrow border-strong bg-elevated text-fg hover:scale-105 hover:border-focus'
+      ? 'carousel-arrow border-strong bg-elevated text-fg hover:scale-105 hover:border-[var(--border-focus)]'
       : 'border-default bg-base text-muted cursor-not-allowed opacity-30',
   ].join(' ');
 
@@ -80,7 +80,7 @@ export const Recommendations: React.FC = () => {
   return (
     <Section id="recommendations" tone="base">
       <Container>
-        <SectionHeader title={t.heading} description={t.description} />
+        <SectionHeader eyebrow={t.eyebrow} title={t.heading} description={t.description} />
 
         <div ref={rowRef} className="mt-2 flex items-stretch gap-3 sm:gap-4">
           <button

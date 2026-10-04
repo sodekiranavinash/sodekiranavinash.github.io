@@ -12,8 +12,8 @@ interface SectionProps {
 }
 
 const toneClasses: Record<SectionTone, string> = {
-  base: 'bg-base',
-  muted: 'bg-muted',
+  base: 'section-base',
+  muted: 'section-muted',
 };
 
 export const Section: React.FC<SectionProps> = ({
@@ -26,11 +26,11 @@ export const Section: React.FC<SectionProps> = ({
   return (
     <motion.section
       id={id}
-      initial={{ opacity: 0, y: 24 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-60px' }}
-      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`py-24 md:py-32 transition-colors duration-300 ${toneClasses[tone]} ${divider ? 'section-divider' : ''} ${className}`}
+      transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+      className={`py-16 transition-colors duration-300 md:py-24 ${toneClasses[tone]} ${divider ? 'section-divider' : ''} ${className}`}
     >
       {children}
     </motion.section>

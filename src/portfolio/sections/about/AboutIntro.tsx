@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download } from 'lucide-react';
+import { Download, ExternalLink } from 'lucide-react';
 import { BrandIcon } from '../../components/BrandIcon';
 import { BorderBeam } from '@shared/ui/BorderBeam';
 import { Button } from '@shared/ui/Button';
@@ -9,9 +9,12 @@ import { AboutPortrait } from './AboutPortrait';
 interface AboutIntroProps {
   name: string;
   title: string;
+  description: string;
+  availability: string;
   resumeUrl: string;
   downloadCvLabel: string;
-  viewWorkLabel: string;
+  tryOneAgentLabel: string;
+  tryOneAgentUrl: string;
   email: string;
   emailLabel: string;
   socialLinks: SocialLink[];
@@ -20,9 +23,12 @@ interface AboutIntroProps {
 export const AboutIntro: React.FC<AboutIntroProps> = ({
   name,
   title,
+  description,
+  availability,
   resumeUrl,
   downloadCvLabel,
-  viewWorkLabel,
+  tryOneAgentLabel,
+  tryOneAgentUrl,
   email,
   emailLabel,
   socialLinks,
@@ -30,6 +36,13 @@ export const AboutIntro: React.FC<AboutIntroProps> = ({
   const linkedIn = socialLinks.find((link) => link.platform.toLowerCase().includes('linkedin'));
   const github = socialLinks.find((link) => link.platform.toLowerCase().includes('github'));
   const contactItems = [
+    github && {
+      key: 'github',
+      label: github.platform,
+      href: github.url,
+      external: true,
+      icon: 'github',
+    },
     linkedIn && {
       key: 'linkedin',
       label: linkedIn.platform,
@@ -44,13 +57,6 @@ export const AboutIntro: React.FC<AboutIntroProps> = ({
       external: false,
       icon: 'mail',
     },
-    github && {
-      key: 'github',
-      label: github.platform,
-      href: github.url,
-      external: true,
-      icon: 'github',
-    },
   ].filter(Boolean) as Array<{
     key: string;
     label: string;
@@ -59,55 +65,67 @@ export const AboutIntro: React.FC<AboutIntroProps> = ({
     icon: string;
   }>;
 
-  const scrollTo = (selector: string) => {
-    document.querySelector(selector)?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
-    <div className="grid grid-cols-1 items-stretch gap-8 lg:grid-cols-[1fr_auto] lg:gap-12">
-      <div className="order-2 flex flex-col justify-center space-y-6 lg:order-1">
+    <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_auto] lg:gap-16">
+      <div className="order-2 flex flex-col space-y-6 lg:order-1">
+        {availability ? (
+          <p className="inline-flex items-center gap-2 font-mono text-xs text-subtle">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
+            {availability}
+          </p>
+        ) : null}
+
         <div className="space-y-2">
-          <h1 className="font-display text-3xl font-medium tracking-tight text-fg sm:text-4xl lg:text-5xl">
+          <h1 className="font-display text-4xl font-semibold tracking-tight text-fg sm:text-5xl">
             {name}
           </h1>
-          <p className="text-base text-muted sm:text-lg">{title}</p>
+          <p className="text-lg text-muted">{title}</p>
         </div>
 
-        <div className="space-y-3">
-          <div className="flex flex-wrap items-center gap-3">
-            <a
-              href={resumeUrl}
-              {...(/^https?:\/\//i.test(resumeUrl)
-                ? { target: '_blank', rel: 'noopener noreferrer' }
-                : { download: true })}
-            >
-              <Button className="gap-2">
-                <Download className="h-3.5 w-3.5" />
-                {downloadCvLabel}
+        <p className="max-w-xl text-base leading-relaxed text-muted">{description}</p>
+
+        <div className="flex flex-wrap items-center gap-3">
+          <a
+            href={resumeUrl}
+            {...(/^https?:\/\//i.test(resumeUrl)
+              ? { target: '_blank', rel: 'noopener noreferrer' }
+              : { download: true })}
+          >
+            <Button className="gap-2">
+              <Download className="h-4 w-4" />
+              {downloadCvLabel}
+            </Button>
+          </a>
+          <BorderBeam activateAlways>
+            <a href={tryOneAgentUrl} target="_blank" rel="noopener noreferrer">
+              <Button variant="secondary" className="relative z-10 gap-2">
+                {tryOneAgentLabel}
+                <ExternalLink className="h-3.5 w-3.5" />
               </Button>
             </a>
-            <BorderBeam activateAlways>
-              <Button variant="secondary" onClick={() => scrollTo('#projects')}>
-                {viewWorkLabel}
-              </Button>
-            </BorderBeam>
-          </div>
+          </BorderBeam>
+        </div>
 
-          <div className="flex items-center gap-2.5">
-            {contactItems.map((item) => (
-              <a
-                key={item.key}
-                href={item.href}
-                target={item.external ? '_blank' : undefined}
-                rel={item.external ? 'noopener noreferrer' : undefined}
-                aria-label={item.label}
-                title={item.label}
-                className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-default text-muted transition-all duration-200 hover:border-strong hover:text-fg hover:scale-105"
-              >
-                <BrandIcon name={item.icon} className="h-6 w-6" />
-              </a>
-            ))}
-          </div>
+        <div className="flex items-center gap-2 pt-1">
+          {contactItems.map((item) => (
+            <a
+              key={item.key}
+              href={item.href}
+              target={item.external ? '_blank' : undefined}
+              rel={item.external ? 'noopener noreferrer' : undefined}
+              aria-label={item.label}
+              title={item.label}
+              className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-default text-muted transition-colors duration-200 hover:border-strong hover:text-fg"
+            >
+              <BrandIcon name={item.icon} className="h-4 w-4" />
+            </a>
+          ))}
+          <a
+            href={`mailto:${email}`}
+            className="ml-1 text-sm text-muted transition-colors hover:text-fg"
+          >
+            {email}
+          </a>
         </div>
       </div>
 

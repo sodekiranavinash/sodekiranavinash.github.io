@@ -4,6 +4,7 @@ import { loadNamespace } from '../i18n/loadNamespace';
 import type { TimelineItem } from './resume';
 
 export interface ExperienceSectionLabels {
+  eyebrow?: string;
   heading: string;
   description: string;
   readMore: string;

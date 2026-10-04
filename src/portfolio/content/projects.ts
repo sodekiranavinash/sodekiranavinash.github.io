@@ -12,6 +12,7 @@ export interface ProjectItem {
   topSkills: string[];
   allSkills: string[];
   liveUrl?: string;
+  sourceUrl?: string;
   architectureUrl?: string;
   category?: 'personal' | 'professional';
   caseStudy?: string;
@@ -19,10 +20,13 @@ export interface ProjectItem {
 }
 
 export interface ProjectsSectionLabels {
+  eyebrow?: string;
   heading: string;
+  description?: string;
   personal: string;
   professional: string;
   live: string;
+  source: string;
   architecture: string;
   readMore: string;
   close: string;

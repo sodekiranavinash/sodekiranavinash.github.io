@@ -2,10 +2,12 @@
   "hero": {
     "welcome": "Welcome to my workspace",
     "greeting": "Hi, I'm",
-    "subtitle": "AI Forward Deployed Engineer",
-    "description": "AI Forward Deployed Engineer building production-grade intelligent systems — from prototype to reliable shipping.",
-    "viewWork": "View My Work",
+    "subtitle": "AI Engineer | FDE",
+    "description": "Agentic AI, MCP servers and RAG — taken from prototype to production on AWS and Kubernetes.",
+    "availability": "Hyderabad, India · Open to relocation",
     "downloadCv": "Download Resume",
+    "tryOneAgent": "Try One Agent",
+    "tryOneAgentUrl": "https://www.get1agent.com/",
     "scrollDown": "Scroll Down"
   },
   "section": {
@@ -21,25 +23,25 @@
     "experienceText": "Professional Experience"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI Forward Deployed Engineer",
+  "title": "AI Engineer | Forward Deployed Engineer",
   "bioParagraphs": [
-    "I'm an AI Forward Deployed Engineer. I partner with product, sales, and engineering to turn unclear AI needs into a concrete plan, ship a working prototype quickly, then harden LLM workflows for real production — reliability, observability, and day-to-day operations — with security and safe deploys built in from the start."
+    "I'm an AI Engineer and Forward Deployed Engineer (FDE) with 5 years shipping GenAI and full-stack systems from POC to production. I embed with product, sales and engineering to turn ambiguous needs into working prototypes — then harden the LLM workflows and the Kubernetes and serverless AWS platform underneath them for real production."
   ],
   "metrics": [
     {
       "label": "Years Experience",
       "value": "5+",
-      "description": "Building Enterprise Apps"
+      "description": "GenAI & full-stack systems"
     },
     {
-      "label": "Projects Completed",
-      "value": "10+",
-      "description": "Shipped to production"
+      "label": "Years as an FDE",
+      "value": "2+",
+      "description": "Forward-deployed with product & sales"
     },
     {
-      "label": "AI Integrations",
+      "label": "AI Products Shipped",
       "value": "5+",
-      "description": "LLMs Workflows"
+      "description": "Agents, MCP servers & RAG"
     }
   ],
   "socialLinks": [
@@ -57,6 +59,6 @@
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "Email",
   "connect": {
-    "text": "I'm always open to discussing new AI products, platform work, or collaborative opportunities."
+    "text": "Based in Hyderabad, India — open to relocation (Netherlands, Japan) and global remote. Always happy to talk AI products, agent platforms, or FDE roles."
   }
 }

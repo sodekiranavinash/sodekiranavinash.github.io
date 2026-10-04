@@ -15,8 +15,10 @@ export interface AboutHero {
   greeting: string;
   subtitle: string;
   description: string;
-  viewWork: string;
+  availability: string;
   downloadCv: string;
+  tryOneAgent: string;
+  tryOneAgentUrl: string;
   scrollDown: string;
 }
 

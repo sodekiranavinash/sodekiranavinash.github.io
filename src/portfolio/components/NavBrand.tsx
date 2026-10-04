@@ -20,11 +20,12 @@ export const NavBrand: React.FC = () => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       }}
-      className="group flex items-center gap-3"
+      className="group flex items-center gap-2.5"
     >
-      <span className="flex h-12 w-12 items-center justify-center rounded-md border border-default font-mono text-xs text-fg transition-colors group-hover:border-strong">
+      <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-strong font-mono text-xs font-semibold text-fg transition-colors group-hover:border-[var(--fg-secondary)] group-hover:text-[var(--accent)]">
         {initials}
       </span>
+      <span className="font-display text-sm font-semibold text-fg">{bundle.about.name}</span>
     </Link>
   );
 };

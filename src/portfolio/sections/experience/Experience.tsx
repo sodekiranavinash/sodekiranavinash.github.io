@@ -17,8 +17,8 @@ export const Experience: React.FC = () => {
   return (
     <Section id="experience" tone="base">
       <Container>
-        <SectionHeader title={t.heading} description={t.description} />
-        <div className="grid gap-4 lg:grid-cols-3">
+        <SectionHeader eyebrow={t.eyebrow} title={t.heading} description={t.description} />
+        <div className="divide-y divide-[var(--border)] border-y border-[var(--border)]">
           {content.items.map((item) => (
             <ExperienceCard
               key={item.id}
@@ -38,7 +38,12 @@ export const Experience: React.FC = () => {
       >
         {active ? (
           <div className="space-y-6">
-            <p className="text-sm text-subtle">{active.organization}</p>
+            <div className="flex flex-wrap items-center gap-3">
+              <p className="text-sm text-subtle">{active.organization}</p>
+              <span className="rounded-full border border-default px-3 py-1 font-mono text-xs text-subtle">
+                {active.period}
+              </span>
+            </div>
 
             {active.roleAndResponsibilities?.length ? (
               <div>
@@ -48,7 +53,7 @@ export const Experience: React.FC = () => {
                 <ul className="mt-3 space-y-2 text-sm text-muted">
                   {active.roleAndResponsibilities.map((detail, index) => (
                     <li key={index} className="flex gap-3">
-                      <span className="mt-2 h-px w-3 shrink-0 bg-[var(--border-focus)]" />
+                      <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-[var(--accent)]" />
                       <span>{detail}</span>
                     </li>
                   ))}
@@ -62,7 +67,7 @@ export const Experience: React.FC = () => {
                 <ul className="mt-3 space-y-2 text-sm text-muted">
                   {active.projectHighlights.map((point, index) => (
                     <li key={index} className="flex gap-3">
-                      <span className="mt-2 h-px w-3 shrink-0 bg-[var(--border-focus)]" />
+                      <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-[var(--accent-2)]" />
                       <span>{point}</span>
                     </li>
                   ))}

@@ -7,6 +7,7 @@ import { Container } from '@shared/ui/Container';
 import { Section } from '@shared/ui/Section';
 import { AboutIntro } from './AboutIntro';
 import { AboutBio } from './AboutBio';
+import { AboutMetrics } from './AboutMetrics';
 
 export const About: React.FC = () => {
   const bundle = useI18n();
@@ -16,7 +17,7 @@ export const About: React.FC = () => {
   const resumeContent = getResumeContent(locale);
 
   return (
-    <Section id="about" tone="base" className="py-16 pt-28 md:py-20 md:pt-32">
+    <Section id="about" tone="base" className="pt-24 pb-12 md:pt-28 md:pb-16">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -27,16 +28,21 @@ export const About: React.FC = () => {
           <AboutIntro
             name={bundle.about.name}
             title={bundle.about.title}
+            description={hero.description}
+            availability={hero.availability}
             resumeUrl={resumeContent.resumeUrl}
             downloadCvLabel={hero.downloadCv}
-            viewWorkLabel={hero.viewWork}
+            tryOneAgentLabel={hero.tryOneAgent}
+            tryOneAgentUrl={hero.tryOneAgentUrl}
             email={bundle.about.email}
             emailLabel={bundle.about.emailLabel}
             socialLinks={bundle.about.socialLinks || []}
           />
 
+          <AboutMetrics metrics={bundle.about.metrics || []} />
+
           <div className="max-w-3xl space-y-3 border-t border-default pt-8">
-            <h2 className="font-display text-xl font-medium text-fg sm:text-2xl">
+            <h2 className="font-display text-lg font-semibold text-fg sm:text-xl">
               {t.aboutLabel}
             </h2>
             <AboutBio paragraphs={bundle.about.bioParagraphs || []} />

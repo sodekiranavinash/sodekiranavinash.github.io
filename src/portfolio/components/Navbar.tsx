@@ -21,7 +21,8 @@ export const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 16);
-    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -47,16 +48,17 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'nav-shell border-b py-3 backdrop-blur-sm' : 'bg-transparent py-5'
+      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
+        scrolled ? 'nav-shell' : 'border-b border-transparent'
       }`}
     >
       <Container>
-        <div className="flex h-10 items-center justify-between">
+        <div className="flex h-16 items-center justify-between gap-6">
           <NavBrand />
 
-          <div className="hidden items-center gap-6 md:flex">
-            <NavLinks items={navItems} onNavigate={handleNavClick} />
+          <div className="hidden items-center gap-8 md:flex">
+            <NavLinks items={navItems} onNavigate={handleNavClick} className="items-center gap-6" />
+            <span className="h-4 w-px bg-[var(--border)]" />
             <NavControls />
           </div>
 
@@ -64,7 +66,7 @@ export const Navbar: React.FC = () => {
             <NavControls />
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-default text-fg"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-default text-fg"
               aria-label={common.a11y.toggleMenu}
             >
               {isOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}

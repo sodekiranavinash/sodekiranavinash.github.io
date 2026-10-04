@@ -1,5 +1,6 @@
 {
   "section": {
+    "eyebrow": "Career Timeline",
     "heading": "Professional Experience",
     "description": "A compact overview of the teams I've helped build, the products I've shipped, and the measurable outcomes I've delivered.",
     "readMore": "Read more",
@@ -10,69 +11,102 @@
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Engineer II",
-      "organization": "S&P Energy",
-      "period": "Mar 2025 - Present",
+      "roleOrDegree": "Engineer II (AI)",
+      "organization": "S&P Global — Commodity Insights (Energy)",
+      "period": "Mar 2025 – Present",
       "description": [
-        "Currently developing Sales Intelligence Platform integrating LLM-driven content workflows.",
-        "Developed Rapid and Chat AI MCP servers as delivery method for structured and unstructured data to customers.",
-        "Migrated legacy manifest applications to helm, proactively upgraded kubernetes components to reduce image vulnerabilities."
+        "Forward-deployed lead for a team of 4 across Pitch Intel, Chat AI, RAPID and MCP Playground — owning discovery, architecture and delivery, embedded with business and engineering.",
+        "Pitch Intel, an agentic sales-intelligence platform, cut pitch-report preparation from ~3 days to ~30 minutes.",
+        "Chat AI MCP server adopted by 100+ customers; RAPID turned 300+ APIs into one MCP toolset and lifted LLM API-selection accuracy from ~85% to 95%+."
       ],
-      "tags": [],
+      "tags": [
+        "LangGraph",
+        "FastMCP",
+        "OpenSearch",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Kong API Gateway",
+        "AWS",
+        "LangSmith"
+      ],
       "roleAndResponsibilities": [
-      "Worked as a Forward Deployed Engineer, partnering with teams to take AI solutions from POC to production.",
-      "Owned products end-to-end across design, development, testing, and deployment.",
-      "Drove security improvements by integrating Mend, Fortify, SonarQube, secret scanning, and Claude scans."
-    ],
+        "Lead a forward-deployed team of 4 engineers, embedded with business and engineering, across the agent, API and UI layers.",
+        "Run technical discovery and solution scoping with sales, commercial-pricing and product teams, then own the build through production.",
+        "Own platform delivery for 15+ microservices, including Helm packaging, Kubernetes upgrades, security hardening and production releases."
+      ],
       "projectHighlights": [
-        "Currently developing sales intelligence platform for commercial team which provides sales pitches in form of textual, infographics, html, pdf , ppt etc using various public information, proprietary data and previous history etc which cuts sales team work by 50%.",
-        "Led the development of Chat AI MCP Server built on top of spgci pysdk library , data is retrived by executing code written by llm clients(ms copilot, claude, databricks etc).",
-        "Led the development of RAPID MCP Server built on top of rapid api's manifest, data is delivered  by executing actual api's with queries formed by llm clients and is now widely used in internal AI applications.",
-        "As part of API Platform Team , I have converted old manifest applications into helm based applications, proactively upgraded kubernetes components (otel, data prepper, jaeger etc ) to bring image vulnerabilities to minimal and also have driven multiple production releases."
+        "Pitch Intel — agentic sales-intelligence platform with a drag-and-drop workflow builder, a shared agent gallery with RBAC, and research-backed reports delivered as infographics, HTML, PDF and PowerPoint.",
+        "Chat AI MCP Server — customer-facing MCP server exposing the SPGCI Python SDK, adopted by 100+ customers across MS Copilot, Claude and Databricks; LLM-generated code execution for structured data and AIRD APIs for unstructured data kept answer parity without SME review cycles.",
+        "RAPID MCP Server — 300+ APIs behind four tools (instructions, search, metadata, execute) with no microservice changes, saving hundreds of engineering hours; search-and-rerank discovery took API selection accuracy from ~85% to 95%+.",
+        "MCP Playground — initiated and now used by 10+ teams to test servers against multiple models with real queries, plus a consistency framework that compares tool calls and arguments across repeated runs and scores release confidence.",
+        "API Platform — moved 15+ microservices from raw Kubernetes manifests to Helm charts (~25% less deploy-day friction), fixed critical vulnerabilities, purged hardcoded secrets from git history across 10 repositories, and instrumented OpenSearch dashboards over cluster events and metrics."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "roleOrDegree": "Consultant — client: Shutterfly, USA",
       "organization": "Genpact",
-      "period": "Mar 2025 - Feb 2024",
+      "period": "Feb 2024 – Mar 2025",
       "description": [
-        "Built a Text2SQL AI Agent for customer data analysis, improving efficiency and reducing data-team dependency by 25%.",
-        "Built a Mnesia DB management system for data correction and recovery, saving $10K per incident",
-        "Built microservices for Forge batching applications, increasing press batching capacity and improving workflow by 50%."
+        "Built a Text2SQL chat app so the product team could query orders, complaints and products in natural language, cutting ad-hoc data-team requests by ~25%.",
+        "Extended it with a watchdog agent that proactively surfaces emerging issues — paper shortages, material alternatives, waste and delays.",
+        "Replaced legacy Forge systems with RabbitMQ + Celery microservices, lifting throughput ~50%."
       ],
-      "tags": [],
+      "tags": [
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "Oracle DB",
+        "Azure OpenAI",
+        "EC2",
+        "RabbitMQ",
+        "Celery",
+        "Jenkins"
+      ],
       "roleAndResponsibilities": [
-        "Led a team of 3 developers across codebase modernization, cloud-native solutions, and GenAI initiatives.",
-        "Pioneered production adoption of GenAI initiatives, taking solutions beyond POCs.",
-        "Shared PagerDuty ownership and managed on-call rotations for production support."
+        "Delivered GenAI and modernization work for a US client from discovery through production support.",
+        "Owned on-call rotations and kept client systems running through peak seasonal load.",
+        "Worked directly with client product and engineering stakeholders to translate business needs into shipped features."
       ],
       "projectHighlights": [
-        "Developed Text2SQL AI Agent to query and analyze customer data like order history, complaints, product types etc which improved efficiency and reduced dependency on data teams by 25%.",
-        "Developed database management system for mnesia db which helped in data correction & restoration in case of bad upstream asset or order data which helped company 10K $ per incident.",
-        "Built microservices (pdf generation, cutlines, templates etc) for Forge batching applications, increasing press batching capacity and improving workflow by 50%."
+        "Product Intelligence Agent — Text2SQL chat application over orders, complaints and products, with a LangGraph feedback loop that self-corrects SQL errors; cut ad-hoc data-team requests by ~25%.",
+        "Watchdog Agent — layered on the same product logic to proactively flag emerging issues such as paper shortages, material alternatives, waste and delivery delays.",
+        "Forge Module — production microservices (PDF generation, cutlines, template mapping) on RabbitMQ with Celery workers, lifting throughput ~50%.",
+        "Mnesia DB Viewer — full-stack tool (Python subprocess) with Erlang OTP cluster tooling for data correction and restoration, saving ~$10K per production incident."
       ]
     },
     {
       "id": "exp-3",
-      "roleOrDegree": "Jr Full Stack Engineer",
-      "organization": "Creditsafe",
-      "period": "Feb 2024 - Oct 2021",
+      "roleOrDegree": "Jr. Full Stack Engineer",
+      "organization": "Creditsafe Technology",
+      "period": "Oct 2021 – Feb 2024",
       "description": [
-        "Key contributor to migrating Ledger Insights from legacy .NET to a modern Python, React, AWS, and PostgreSQL stack.",
-        "Built critical microservices and scalable UI components, supporting B2B deals worth $500K.",
-        "Built a Data Editing Tool for governance teams, improving company data quality from 88% to 98%."
+        "Drove the migration of Ledger Insights from legacy .NET to Python, React, AWS and PostgreSQL, improving experience and lifting customer retention ~35%.",
+        "Scaled premium features (AR Requests, CFO Reports, trade groups, Combined Experience) that supported B2B deals worth ~$150K.",
+        "Built a data-editing tool used across entities, raising company data quality from ~85% to ~95%."
       ],
-      "tags": [],
+      "tags": [
+        "FastAPI",
+        "Flask",
+        "React",
+        "PostgreSQL",
+        "ECS",
+        "S3",
+        "Terraform",
+        "Azure Pipelines"
+      ],
       "roleAndResponsibilities": [
-        "Collaborated across engineering and product teams to deliver scalable, production-ready solutions.",
-        "Proactively drove code quality, performance, and security through code reviews, pair programming, and knowledge sharing.",
-        "Maintained technical documentation and architecture wikis to improve team alignment and knowledge sharing."
+        "Worked across backend services and React pages as the platform moved from .NET to a modern Python and AWS stack.",
+        "Improved code quality and performance through reviews, pair programming and knowledge sharing.",
+        "Maintained technical documentation and architecture notes to keep the team aligned."
       ],
       "projectHighlights": [
-        "Played key role in migration of ledger insights platform from legacy .NET to Modern Stack (Python, React, AWS, Postgres).",
-        "Developed critical microservices (AR Requests, CFO reports, Combined experience etc) along with scalable frontend components, pages which helped secured B2B deals worth 500k $.",
-        "Developed Data Editing Tool for data governance teams in all entities to rectify incorrect and redundant company data.(Improved data quality from 88% to 98%)."
+        "Ledger Insights — end-to-end contribution to migrating the platform from legacy .NET to Python, React, AWS and PostgreSQL, improving UX and lifting customer retention ~35%.",
+        "Premium features — AR Requests, CFO Reports, trade groups and Combined Experience across backend services and React pages, supporting B2B deals worth ~$150K.",
+        "Global Data Editing Tool — Flask application used across entities to correct inaccurate and redundant company data, raising data quality from ~85% to ~95%.",
+        "US customer data APIs — REST endpoints over business expenditure, trade payments and accounts receivable, with authorization workflows that push audited records back to production databases."
       ]
     }
   ]

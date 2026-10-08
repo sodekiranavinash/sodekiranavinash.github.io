@@ -3,6 +3,7 @@ import { Download, ExternalLink } from 'lucide-react';
 import { BrandIcon } from '../../components/BrandIcon';
 import { BorderBeam } from '@shared/ui/BorderBeam';
 import { Button } from '@shared/ui/Button';
+import { useResumeViewer } from '../../hooks/useResumeViewer';
 import type { SocialLink } from '../../content/about';
 import { AboutPortrait } from './AboutPortrait';
 
@@ -33,6 +34,10 @@ export const AboutIntro: React.FC<AboutIntroProps> = ({
   emailLabel,
   socialLinks,
 }) => {
+  const { openViewer, resumeViewer } = useResumeViewer({
+    src: resumeUrl,
+    downloadLabel: downloadCvLabel,
+  });
   const linkedIn = socialLinks.find((link) => link.platform.toLowerCase().includes('linkedin'));
   const github = socialLinks.find((link) => link.platform.toLowerCase().includes('github'));
   const contactItems = [
@@ -85,17 +90,10 @@ export const AboutIntro: React.FC<AboutIntroProps> = ({
         <p className="max-w-xl text-base leading-relaxed text-muted">{description}</p>
 
         <div className="flex flex-wrap items-center gap-3">
-          <a
-            href={resumeUrl}
-            {...(/^https?:\/\//i.test(resumeUrl)
-              ? { target: '_blank', rel: 'noopener noreferrer' }
-              : { download: true })}
-          >
-            <Button className="gap-2">
-              <Download className="h-4 w-4" />
-              {downloadCvLabel}
-            </Button>
-          </a>
+          <Button className="gap-2" onClick={openViewer} aria-haspopup="dialog">
+            <Download className="h-4 w-4" />
+            {downloadCvLabel}
+          </Button>
           <BorderBeam activateAlways>
             <a href={tryOneAgentUrl} target="_blank" rel="noopener noreferrer">
               <Button variant="secondary" className="relative z-10 gap-2">
@@ -132,6 +130,8 @@ export const AboutIntro: React.FC<AboutIntroProps> = ({
       <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
         <AboutPortrait alt={name} />
       </div>
+
+      {resumeViewer}
     </div>
   );
 };

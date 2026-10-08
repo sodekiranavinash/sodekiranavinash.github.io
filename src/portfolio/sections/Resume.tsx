@@ -3,12 +3,17 @@ import { Section } from '@shared/ui/Section';
 import { Container } from '@shared/ui/Container';
 import { getResumeContent } from '../content/resume';
 import { useLocale } from '@shared/context/ThemeContext';
+import { useResumeViewer } from '../hooks/useResumeViewer';
 import { Download, Eye, Award } from 'lucide-react';
 
 export const Resume: React.FC = () => {
   const { locale } = useLocale();
   const content = getResumeContent(locale);
   const t = content.section;
+  const { openViewer, resumeViewer } = useResumeViewer({
+    src: content.resumeUrl,
+    downloadLabel: t.downloadResume,
+  });
 
   return (
     <Section id="resume">
@@ -36,25 +41,24 @@ export const Resume: React.FC = () => {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
-              <a
-                href={content.resumeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={openViewer}
+                aria-haspopup="dialog"
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-900 px-6 py-4 text-sm font-semibold text-white hover:bg-slate-800 transition-all"
               >
                 <Eye className="w-4 h-4" />
                 <span>{t.reviewResume}</span>
-              </a>
-              <a
-                href={content.resumeUrl}
-                {...(/^https?:\/\//i.test(content.resumeUrl)
-                  ? { target: '_blank', rel: 'noopener noreferrer' }
-                  : { download: true })}
+              </button>
+              <button
+                type="button"
+                onClick={openViewer}
+                aria-haspopup="dialog"
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-violet-600 via-indigo-600 to-cyan-500 px-6 py-4 text-sm font-semibold text-white hover:from-violet-700 hover:to-cyan-600 transition-all"
               >
                 <Download className="w-4 h-4" />
                 <span>{t.downloadResume}</span>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -102,6 +106,8 @@ export const Resume: React.FC = () => {
           </div>
         </aside>
       </div>
+
+      {resumeViewer}
       </Container>
     </Section>
   );

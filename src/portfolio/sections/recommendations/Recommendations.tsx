@@ -78,7 +78,7 @@ export const Recommendations: React.FC = () => {
   const translateX = -index * step;
 
   return (
-    <Section id="recommendations" tone="base">
+    <Section id="recommendations" tone="base" divider>
       <Container>
         <SectionHeader eyebrow={t.eyebrow} title={t.heading} description={t.description} />
 

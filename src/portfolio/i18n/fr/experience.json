@@ -11,42 +11,46 @@
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Ingénieur II (IA)",
+      "roleOrDegree": "Ingénieur II, Forward Deployed (IA)",
       "organization": "S&P Global — Commodity Insights (Énergie)",
       "period": "Mars 2025 – Présent",
       "description": [
-        "Chef d'équipe forward-deployed de 4 personnes couvrant Pitch Intel, Chat AI, RAPID et MCP Playground — responsable de la découverte, de l'architecture et de la livraison, intégré avec les métiers et l'ingénierie.",
+        "Responsable technique forward-deployed d'une équipe de 4 sur Pitch Intel, Chat AI, RAPID et le MCP Playground — en charge de la découverte, de l'architecture et de la livraison, intégré aux métiers et à l'ingénierie.",
         "Pitch Intel, une plateforme d'intelligence commerciale agentique, a réduit la préparation des rapports de pitch de ~3 jours à ~30 minutes.",
-        "Le serveur MCP Chat AI adopté par plus de 100 clients ; RAPID a transformé plus de 300 API en un seul jeu d'outils MCP et a augmenté la précision de sélection d'API LLM de ~85% à 95%+."
+        "Le serveur MCP Chat AI adopté par plus de 200 clients ; RAPID a transformé plus de 300 API en un seul jeu d'outils MCP et a fait passer la précision de sélection d'API du LLM de ~85% à 95%+."
       ],
       "tags": [
+        "Python",
+        "LangChain",
         "LangGraph",
         "FastMCP",
         "OpenSearch",
+        "pgvector",
         "FastAPI",
         "React",
         "PostgreSQL",
         "Kubernetes",
         "Kong API Gateway",
-        "AWS",
+        "S3",
         "LangSmith"
       ],
       "roleAndResponsibilities": [
         "Diriger une équipe forward-deployed de 4 ingénieurs, intégrée aux métiers et à l'ingénierie, sur les couches agent, API et UI.",
-        "Mener la découverte technique et la définition de solutions avec les équipes ventes, tarification commerciale et produit, puis assurer la livraison jusqu'à la production.",
-        "Assumer la livraison de plateforme pour plus de 15 microservices, incluant les paquets Helm, les mises à niveau Kubernetes, le renforcement de la sécurité et les versions de production."
+        "Mener la découverte technique et le cadrage des solutions avec les équipes ventes, tarification commerciale et produit, puis prendre en charge la réalisation jusqu'aux livraisons en production.",
+        "Animer des démos exécutives auprès des architectes techniques et des responsables de pôles, encadrer les ingénieurs et prendre en charge la livraison de la plateforme pour plus de 15 microservices, incluant le packaging Helm, les mises à niveau Kubernetes, le renforcement de la sécurité et les livraisons en production."
       ],
       "projectHighlights": [
         "Pitch Intel — plateforme d'intelligence commerciale agentique avec un constructeur de workflow par glisser-déposer, une galerie d'agents partagée avec RBAC, et des rapports fondés sur des recherches livrés sous forme d'infographies, HTML, PDF et PowerPoint.",
-        "Chat AI MCP Server — serveur MCP à destination des clients exposant le SDK Python SPGCI, adopté par plus de 100 clients sur MS Copilot, Claude et Databricks ; l'exécution de code généré par LLM pour des données structurées et les API AIRD pour des données non structurées ont maintenu la parité des réponses sans cycles de révision par SME.",
+        "Chat AI MCP Server — serveur MCP à destination des clients exposant le SDK Python SPGCI, adopté par plus de 200 clients sur MS Copilot, Claude et Databricks ; l'exécution de code généré par LLM pour des données structurées et les API AIRD pour des données non structurées ont réduit le cycle de révision par SME de 90% en réutilisant le chemin de récupération existant.",
         "RAPID MCP Server — plus de 300 API derrière quatre outils (instructions, search, metadata, execute) sans changement de microservices, économisant des centaines d'heures d'ingénierie ; la découverte par recherche et rerank a fait passer la précision de sélection d'API de ~85% à 95%+.",
-        "MCP Playground — initié et maintenant utilisé par plus de 10 équipes pour tester les serveurs contre plusieurs modèles avec de vraies requêtes, plus un cadre de cohérence qui compare les appels d'outils et arguments entre exécutions répétées et note la confiance de publication.",
+        "Pipelines d'évaluation — traces distribuées publiques, jeux de données de référence (golden datasets), files d'annotation et frameworks LLM-as-a-judge via l'API LangSmith, améliorant l'observabilité et capturant les scores des SME directement dans la plateforme.",
+        "MCP Playground — initié et désormais utilisé par plus de 5 équipes d'ingénierie pour tester les serveurs contre plusieurs modèles avec de vraies requêtes, plus un cadre de cohérence qui compare les appels d'outils et les arguments entre exécutions répétées et évalue la confiance de publication.",
         "API Platform — migration de plus de 15 microservices de manifestes Kubernetes bruts vers des charts Helm (~25% moins de friction au jour du déploiement), correction de vulnérabilités critiques, purge de secrets codés en dur de l'historique git sur 10 dépôts, et instrumentation de tableaux de bord OpenSearch sur les événements et métriques du cluster."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant — client : Shutterfly, USA",
+      "roleOrDegree": "Consultant, Forward Deployed — client : Shutterfly LLC, USA",
       "organization": "Genpact",
       "period": "Février 2024 – Mars 2025",
       "description": [
@@ -55,12 +59,15 @@
         "Remplacement des systèmes legacy Forge par des microservices RabbitMQ + Celery, augmentant le débit d'environ 50%."
       ],
       "tags": [
+        "Python",
         "LangGraph",
         "FastAPI",
         "React",
         "Oracle DB",
         "Azure OpenAI",
         "EC2",
+        "S3",
+        "Erlang OTP",
         "RabbitMQ",
         "Celery",
         "Jenkins"
@@ -71,10 +78,10 @@
         "Collaboration directe avec les parties prenantes produit et ingénierie du client pour traduire les besoins métier en fonctionnalités livrées."
       ],
       "projectHighlights": [
-        "Product Intelligence Agent — Application Text2SQL sur commandes, réclamations et produits, avec une boucle de retour LangGraph qui auto-corrige les erreurs SQL ; réduction des demandes ad-hoc à l'équipe data d'environ 25%.",
+        "Product Intelligence Agent — application Text2SQL sur commandes, réclamations et produits, avec une boucle de retour LangGraph qui auto-corrige les erreurs SQL ; réduction des demandes ad-hoc à l'équipe data d'environ 25%.",
         "Watchdog Agent — superposé à la même logique produit pour signaler proactivement les problèmes émergents tels que les pénuries de papier, les alternatives matérielles, les déchets et les retards de livraison.",
         "Forge Module — microservices de production (génération PDF, lignes de découpe, mapping de templates) sur RabbitMQ avec des workers Celery, augmentant le débit d'environ 50%.",
-        "Mnesia DB Viewer — outil full-stack (sous-process Python) avec outils de cluster Erlang OTP pour la correction et la restauration de données, économisant environ 10 000 $ par incident de production."
+        "Mnesia DB Viewer — outil full-stack (sous-processus Python) avec des outils de cluster Erlang OTP pour la correction et la restauration de données, économisant ~$10K par incident de production."
       ]
     },
     {
@@ -84,29 +91,33 @@
       "period": "Octobre 2021 – Février 2024",
       "description": [
         "Pilotage de la migration de Ledger Insights depuis .NET legacy vers Python, React, AWS et PostgreSQL, améliorant l'expérience et augmentant la rétention client d'environ 35%.",
-        "Mise à l'échelle de fonctionnalités premium (AR Requests, CFO Reports, groupes commerciaux, Combined Experience) ayant soutenu des accords B2B d'une valeur d'environ 150 000 $.",
+        "Mise à l'échelle de fonctionnalités premium (AR Requests, CFO Reports, groupes commerciaux, Combined Experience) ayant soutenu des accords B2B d'une valeur de ~$150K.",
         "Développement d'un outil d'édition de données utilisé sur toutes les entités, faisant passer la qualité des données d'entreprise de ~85% à ~95%."
       ],
       "tags": [
+        "Python",
         "FastAPI",
         "Flask",
         "React",
+        "JavaScript",
         "PostgreSQL",
         "ECS",
         "S3",
         "Terraform",
-        "Azure Pipelines"
+        "Azure Pipelines",
+        ".NET",
+        "Jinja"
       ],
       "roleAndResponsibilities": [
-        "Livraison de fonctionnalités de bout en bout et maintenance des services critiques pour une application d'analyse financière B2B.",
-        "Collaboration avec les équipes produit, QA et opérations pour assurer la fiabilité et la scalabilité.",
-        "Participation à l'amélioration continue de l'architecture et des pipelines CI/CD."
+        "Travail sur les services backend et les pages React pendant que la plateforme passait de .NET à une stack moderne Python et AWS.",
+        "Amélioration de la qualité du code et des performances grâce aux revues, au pair programming et au partage de connaissances.",
+        "Maintien de la documentation technique et des notes d'architecture pour garder l'équipe alignée."
       ],
       "projectHighlights": [
-        "Ledger Insights — refonte complète de l'application de rapports financiers B2B vers une stack moderne (Python/FastAPI, React, PostgreSQL) déployée sur AWS ECS, avec amélioration de la rétention client d'environ 35%.",
-        "Modules premium — AR Requests, CFO Reports, trade groups et Combined Experience, déployés à grande échelle et contribuant à des opportunités B2B d'environ 150 000 $.",
-        "Data Quality Toolkit — outil d'édition de données multi-entités avec validation et journalisation, améliorant la qualité des données de ~85% à ~95%.",
-        "Infrastructure as Code — pipelines Terraform et Azure Pipelines standardisés pour des déploiements reproductibles."
+        "Ledger Insights — contribution de bout en bout à la migration de la plateforme du .NET legacy vers Python, React, AWS et PostgreSQL, améliorant l'UX et augmentant la rétention client d'environ 35%.",
+        "Fonctionnalités premium — AR Requests, CFO Reports, groupes commerciaux et Combined Experience sur les services backend et les pages React, soutenant des accords B2B d'une valeur de ~$150K.",
+        "Global Data Editing Tool — application Flask utilisée sur toutes les entités pour corriger des données d'entreprise inexactes et redondantes, faisant passer la qualité des données de ~85% à ~95%.",
+        "API de données clients US — endpoints REST sur les dépenses commerciales, les paiements commerciaux et les comptes clients, avec des workflows d'autorisation qui renvoient les enregistrements audités vers les bases de données de production."
       ]
     }
   ]

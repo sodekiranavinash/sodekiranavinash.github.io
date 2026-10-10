@@ -2,7 +2,7 @@
   "hero": {
     "welcome": "Välkommen till min arbetsyta",
     "greeting": "Hej, jag är",
-    "subtitle": "AI-ingenjör | FDE",
+    "subtitle": "Tillämpad AI-ingenjör — Agentisk AI · MCP · RAG · AWS",
     "description": "Agentisk AI, MCP-servrar och RAG — från prototyp till produktion på AWS och Kubernetes.",
     "availability": "Hyderabad, Indien · Öppen för flytt",
     "downloadCv": "Ladda ner CV",
@@ -23,9 +23,9 @@
     "experienceText": "Arbetserfarenhet"
   },
   "name": "Kiran Avinash Sode",
-  "title": "AI-ingenjör | Forward Deployed Engineer",
+  "title": "Tillämpad AI-ingenjör | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Jag är en AI-ingenjör och Forward Deployed Engineer (FDE) med 5 års erfarenhet av att leverera GenAI- och fullstack-system från POC till produktion. Jag integrerar med produkt, försäljning och engineering för att omvandla oklara behov till fungerande prototyper — och härdar sedan LLM-workflows och den underliggande Kubernetes- och serverlösa AWS-plattformen för riktig produktion."
+    "Jag är en tillämpad AI-ingenjör och Forward Deployed Engineer (FDE) med 5 års erfarenhet inom mjukvaruutveckling — varav de senaste 2+ i forward-deployed-roll — och bygger produktionsklara generativa AI- och fullstack-applikationer från början till slut. Jag arbetar inbäddad med sälj-, affärs- och datateam för att leverera företags-AI-produkter från proof-of-concept via driftsättning, utvärdering och iteration, och härdar LLM-arbetsflödena samt Kubernetes- och de serverlösa AWS-plattformarna under dem. Stark inom agentisk AI, MCP, RAG och LLM-utvärdering."
   ],
   "metrics": [
     {

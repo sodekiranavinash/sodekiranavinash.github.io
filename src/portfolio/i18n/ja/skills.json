@@ -2,25 +2,29 @@
   "section": {
     "eyebrow": "コアスキル",
     "heading": "スキル & 専門性",
-    "description": "エージェント型 AI、フルスタック開発、クラウドプラットフォームエンジニアリングで主に活用している技術スタックです。"
+    "description": "エージェント型 AI、フルスタック開発、クラウドプラットフォームエンジニアリングで活用する技術スタック。"
   },
   "categories": [
     {
       "categoryName": "AI & エージェント",
       "skills": [
         { "name": "エージェント型 AI" },
-        { "name": "Agent Harnesses" },
+        { "name": "エージェントハーネス" },
         { "name": "マルチエージェントオーケストレーション" },
-        { "name": "LangGraph / LangChain" },
-        { "name": "RAG（ハイブリッド検索・リランキング）" },
-        { "name": "ベクトル検索" },
-        { "name": "MCP サーバー・クライアント" },
+        { "name": "LangChain / LangGraph" },
+        { "name": "Strands" },
+        { "name": "ツール呼び出し" },
+        { "name": "MCP サーバー & クライアント" },
         { "name": "OAuth 2.0" },
-        { "name": "Tool Calling" },
-        { "name": "プロンプト・コンテキストエンジニアリング" },
-        { "name": "評価・ガードレール" },
+        { "name": "RAG（ハイブリッド検索、リランキング）" },
+        { "name": "埋め込み" },
+        { "name": "ベクトル検索" },
+        { "name": "pgvector" },
+        { "name": "OpenSearch Vector DB" },
+        { "name": "プロンプト & コンテキストエンジニアリング" },
+        { "name": "評価 & ガードレール" },
         { "name": "LLM ジャッジ（Ragas）" },
-        { "name": "OpenSearch Vector DB" }
+        { "name": "LangSmith" }
       ]
     },
     {
@@ -32,6 +36,7 @@
         { "name": "REST API" },
         { "name": "PostgreSQL" },
         { "name": "Oracle DB" },
+        { "name": "SQLAlchemy" },
         { "name": "RabbitMQ" },
         { "name": "Celery" },
         { "name": "Docker" }

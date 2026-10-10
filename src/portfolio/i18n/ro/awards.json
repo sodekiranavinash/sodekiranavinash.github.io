@@ -1,0 +1,27 @@
+{
+  "section": {
+    "eyebrow": "Recunoaștere",
+    "heading": "Premii și recunoaștere",
+    "description": "Câteva momente în care munca a fost recunoscută de echipele și clienții cu care am construit-o."
+  },
+  "items": [
+    {
+      "id": "award-1",
+      "title": "Program de recunoaștere",
+      "issuer": "S&P Global Energy",
+      "year": "2026"
+    },
+    {
+      "id": "award-2",
+      "title": "Contribuție remarcabilă",
+      "issuer": "Genpact",
+      "year": "2024"
+    },
+    {
+      "id": "award-3",
+      "title": "Premiul Extra Mile",
+      "issuer": "Creditsafe Technology",
+      "year": "2023"
+    }
+  ]
+}

@@ -1,78 +1,123 @@
 {
   "section": {
+    "eyebrow": "Karriereforløb",
     "heading": "Erhvervserfaring",
-    "description": "Et kompakt overblik over de teams, jeg har hjulpet med at bygge, de produkter jeg har leveret, og de målbare resultater jeg har skabt.",
+    "description": "Et kompakt overblik over de teams, jeg har været med til at bygge, de produkter, jeg har leveret, og de målbare resultater, jeg har opnået.",
     "readMore": "Læs mere",
     "close": "Luk",
-    "roleAndResponsibilities": "Rolle og ansvar",
+    "roleAndResponsibilities": "Rolle & ansvar",
     "projects": "Projekter"
   },
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Engineer II",
-      "organization": "S&P Energy",
-      "period": "mar. 2025 - nu",
+      "roleOrDegree": "Ingeniør II, Forward Deployed (AI)",
+      "organization": "S&P Global — Commodity Insights (Energy)",
+      "period": "mar. 2025 – nu",
       "description": [
-        "Jeg udvikler i øjeblikket en sales intelligence-platform med LLM-drevne content-workflows.",
-        "Jeg udviklede Rapid- og Chat AI MCP-servere som leveringsmetode for strukturerede og ustrukturerede data til kunder.",
-        "Jeg migrerede ældre manifest-applikationer til Helm og opgraderede proaktivt Kubernetes-komponenter for at reducere image-sårbarheder."
+        "Forward-deployed teknisk lead for et team på 4 på tværs af Pitch Intel, Chat AI, RAPID og MCP Playground — med ansvar for discovery, arkitektur og levering, tæt integreret med forretning og engineering.",
+        "Pitch Intel, en agentisk sales-intelligence-platform, reducerede forberedelsen af pitch-rapporter fra ~3 dage til ~30 minutter.",
+        "Chat AI MCP-server taget i brug af 200+ kunder; RAPID omdannede 300+ API'er til ét MCP-værktøjssæt og løftede LLM'ens API-valgnøjagtighed fra ~85% til 95%+."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "FastMCP",
+        "OpenSearch",
+        "pgvector",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Kong API Gateway",
+        "S3",
+        "LangSmith"
+      ],
       "roleAndResponsibilities": [
-        "Jeg arbejdede som Forward Deployed Engineer og samarbejdede med teams om at tage AI-løsninger fra POC til produktion.",
-        "Jeg ejede produkter end-to-end på tværs af design, udvikling, test og deployment.",
-        "Jeg drev sikkerhedsforbedringer ved at integrere Mend, Fortify, SonarQube, secret scanning og Claude-scans."
+        "Leder et forward-deployed team på 4 ingeniører, tæt integreret med forretning og engineering, på tværs af agent-, API- og UI-lagene.",
+        "Kører teknisk discovery og løsningsscoping med salgs-, commercial-pricing- og produktteams og har derefter ansvaret for bygningen frem til produktionsreleases.",
+        "Driver executive-demoer for tekniske arkitekter og tower heads, mentorerer ingeniører og har ansvaret for platformlevering for 15+ microservices, herunder Helm-packaging, Kubernetes-opgraderinger, sikkerhedshærdning og produktionsreleases."
       ],
       "projectHighlights": [
-        "Jeg udvikler i øjeblikket en sales intelligence-platform til commercial-teamet, som leverer pitches som tekst, infografik, HTML, PDF, PPT m.m. ud fra offentlig information, proprietære data og historik, hvilket skærer salgsteamets arbejde med 50%.",
-        "Jeg ledede udviklingen af Chat AI MCP Server bygget oven på spgci pysdk-biblioteket; data hentes ved at køre kode skrevet af LLM-klienter (MS Copilot, Claude, Databricks m.m.).",
-        "Jeg ledede udviklingen af RAPID MCP Server bygget oven på Rapid API-manifestet; data leveres ved at køre de faktiske API'er med queries dannet af LLM-klienter og bruges nu bredt i interne AI-applikationer.",
-        "Som del af API Platform-teamet konverterede jeg gamle manifest-applikationer til Helm, opgraderede proaktivt Kubernetes-komponenter (OTel, Data Prepper, Jaeger m.m.) for at minimere image-sårbarheder og drev flere produktionsreleases."
+        "Pitch Intel — agentisk sales-intelligence-platform med en drag-and-drop-workflowbygger, et fælles agent-galleri med RBAC og research-baserede rapporter leveret som infografik, HTML, PDF og PowerPoint.",
+        "Chat AI MCP Server — kundevendt MCP-server, der eksponerer SPGCI Python SDK, taget i brug af 200+ kunder på tværs af MS Copilot, Claude og Databricks; LLM-genereret kodeeksekvering til strukturerede data og AIRD-API'er til ustrukturerede data skar SME-reviewcyklussen med 90% ved at genbruge den eksisterende retrieval-path.",
+        "RAPID MCP Server — 300+ API'er bag fire værktøjer (instructions, search, metadata, execute) uden ændringer i microservices, hvilket sparer hundredvis af engineering-timer; search-and-rerank-discovery løftede API-valgnøjagtigheden fra ~85% til 95%+.",
+        "Evalueringspipelines — offentlige distribuerede traces, golden datasets, annotationskøer og LLM-as-a-judge-frameworks via LangSmith-API'et, hvilket forbedrer observerbarheden og fanger SME-scores direkte i platformen.",
+        "MCP Playground — initieret og nu brugt af 5+ engineering-teams til at teste servere mod flere modeller med rigtige queries, plus et consistency-framework, der sammenligner tool calls og argumenter på tværs af gentagne kørsler og scorer release-confidence.",
+        "API Platform — flyttede 15+ microservices fra rå Kubernetes-manifester til Helm-charts (~25% mindre friktion på deploy-dage), rettede kritiske sårbarheder, fjernede hardcodede secrets fra git-historikken på tværs af 10 repositories og instrumenterede OpenSearch-dashboards over cluster-events og -metrikker."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "roleOrDegree": "Konsulent, Forward Deployed — kunde: Shutterfly LLC, USA",
       "organization": "Genpact",
-      "period": "mar. 2025 - feb. 2024",
+      "period": "feb. 2024 – mar. 2025",
       "description": [
-        "Jeg byggede en Text2SQL AI-agent til kundedataanalyse, som øgede effektiviteten og reducerede afhængigheden af datateamet med 25%.",
-        "Jeg byggede et Mnesia DB-styringssystem til datakorrektion og gendannelse, som sparede 10.000 $ pr. hændelse.",
-        "Jeg byggede microservices til Forge-batching-applikationer, øgede press-batching-kapaciteten og forbedrede workflowet med 50%."
+        "Byggede en Text2SQL-chatapp, så produktteamet kunne forespørge ordrer, klager og produkter i naturligt sprog, hvilket reducerede ad-hoc-forespørgsler til datateamet med ~25%.",
+        "Udvidede den med en watchdog-agent, der proaktivt fremhæver nye problemer — papirmangel, materialealternativer, spild og forsinkelser.",
+        "Erstattede ældre Forge-systemer med RabbitMQ + Celery-microservices, hvilket løftede throughput med ~50%."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "Oracle DB",
+        "Azure OpenAI",
+        "EC2",
+        "S3",
+        "Erlang OTP",
+        "RabbitMQ",
+        "Celery",
+        "Jenkins"
+      ],
       "roleAndResponsibilities": [
-        "Jeg ledede et team på 3 udviklere på tværs af modernisering af kodebasen, cloud-native løsninger og GenAI-initiativer.",
-        "Jeg banede vejen for produktionsadoption af GenAI-initiativer, ud over POC'er.",
-        "Jeg delte PagerDuty-ansvar og styrede on-call-rotationer til produktionssupport."
+        "Leverede GenAI- og moderniseringsarbejde for en amerikansk kunde fra discovery til produktionssupport.",
+        "Havde ansvaret for on-call-rotationer og holdt kundens systemer kørende gennem spidsbelastning i højsæsonen.",
+        "Arbejdede direkte med kundens produkt- og engineering-interessenter for at oversætte forretningsbehov til leverede features."
       ],
       "projectHighlights": [
-        "Jeg udviklede en Text2SQL AI-agent til at forespørge og analysere kundedata som ordreshistorik, klager og produkttyper, hvilket forbedrede effektiviteten og reducerede afhængigheden af datateams med 25%.",
-        "Jeg udviklede et databasestyringssystem til Mnesia DB, som hjalp med korrektion og gendannelse ved dårlige upstream asset- eller ordredata og sparede virksomheden 10.000 $ pr. hændelse.",
-        "Jeg byggede microservices (pdf-generering, cutlines, templates m.m.) til Forge-batching-applikationer, øgede kapaciteten og forbedrede workflowet med 50%."
+        "Product Intelligence Agent — Text2SQL-chatapplikation over ordrer, klager og produkter med et LangGraph-feedbackloop, der selvretter SQL-fejl; reducerede ad-hoc-forespørgsler til datateamet med ~25%.",
+        "Watchdog Agent — lagt oven på den samme produktlogik for proaktivt at markere nye problemer som papirmangel, materialealternativer, spild og leveringsforsinkelser.",
+        "Forge Module — produktionsmicroservices (PDF-generering, cutlines, template mapping) på RabbitMQ med Celery-workers, hvilket løftede throughput med ~50%.",
+        "Mnesia DB Viewer — full-stack-værktøj (Python subprocess) med Erlang OTP-cluster-værktøjer til datakorrektion og gendannelse, hvilket sparede ~$10K pr. produktionshændelse."
       ]
     },
     {
       "id": "exp-3",
-      "roleOrDegree": "Junior full stack-ingeniør",
-      "organization": "Creditsafe",
-      "period": "feb. 2024 - okt. 2021",
+      "roleOrDegree": "Jr. Full Stack-ingeniør",
+      "organization": "Creditsafe Technology",
+      "period": "okt. 2021 – feb. 2024",
       "description": [
-        "Nøglebidragyder til at migrere Ledger Insights fra ældre .NET til en moderne Python-, React-, AWS- og PostgreSQL-stack.",
-        "Jeg byggede kritiske microservices og skalerbare UI-komponenter og understøttede B2B-aftaler til 500.000 $.",
-        "Jeg byggede et Data Editing Tool til governance-teams og forbedrede datakvaliteten fra 88% til 98%."
+        "Drev migreringen af Ledger Insights fra ældre .NET til Python, React, AWS og PostgreSQL, hvilket forbedrede oplevelsen og løftede kundefastholdelsen med ~35%.",
+        "Skalerede premium-features (AR Requests, CFO Reports, trade groups, Combined Experience), der understøttede B2B-aftaler til en værdi af ~$150K.",
+        "Byggede et data-redigeringsværktøj brugt på tværs af entiteter, hvilket løftede virksomhedsdatakvaliteten fra ~85% til ~95%."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "React",
+        "JavaScript",
+        "PostgreSQL",
+        "ECS",
+        "S3",
+        "Terraform",
+        "Azure Pipelines",
+        ".NET",
+        "Jinja"
+      ],
       "roleAndResponsibilities": [
-        "Jeg samarbejdede på tværs af engineering og produkt om at levere skalerbare, produktionsklare løsninger.",
-        "Jeg drev proaktivt kodekvalitet, performance og sikkerhed via code reviews, pair programming og vidensdeling.",
-        "Jeg vedligeholdt teknisk dokumentation og arkitektur-wikis for at styrke alignment og vidensdeling."
+        "Arbejdede på tværs af backend-services og React-sider, mens platformen gik fra .NET til en moderne Python- og AWS-stack.",
+        "Forbedrede kodekvalitet og performance gennem reviews, pair programming og vidensdeling.",
+        "Vedligeholdt teknisk dokumentation og arkitektur-noter for at holde teamet aligned."
       ],
       "projectHighlights": [
-        "Jeg spillede en nøglerolle i migreringen af Ledger Insights fra ældre .NET til en moderne stack (Python, React, AWS, Postgres).",
-        "Jeg udviklede kritiske microservices (AR Requests, CFO-rapporter, Combined Experience m.m.) sammen med skalerbare frontend-komponenter og sider, som hjalp med at sikre B2B-aftaler til 500.000 $.",
-        "Jeg udviklede et Data Editing Tool til datagovernance-teams i alle entiteter for at rette ukorrekte og redundante virksomhedsdata (datakvalitet fra 88% til 98%)."
+        "Ledger Insights — end-to-end-bidrag til migreringen af platformen fra ældre .NET til Python, React, AWS og PostgreSQL, hvilket forbedrede UX og løftede kundefastholdelsen med ~35%.",
+        "Premium-features — AR Requests, CFO Reports, trade groups og Combined Experience på tværs af backend-services og React-sider, hvilket understøttede B2B-aftaler til en værdi af ~$150K.",
+        "Global Data Editing Tool — Flask-applikation brugt på tværs af entiteter til at rette unøjagtige og redundante virksomhedsdata, hvilket løftede datakvaliteten fra ~85% til ~95%.",
+        "US customer data APIs — REST-endpoints over forretningsudgifter, handelsbetalinger og tilgodehavender med autorisationsworkflows, der skubber reviderede poster tilbage til produktionsdatabaser."
       ]
     }
   ]

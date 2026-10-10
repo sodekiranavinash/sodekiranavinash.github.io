@@ -1,7 +1,8 @@
 {
   "section": {
+    "eyebrow": "Karriärtidslinje",
     "heading": "Yrkeserfarenhet",
-    "description": "En kompakt översikt över de team jag har hjälpt till att bygga, de produkter jag har levererat och de mätbara resultat jag har skapat.",
+    "description": "En kompakt översikt över de team jag har hjälpt till att bygga, de produkter jag har levererat och de mätbara resultat jag har uppnått.",
     "readMore": "Läs mer",
     "close": "Stäng",
     "roleAndResponsibilities": "Roll och ansvar",
@@ -10,69 +11,113 @@
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Engineer II",
-      "organization": "S&P Energy",
-      "period": "mar 2025 - nu",
+      "roleOrDegree": "Engineer II, Forward Deployed (AI)",
+      "organization": "S&P Global — Commodity Insights (Energy)",
+      "period": "mar 2025 – nu",
       "description": [
-        "Jag utvecklar för närvarande en sales intelligence-plattform med LLM-drivna innehållsflöden.",
-        "Jag utvecklade Rapid- och Chat AI MCP-servrar som leveransmetod för strukturerad och ostrukturerad data till kunder.",
-        "Jag migrerade äldre manifest-applikationer till Helm och uppgraderade proaktivt Kubernetes-komponenter för att minska image-sårbarheter."
+        "Forward-deployed teknisk ledare för ett team på 4 inom Pitch Intel, Chat AI, RAPID och MCP Playground — ansvarar för discovery, arkitektur och leverans, inbäddad med affärs- och ingenjörsteam.",
+        "Pitch Intel, en agentisk säljintelligensplattform, kortade förberedelsen av pitch-rapporter från ~3 dagar till ~30 minuter.",
+        "Chat AI MCP-server antagen av 200+ kunder; RAPID omvandlade 300+ API:er till en enda MCP-verktygslåda och lyfte LLM:ens API-valsnoggrannhet från ~85% till 95%+."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "FastMCP",
+        "OpenSearch",
+        "pgvector",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Kong API Gateway",
+        "S3",
+        "LangSmith"
+      ],
       "roleAndResponsibilities": [
-        "Jag arbetade som Forward Deployed Engineer och samarbetade med team för att ta AI-lösningar från POC till produktion.",
-        "Jag ägde produkter end-to-end över design, utveckling, test och deployment.",
-        "Jag drev säkerhetsförbättringar genom att integrera Mend, Fortify, SonarQube, secret scanning och Claude-skanningar."
+        "Leder ett forward-deployed team på 4 ingenjörer, inbäddat med affärs- och ingenjörsteam, över agent-, API- och UI-lagren.",
+        "Driver teknisk discovery och lösningsscoping med sälj-, kommersiell prissättnings- och produktteam och äger sedan bygget genom produktionsreleaser.",
+        "Driver exekutiva demos för tekniska arkitekter och tower heads, mentorerar ingenjörer och äger plattformsleverans för 15+ mikrotjänster inklusive Helm-paketering, Kubernetes-uppgraderingar, säkerhetshärdning och produktionsreleaser."
       ],
       "projectHighlights": [
-        "Jag utvecklar för närvarande en sales intelligence-plattform för commercial-teamet som levererar pitches som text, infografik, HTML, PDF, PPT m.m. utifrån offentlig information, proprietär data och historik, vilket minskar säljteamets arbete med 50%.",
-        "Jag ledde utvecklingen av Chat AI MCP Server byggd ovanpå spgci pysdk-biblioteket; data hämtas genom att köra kod skriven av LLM-klienter (MS Copilot, Claude, Databricks m.m.).",
-        "Jag ledde utvecklingen av RAPID MCP Server byggd ovanpå Rapid API-manifestet; data levereras genom att köra faktiska API:er med frågor formade av LLM-klienter och används nu brett i interna AI-applikationer.",
-        "Som en del av API Platform-teamet konverterade jag gamla manifest-applikationer till Helm, uppgraderade proaktivt Kubernetes-komponenter (OTel, Data Prepper, Jaeger m.m.) för att minimera image-sårbarheter och drev flera produktionsreleaser."
+        "Pitch Intel — agentisk säljintelligensplattform med en drag-and-drop-workflowbyggare, ett delat agentgalleri med RBAC och researchbaserade rapporter levererade som infografik, HTML, PDF och PowerPoint.",
+        "Chat AI MCP Server — kundvänd MCP-server som exponerar SPGCI Python SDK, antagen av 200+ kunder inom MS Copilot, Claude och Databricks; LLM-genererad kodexekvering för strukturerad data och AIRD-API:er för ostrukturerad data kortade SME-granskningens cykeltid med 90% genom att återanvända den befintliga hämtningsvägen.",
+        "RAPID MCP Server — 300+ API:er bakom fyra verktyg (instructions, search, metadata, execute) utan ändringar i mikrotjänster, vilket sparade hundratals ingenjörstimmar; search-and-rerank-discovery tog API-valsnoggrannheten från ~85% till 95%+.",
+        "Utvärderingspipelines — publika distribuerade traces, golden datasets, annoteringsköer och LLM-as-a-judge-ramverk via LangSmith API:et, vilket förbättrade observerbarheten och fångade SME-poäng direkt i plattformen.",
+        "MCP Playground — initierat och nu använt av 5+ ingenjörsteam för att testa servrar mot flera modeller med riktiga frågor, plus ett konsistensramverk som jämför tool calls och argument över upprepade körningar och poängsätter release-konfidens.",
+        "API Platform — flyttade 15+ mikrotjänster från råa Kubernetes-manifest till Helm-charts (~25% mindre friktion på deploy-dagen), åtgärdade kritiska sårbarheter, rensade hårdkodade secrets ur git-historiken i 10 repositories och instrumenterade OpenSearch-dashboards över klusterhändelser och -mätvärden."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "roleOrDegree": "Consultant, Forward Deployed — client: Shutterfly LLC, USA",
       "organization": "Genpact",
-      "period": "mar 2025 - feb 2024",
+      "period": "feb 2024 – mar 2025",
       "description": [
-        "Jag byggde en Text2SQL AI-agent för kunddataanalys som förbättrade effektiviteten och minskade beroendet av datateamet med 25%.",
-        "Jag byggde ett Mnesia DB-hanteringssystem för datakorrigering och återställning, vilket sparade 10 000 dollar per incident.",
-        "Jag byggde mikrotjänster för Forge-batchingapplikationer, ökade press-batchingkapaciteten och förbättrade workflowet med 50%."
+        "Byggde en Text2SQL-chattapp så att produktteamet kunde fråga efter ordrar, klagomål och produkter i naturligt språk, vilket minskade ad hoc-förfrågningar till datateamet med ~25%.",
+        "Utökade den med en watchdog-agent som proaktivt lyfter fram nya problem — pappersbrist, materialalternativ, spill och förseningar.",
+        "Ersatte äldre Forge-system med RabbitMQ + Celery-mikrotjänster, vilket lyfte genomströmningen ~50%."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "Oracle DB",
+        "Azure OpenAI",
+        "EC2",
+        "S3",
+        "Erlang OTP",
+        "RabbitMQ",
+        "Celery",
+        "Jenkins"
+      ],
       "roleAndResponsibilities": [
-        "Jag ledde ett team på 3 utvecklare inom modernisering av kodbasen, molnbaserade lösningar och GenAI-initiativ.",
-        "Jag banade väg för produktionsadoption av GenAI-initiativ, bortom POC:er.",
-        "Jag delade PagerDuty-ansvar och hanterade on-call-rotationer för produktionssupport."
+        "Levererade GenAI- och moderniseringsarbete för en amerikansk kund från discovery till produktionssupport.",
+        "Ägde on-call-rotationer och höll kundens system igång genom toppar i säsongsbelastning.",
+        "Arbetade direkt med kundens produkt- och ingenjörsintressenter för att översätta affärsbehov till levererade funktioner."
       ],
       "projectHighlights": [
-        "Jag utvecklade en Text2SQL AI-agent för att fråga och analysera kunddata som orderhistorik, klagomål och produkttyper, vilket förbättrade effektiviteten och minskade beroendet av datateam med 25%.",
-        "Jag utvecklade ett databashanteringssystem för Mnesia DB som hjälpte till med korrigering och återställning vid dålig upstream asset- eller orderdata och sparade företaget 10 000 dollar per incident.",
-        "Jag byggde mikrotjänster (pdf-generering, cutlines, mallar m.m.) för Forge-batchingapplikationer, ökade kapaciteten och förbättrade workflowet med 50%."
+        "Product Intelligence Agent — Text2SQL-chattapplikation över ordrar, klagomål och produkter, med en LangGraph-feedbackloop som självkorrigerar SQL-fel; minskade ad hoc-förfrågningar till datateamet med ~25%.",
+        "Watchdog Agent — byggd ovanpå samma produktlogik för att proaktivt flagga nya problem som pappersbrist, materialalternativ, spill och leveransförseningar.",
+        "Forge Module — produktionsmikrotjänster (PDF-generering, cutlines, mallmappning) på RabbitMQ med Celery-workers, vilket lyfte genomströmningen ~50%.",
+        "Mnesia DB Viewer — fullstack-verktyg (Python-subprocess) med Erlang OTP-klusterverktyg för datakorrigering och återställning, vilket sparade ~$10K per produktionsincident."
       ]
     },
     {
       "id": "exp-3",
       "roleOrDegree": "Junior full stack-ingenjör",
-      "organization": "Creditsafe",
-      "period": "feb 2024 - okt 2021",
+      "organization": "Creditsafe Technology",
+      "period": "okt 2021 – feb 2024",
       "description": [
-        "Nyckelbidrag till att migrera Ledger Insights från äldre .NET till en modern Python-, React-, AWS- och PostgreSQL-stack.",
-        "Jag byggde kritiska mikrotjänster och skalbara UI-komponenter och stöttade B2B-affärer värda 500 000 dollar.",
-        "Jag byggde ett Data Editing Tool för governance-team och förbättrade datakvaliteten från 88% till 98%."
+        "Drev migreringen av Ledger Insights från äldre .NET till Python, React, AWS och PostgreSQL, vilket förbättrade upplevelsen och lyfte kundretentionen ~35%.",
+        "Skalade premiumfunktioner (AR Requests, CFO Reports, trade groups, Combined Experience) som stöttade B2B-affärer värda ~$150K.",
+        "Byggde ett dataredigeringsverktyg som användes över entiteter och höjde företagets datakvalitet från ~85% till ~95%."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "React",
+        "JavaScript",
+        "PostgreSQL",
+        "ECS",
+        "S3",
+        "Terraform",
+        "Azure Pipelines",
+        ".NET",
+        "Jinja"
+      ],
       "roleAndResponsibilities": [
-        "Jag samarbetade med engineering- och produktteam för att leverera skalbara, produktionsklara lösningar.",
-        "Jag drev proaktivt kodkvalitet, prestanda och säkerhet via code reviews, parprogrammering och kunskapsdelning.",
-        "Jag underhöll teknisk dokumentation och arkitekturwikis för att förbättra alignment och kunskapsdelning."
+        "Arbetade över backend-tjänster och React-sidor när plattformen gick från .NET till en modern Python- och AWS-stack.",
+        "Förbättrade kodkvalitet och prestanda genom reviews, parprogrammering och kunskapsdelning.",
+        "Underhöll teknisk dokumentation och arkitekturnoter för att hålla teamet samlat."
       ],
       "projectHighlights": [
-        "Jag spelade en nyckelroll i migreringen av Ledger Insights från äldre .NET till en modern stack (Python, React, AWS, Postgres).",
-        "Jag utvecklade kritiska mikrotjänster (AR Requests, CFO-rapporter, Combined Experience m.m.) tillsammans med skalbara frontendkomponenter och sidor, vilket hjälpte till att säkra B2B-affärer värda 500 000 dollar.",
-        "Jag utvecklade ett Data Editing Tool för datagovernance-team i alla entiteter för att rätta felaktig och redundant företagsdata (datakvalitet från 88% till 98%)."
+        "Ledger Insights — end-to-end-bidrag till migreringen av plattformen från äldre .NET till Python, React, AWS och PostgreSQL, vilket förbättrade UX och lyfte kundretentionen ~35%.",
+        "Premiumfunktioner — AR Requests, CFO Reports, trade groups och Combined Experience över backend-tjänster och React-sidor, vilket stöttade B2B-affärer värda ~$150K.",
+        "Global Data Editing Tool — Flask-applikation som användes över entiteter för att rätta felaktig och redundant företagsdata, vilket höjde datakvaliteten från ~85% till ~95%.",
+        "US customer data APIs — REST-endpoints över affärsutgifter, handelsbetalningar och kundfordringar, med auktoriseringsflöden som skickar granskade poster tillbaka till produktionsdatabaserna."
       ]
     }
   ]

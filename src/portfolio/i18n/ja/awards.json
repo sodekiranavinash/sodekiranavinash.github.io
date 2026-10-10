@@ -1,0 +1,27 @@
+{
+  "section": {
+    "eyebrow": "表彰",
+    "heading": "受賞歴",
+    "description": "私が共に築いたチームやクライアントに成果を認められた、いくつかの瞬間。"
+  },
+  "items": [
+    {
+      "id": "award-1",
+      "title": "表彰プログラム",
+      "issuer": "S&P Global Energy",
+      "year": "2026"
+    },
+    {
+      "id": "award-2",
+      "title": "優秀貢献賞",
+      "issuer": "Genpact",
+      "year": "2024"
+    },
+    {
+      "id": "award-3",
+      "title": "エクストラマイル賞",
+      "issuer": "Creditsafe Technology",
+      "year": "2023"
+    }
+  ]
+}

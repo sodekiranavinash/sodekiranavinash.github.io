@@ -2,7 +2,7 @@
   "hero": {
     "welcome": "Bienvenue dans mon espace de travail",
     "greeting": "Bonjour, je suis",
-    "subtitle": "Ingénieur IA | FDE",
+    "subtitle": "Ingénieur IA appliquée — IA agentique · MCP · RAG · AWS",
     "description": "IA agentique, serveurs MCP et RAG — du prototype à la production sur AWS et Kubernetes.",
     "availability": "Hyderabad, Inde · Ouvert à la relocalisation",
     "downloadCv": "Télécharger le CV",
@@ -23,9 +23,9 @@
     "experienceText": "Expérience professionnelle"
   },
   "name": "Kiran Avinash Sode",
-  "title": "Ingénieur IA | Forward Deployed Engineer",
+  "title": "Ingénieur IA appliquée | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Je suis un ingénieur IA et Forward Deployed Engineer (FDE) avec 5 ans d'expérience dans le déploiement de systèmes GenAI et full-stack du POC à la production. Je m'intègre aux équipes produit, ventes et ingénierie pour transformer des besoins ambigus en prototypes fonctionnels — puis je renforce les workflows LLM et la plateforme Kubernetes et serverless AWS sous-jacente pour une véritable production."
+    "Je suis ingénieur IA appliquée et Forward Deployed Engineer (FDE), avec 5 ans d'expérience en ingénierie logicielle — dont les 2+ dernières en forward-deployed — à concevoir de bout en bout des applications GenAI et full-stack de production. Je m'intègre aux équipes ventes, métiers et data pour livrer des produits d'IA d'entreprise du POC au déploiement, à l'évaluation et à l'itération, en renforçant les workflows LLM et les plateformes Kubernetes et serverless AWS sous-jacentes. Solide en IA agentique, MCP, RAG et évaluation de LLM."
   ],
   "metrics": [
     {

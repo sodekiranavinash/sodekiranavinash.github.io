@@ -2,10 +2,10 @@
   "hero": {
     "welcome": "Bine ați venit în spațiul meu de lucru",
     "greeting": "Bună, sunt",
-    "subtitle": "Inginer IA | FDE",
+    "subtitle": "Inginer IA aplicată — IA agentică · MCP · RAG · AWS",
     "description": "IA agentică, servere MCP și RAG — de la prototip la producție pe AWS și Kubernetes.",
     "availability": "Hyderabad, India · Deschis pentru relocare",
-    "downloadCv": "Descărcați CV",
+    "downloadCv": "Descărcați CV-ul",
     "tryOneAgent": "Încercați One Agent",
     "tryOneAgentUrl": "https://www.get1agent.com/",
     "scrollDown": "Derulați în jos"
@@ -23,9 +23,9 @@
     "experienceText": "Experiență profesională"
   },
   "name": "Kiran Avinash Sode",
-  "title": "Inginer IA | Forward Deployed Engineer",
+  "title": "Inginer IA aplicată | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Sunt un inginer IA și Forward Deployed Engineer (FDE) cu 5 ani de experiență în livrarea sistemelor GenAI și full-stack de la POC la producție. Mă integrez cu echipele de produs, vânzări și inginerie pentru a transforma nevoile ambigue în prototipuri funcționale — apoi întăresc fluxurile LLM și platforma Kubernetes și serverless AWS subiacentă pentru producție reală."
+    "Sunt inginer IA aplicată și Forward Deployed Engineer (FDE) cu 5 ani în ingineria software — ultimii 2+ în forward-deployed — construind de la cap la coadă aplicații de IA generativă și full-stack pentru producție. Mă integrez cu echipele de vânzări, business și date pentru a livra produse de IA pentru întreprinderi din faza de proof-of-concept până la deployment, evaluare și iterație, consolidând fluxurile LLM și platformele Kubernetes și serverless AWS de dedesubt. Solid în IA agentică, MCP, RAG și evaluarea LLM."
   ],
   "metrics": [
     {
@@ -41,7 +41,7 @@
     {
       "label": "Produse IA livrate",
       "value": "5+",
-      "description": "Agenti, servere MCP & RAG"
+      "description": "Agenți, servere MCP & RAG"
     }
   ],
   "socialLinks": [
@@ -59,6 +59,6 @@
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "Email",
   "connect": {
-    "text": "Bază în Hyderabad, India — deschis pentru relocare (Țările de Jos, Japonia) și muncă la distanță globală. Mereu bucuros să discut despre produse IA, platforme de agenți sau roluri FDE."
+    "text": "Bazat în Hyderabad, India — deschis pentru relocare (Țările de Jos, Japonia) și pentru muncă la distanță globală. Mereu bucuros să discut despre produse IA, platforme de agenți sau roluri FDE."
   }
 }

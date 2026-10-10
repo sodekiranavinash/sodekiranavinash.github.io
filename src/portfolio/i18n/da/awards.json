@@ -1,0 +1,27 @@
+{
+  "section": {
+    "eyebrow": "Anerkendelse",
+    "heading": "Priser & anerkendelse",
+    "description": "Et par øjeblikke, hvor arbejdet blev anerkendt af de teams og kunder, jeg byggede det sammen med."
+  },
+  "items": [
+    {
+      "id": "award-1",
+      "title": "Anerkendelsesprogram",
+      "issuer": "S&P Global Energy",
+      "year": "2026"
+    },
+    {
+      "id": "award-2",
+      "title": "Fremragende bidrag",
+      "issuer": "Genpact",
+      "year": "2024"
+    },
+    {
+      "id": "award-3",
+      "title": "Prisen for den ekstra indsats",
+      "issuer": "Creditsafe Technology",
+      "year": "2023"
+    }
+  ]
+}

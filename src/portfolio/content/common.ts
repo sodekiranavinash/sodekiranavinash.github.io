@@ -7,6 +7,7 @@ export interface CommonContent {
     about: string;
     experience: string;
     projects: string;
+    awards: string;
     recommendations: string;
     skills: string;
   };

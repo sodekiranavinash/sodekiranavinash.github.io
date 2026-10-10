@@ -11,42 +11,46 @@
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Engineer II (AI)",
+      "roleOrDegree": "Engineer II, Forward Deployed (AI)",
       "organization": "S&P Global — Commodity Insights (Energy)",
       "period": "Mar 2025 – Present",
       "description": [
-        "Forward-deployed lead for a team of 4 across Pitch Intel, Chat AI, RAPID and MCP Playground — owning discovery, architecture and delivery, embedded with business and engineering.",
+        "Forward-deployed technical lead for a team of 4 across Pitch Intel, Chat AI, RAPID and the MCP Playground — owning discovery, architecture and delivery, embedded with business and engineering.",
         "Pitch Intel, an agentic sales-intelligence platform, cut pitch-report preparation from ~3 days to ~30 minutes.",
-        "Chat AI MCP server adopted by 100+ customers; RAPID turned 300+ APIs into one MCP toolset and lifted LLM API-selection accuracy from ~85% to 95%+."
+        "Chat AI MCP server adopted by 200+ customers; RAPID turned 300+ APIs into one MCP toolset and lifted LLM API-selection accuracy from ~85% to 95%+."
       ],
       "tags": [
+        "Python",
+        "LangChain",
         "LangGraph",
         "FastMCP",
         "OpenSearch",
+        "pgvector",
         "FastAPI",
         "React",
         "PostgreSQL",
         "Kubernetes",
         "Kong API Gateway",
-        "AWS",
+        "S3",
         "LangSmith"
       ],
       "roleAndResponsibilities": [
         "Lead a forward-deployed team of 4 engineers, embedded with business and engineering, across the agent, API and UI layers.",
-        "Run technical discovery and solution scoping with sales, commercial-pricing and product teams, then own the build through production.",
-        "Own platform delivery for 15+ microservices, including Helm packaging, Kubernetes upgrades, security hardening and production releases."
+        "Run technical discovery and solution scoping with sales, commercial-pricing and product teams, then own the build through production releases.",
+        "Drive executive demos to technical architects and tower heads, mentor engineers, and own platform delivery for 15+ microservices including Helm packaging, Kubernetes upgrades, security hardening and production releases."
       ],
       "projectHighlights": [
         "Pitch Intel — agentic sales-intelligence platform with a drag-and-drop workflow builder, a shared agent gallery with RBAC, and research-backed reports delivered as infographics, HTML, PDF and PowerPoint.",
-        "Chat AI MCP Server — customer-facing MCP server exposing the SPGCI Python SDK, adopted by 100+ customers across MS Copilot, Claude and Databricks; LLM-generated code execution for structured data and AIRD APIs for unstructured data kept answer parity without SME review cycles.",
+        "Chat AI MCP Server — customer-facing MCP server exposing the SPGCI Python SDK, adopted by 200+ customers across MS Copilot, Claude and Databricks; LLM-generated code execution for structured data and AIRD APIs for unstructured data cut SME review cycle time by 90% by reusing the existing retrieval path.",
         "RAPID MCP Server — 300+ APIs behind four tools (instructions, search, metadata, execute) with no microservice changes, saving hundreds of engineering hours; search-and-rerank discovery took API selection accuracy from ~85% to 95%+.",
-        "MCP Playground — initiated and now used by 10+ teams to test servers against multiple models with real queries, plus a consistency framework that compares tool calls and arguments across repeated runs and scores release confidence.",
+        "Evaluation pipelines — public distributed traces, golden datasets, annotation queues and LLM-as-a-judge frameworks via the LangSmith API, enhancing observability and capturing SME scores directly within the platform.",
+        "MCP Playground — initiated and now used by 5+ engineering teams to test servers against multiple models with real queries, plus a consistency framework that compares tool calls and arguments across repeated runs and scores release confidence.",
         "API Platform — moved 15+ microservices from raw Kubernetes manifests to Helm charts (~25% less deploy-day friction), fixed critical vulnerabilities, purged hardcoded secrets from git history across 10 repositories, and instrumented OpenSearch dashboards over cluster events and metrics."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant — client: Shutterfly, USA",
+      "roleOrDegree": "Consultant, Forward Deployed — client: Shutterfly LLC, USA",
       "organization": "Genpact",
       "period": "Feb 2024 – Mar 2025",
       "description": [
@@ -55,12 +59,15 @@
         "Replaced legacy Forge systems with RabbitMQ + Celery microservices, lifting throughput ~50%."
       ],
       "tags": [
+        "Python",
         "LangGraph",
         "FastAPI",
         "React",
         "Oracle DB",
         "Azure OpenAI",
         "EC2",
+        "S3",
+        "Erlang OTP",
         "RabbitMQ",
         "Celery",
         "Jenkins"
@@ -88,14 +95,18 @@
         "Built a data-editing tool used across entities, raising company data quality from ~85% to ~95%."
       ],
       "tags": [
+        "Python",
         "FastAPI",
         "Flask",
         "React",
+        "JavaScript",
         "PostgreSQL",
         "ECS",
         "S3",
         "Terraform",
-        "Azure Pipelines"
+        "Azure Pipelines",
+        ".NET",
+        "Jinja"
       ],
       "roleAndResponsibilities": [
         "Worked across backend services and React pages as the platform moved from .NET to a modern Python and AWS stack.",

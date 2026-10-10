@@ -3,6 +3,7 @@ import { About } from '../sections/about/About';
 import { Skills } from '../sections/skills/Skills';
 import { Experience } from '../sections/experience/Experience';
 import { Projects } from '../sections/projects/Projects';
+import { Awards } from '../sections/awards/Awards';
 import { Recommendations } from '../sections/recommendations/Recommendations';
 
 export const Home: React.FC = () => {
@@ -12,6 +13,7 @@ export const Home: React.FC = () => {
       <Skills />
       <Experience />
       <Projects />
+      <Awards />
       <Recommendations />
     </>
   );

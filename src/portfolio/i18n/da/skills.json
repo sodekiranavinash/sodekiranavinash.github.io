@@ -2,121 +2,60 @@
   "section": {
     "eyebrow": "Kernestyrker",
     "heading": "Kompetencer og ekspertise",
-    "description": "De værktøjer, platforme og discipliner, jeg bruger til at levere gennemarbejdede, produktionsklare oplevelser."
+    "description": "De stacks, jeg griber efter inden for agentisk AI, full-stack-levering og cloud-platformengineering."
   },
   "categories": [
     {
-      "categoryName": "AI",
+      "categoryName": "AI & agentisk",
       "skills": [
-        {
-          "name": "Prompt Engineering"
-        },
-        {
-          "name": "RAG"
-        },
-        {
-          "name": "A2A Communication"
-        },
-        {
-          "name": "Multi-Agent Systems"
-        },
-        {
-          "name": "MCP"
-        },
-        {
-          "name": "AI Evaluation"
-        },
-        {
-          "name": "Lang Chain"
-        },
-        {
-          "name": "Langraph"
-        },
-        {
-          "name": "OpenSearch Vector DB"
-        }
+        { "name": "Agentisk AI" },
+        { "name": "Agent-harnesses" },
+        { "name": "Multi-agent-orkestrering" },
+        { "name": "LangChain / LangGraph" },
+        { "name": "Strands" },
+        { "name": "Tool calling" },
+        { "name": "MCP-servere & -klienter" },
+        { "name": "OAuth 2.0" },
+        { "name": "RAG (hybrid søgning, reranking)" },
+        { "name": "Embeddings" },
+        { "name": "Vektorsøgning" },
+        { "name": "pgvector" },
+        { "name": "OpenSearch Vector DB" },
+        { "name": "Prompt- & kontekst-engineering" },
+        { "name": "Evaluering & guardrails" },
+        { "name": "LLM-judges (Ragas)" },
+        { "name": "LangSmith" }
       ]
     },
     {
       "categoryName": "Full stack",
       "skills": [
-        {
-          "name": "FastAPI"
-        },
-        {
-          "name": "React JS"
-        },
-        {
-          "name": "Python"
-        },
-        {
-          "name": "JavaScript"
-        },
-        {
-          "name": "TypeScript"
-        },
-        {
-          "name": "SQL"
-        },
-        {
-          "name": "PostgreSQL"
-        },
-        {
-          "name": "Oracle DB"
-        },
-        {
-          "name": "MariaDB"
-        },
-        {
-          "name": "Flask MVT"
-        },
-        {
-          "name": "Golang(basics)"
-        },
-        {
-          "name": ".NET(basics)"
-        }
+        { "name": "Python (FastAPI, Flask)" },
+        { "name": "React (TypeScript)" },
+        { "name": "JavaScript" },
+        { "name": "REST API'er" },
+        { "name": "PostgreSQL" },
+        { "name": "Oracle DB" },
+        { "name": "SQLAlchemy" },
+        { "name": "RabbitMQ" },
+        { "name": "Celery" },
+        { "name": "Docker" }
       ]
     },
     {
-      "categoryName": "Cloud og infra",
+      "categoryName": "Cloud & platform",
       "skills": [
-        {
-          "name": "AWS - EC2, ECS, EKS, Lambda, S3, RDS, SES, etc"
-        },
-        {
-          "name": "Kubernetes"
-        },
-        {
-          "name": "Open Search"
-        },
-        {
-          "name": "Helm"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "Jenkins"
-        },
-        {
-          "name": "Ansible"
-        },
-        {
-          "name": "Kong API Gateway"
-        },
-        {
-          "name": "Open Telemetry"
-        },
-        {
-          "name": "Jaeger"
-        },
-        {
-          "name": "Goldilocks"
-        },
-        {
-          "name": "Grafana"
-        }
+        { "name": "AWS - Lambda, ECS, Bedrock, AgentCore" },
+        { "name": "API Gateway & Step Functions" },
+        { "name": "SQS, EventBridge, S3 Vectors" },
+        { "name": "DynamoDB" },
+        { "name": "Kubernetes" },
+        { "name": "Helm" },
+        { "name": "Kong API Gateway" },
+        { "name": "Terraform" },
+        { "name": "CI/CD (GitHub Actions, Jenkins)" },
+        { "name": "Observability (OpenTelemetry, CloudWatch)" },
+        { "name": "KMS" }
       ]
     }
   ]

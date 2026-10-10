@@ -17,7 +17,8 @@
   "personal": [
     {
       "id": "personal-1",
-      "title": "get1agent",
+      "title": "One Agent",
+      "company": "get1agent.com",
       "category": "personal",
       "summary": "A fully serverless, multi-tenant AWS platform for building, running and sharing agents, MCP tools and RAG pipelines. Ships an AI-assisted MCP server builder, an evaluation lab with LLM judges and annotation queues, Bedrock Guardrails, an agent marketplace and a skills catalog.",
       "bullets": [
@@ -51,9 +52,11 @@
         "S3 Vectors",
         "DynamoDB",
         "RAG (hybrid search, RRF, reranking)",
+        "Code interpreter",
         "OpenTelemetry",
         "React",
-        "GitHub Actions"
+        "GitHub Actions",
+        "Terraform"
       ],
       "liveUrl": "https://www.get1agent.com/",
       "sourceUrl": "https://github.com/sodekiranavinash/get1agent",
@@ -106,17 +109,17 @@
       "title": "Chat AI MCP Server",
       "company": "S&P Global",
       "category": "professional",
-      "summary": "Customer-facing MCP server exposing the SPGCI Python SDK for structured and unstructured data. Adopted by 100+ customers across MS Copilot, Claude and Databricks, with no repeated SME review cycles.",
+      "summary": "Customer-facing MCP server exposing the SPGCI Python SDK for structured and unstructured data. Adopted by 200+ customers across MS Copilot, Claude and Databricks, cutting SME review cycle time by 90% by reusing the existing retrieval path.",
       "bullets": [
-        "Adopted by 100+ customers across MS Copilot, Claude and Databricks.",
+        "Adopted by 200+ customers across MS Copilot, Claude and Databricks.",
         "Executes LLM-generated SDK code for structured data and AIRD APIs for unstructured data.",
-        "Reused core Chat AI prompts for answer parity — no repeated SME review cycles."
+        "Cut SME review cycle time by 90% by reusing the existing retrieval path."
       ],
       "caseStudy": "The business wanted to offer MCP as a service to customers without losing the accuracy and reliability of the existing Chat AI product, and without repeating SME evaluation for every new tool.",
       "fullDetails": [
         "Five MCP tools covering structured and unstructured retrieval for the customer-facing Chat AI team.",
         "LLM-generated code execution in an isolated sandbox (AgentCore Code Interpreter) for structured data.",
-        "AIRD (AI-Ready Data) APIs for unstructured data, reusing the team's core prompts for answer parity.",
+        "AIRD (AI-Ready Data) APIs for unstructured data, reusing the team's core prompts and retrieval path for answer parity — cutting SME review cycle time by 90%.",
         "URL parameters and environment variables make it easy to onboard additional datasets."
       ],
       "topSkills": [
@@ -178,9 +181,9 @@
       "title": "MCP Playground",
       "company": "S&P Global",
       "category": "professional",
-      "summary": "Playground for testing MCP servers against multiple models with real queries before production. Now used by 10+ teams, with a consistency framework that scores release confidence.",
+      "summary": "Playground for testing MCP servers against multiple models with real queries before production. Now used by 5+ engineering teams, with a consistency framework that scores release confidence.",
       "bullets": [
-        "Used by 10+ teams to validate servers against multiple models.",
+        "Used by 5+ engineering teams to validate servers against multiple models.",
         "Streams tool-call events live so teams can see exactly what the model did.",
         "Consistency framework compares tool calls and arguments across repeated runs."
       ],

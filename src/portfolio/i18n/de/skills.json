@@ -11,16 +11,20 @@
         { "name": "Agentische KI" },
         { "name": "Agent-Harnesses" },
         { "name": "Multi-Agent-Orchestrierung" },
-        { "name": "LangGraph / LangChain" },
-        { "name": "RAG (hybride Suche, Reranking)" },
-        { "name": "Vektorsuche" },
+        { "name": "LangChain / LangGraph" },
+        { "name": "Strands" },
+        { "name": "Tool Calling" },
         { "name": "MCP-Server & -Clients" },
         { "name": "OAuth 2.0" },
-        { "name": "Tool Calling" },
+        { "name": "RAG (hybride Suche, Reranking)" },
+        { "name": "Embeddings" },
+        { "name": "Vektorsuche" },
+        { "name": "pgvector" },
+        { "name": "OpenSearch Vector DB" },
         { "name": "Prompt- & Kontext-Engineering" },
         { "name": "Evaluation & Guardrails" },
         { "name": "LLM-Judges (Ragas)" },
-        { "name": "OpenSearch Vector DB" }
+        { "name": "LangSmith" }
       ]
     },
     {
@@ -32,6 +36,7 @@
         { "name": "REST APIs" },
         { "name": "PostgreSQL" },
         { "name": "Oracle DB" },
+        { "name": "SQLAlchemy" },
         { "name": "RabbitMQ" },
         { "name": "Celery" },
         { "name": "Docker" }

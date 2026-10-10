@@ -1,16 +1,16 @@
 {
   "section": {
-    "eyebrow": "学歴",
+    "eyebrow": "学術背景",
     "heading": "学歴",
-    "description": "私の技術基盤とデザイン思考を形作った学歴です。"
+    "description": "私の技術基盤とデザイン思考を形作った学位とプログラム。"
   },
   "items": [
     {
       "id": "edu-1",
-      "degree": "Bachelor of Technology（B.Tech）",
-      "organization": "Jawaharlal Nehru Technological University Kakinada（JNTUK）",
-      "college": "Chaitanya Institute of Science and Technology（CIST）、Kakinada",
-      "period": "2018年 – 2021年"
+      "degree": "Bachelor of Technology (B.Tech)",
+      "organization": "Jawaharlal Nehru Technological University Kakinada (JNTUK)",
+      "college": "Chaitanya Institute of Science and Technology (CIST), Kakinada",
+      "period": "2021"
     }
   ]
 }

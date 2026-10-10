@@ -1,7 +1,8 @@
 {
   "section": {
+    "eyebrow": "Parcurs profesional",
     "heading": "Experiență profesională",
-    "description": "O privire compactă asupra echipelor pe care le-am ajutat să le construiesc, a produselor livrate și a rezultatelor măsurabile obținute.",
+    "description": "O privire compactă asupra echipelor pe care le-am ajutat să le construiască, a produselor livrate și a rezultatelor măsurabile obținute.",
     "readMore": "Citește mai mult",
     "close": "Închide",
     "roleAndResponsibilities": "Rol și responsabilități",
@@ -10,69 +11,113 @@
   "items": [
     {
       "id": "exp-1",
-      "roleOrDegree": "Engineer II",
-      "organization": "S&P Energy",
-      "period": "mar. 2025 - prezent",
+      "roleOrDegree": "Inginer II, Forward Deployed (IA)",
+      "organization": "S&P Global — Commodity Insights (Energie)",
+      "period": "mar. 2025 – Prezent",
       "description": [
-        "Dezvolt în prezent o platformă de inteligență comercială care integrează fluxuri de conținut conduse de LLM.",
-        "Am dezvoltat serverele MCP Rapid și Chat AI ca metodă de livrare a datelor structurate și nestructurate către clienți.",
-        "Am migrat aplicații manifest vechi către Helm și am actualizat proactiv componente Kubernetes ca să reduc vulnerabilitățile de imagine."
+        "Lider tehnic forward-deployed pentru o echipă de 4 persoane la Pitch Intel, Chat AI, RAPID și MCP Playground — responsabil de discovery, arhitectură și livrare, integrat cu echipele de business și inginerie.",
+        "Pitch Intel, o platformă agentică de inteligență comercială, a redus pregătirea rapoartelor de pitch de la ~3 zile la ~30 de minute.",
+        "Serverul MCP Chat AI a fost adoptat de 200+ clienți; RAPID a transformat 300+ API-uri într-un singur set de unelte MCP și a ridicat acuratețea de selecție a API-urilor de către LLM de la ~85% la 95%+."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "FastMCP",
+        "OpenSearch",
+        "pgvector",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Kong API Gateway",
+        "S3",
+        "LangSmith"
+      ],
       "roleAndResponsibilities": [
-        "Am lucrat ca Forward Deployed Engineer, în parteneriat cu echipele, ca să duc soluții AI de la POC la producție.",
-        "Am deținut produse end-to-end pe design, dezvoltare, testare și deployment.",
-        "Am împins îmbunătățiri de securitate prin integrarea Mend, Fortify, SonarQube, secret scanning și scanări Claude."
+        "Conduc o echipă forward-deployed de 4 ingineri, integrată cu echipele de business și inginerie, pe straturile de agenți, API și UI.",
+        "Realizez discovery tehnic și definirea soluției împreună cu echipele de vânzări, prețuri comerciale și produs, apoi coordonez construcția până la lansările în producție.",
+        "Susțin demonstrații pentru directori, arhitecți tehnici și șefi de turn, îndrum inginerii și răspund de livrarea platformei pentru 15+ microservicii, inclusiv ambalare Helm, upgrade-uri Kubernetes, consolidarea securității și lansări în producție."
       ],
       "projectHighlights": [
-        "Dezvolt în prezent o platformă de inteligență comercială pentru echipa comercială, care oferă pitch-uri sub formă de text, infografice, HTML, PDF, PPT etc., folosind informații publice, date proprietare și istoric, ceea ce reduce munca echipei de vânzări cu 50%.",
-        "Am condus dezvoltarea serverului MCP Chat AI, construit peste biblioteca spgci pysdk; datele sunt recuperate prin executarea de cod scris de clienți LLM (MS Copilot, Claude, Databricks etc.).",
-        "Am condus dezvoltarea serverului MCP RAPID, construit peste manifestul API-urilor Rapid; datele sunt livrate prin executarea API-urilor reale cu interogări formate de clienți LLM și acum e folosit pe scară largă în aplicațiile AI interne.",
-        "În echipa API Platform am convertit aplicații manifest vechi în aplicații Helm, am actualizat proactiv componente Kubernetes (OTel, Data Prepper, Jaeger etc.) ca să minimizez vulnerabilitățile de imagine și am condus mai multe lansări în producție."
+        "Pitch Intel — platformă agentică de inteligență comercială cu un constructor de fluxuri drag-and-drop, o galerie partajată de agenți cu RBAC și rapoarte bazate pe cercetare livrate ca infografice, HTML, PDF și PowerPoint.",
+        "Chat AI MCP Server — server MCP orientat către clienți care expune SPGCI Python SDK, adoptat de 200+ clienți prin MS Copilot, Claude și Databricks; execuția de cod generat de LLM pentru date structurate și API-urile AIRD pentru date nestructurate au redus ciclul de revizuire al experților (SME) cu 90%, reutilizând calea de recuperare existentă.",
+        "RAPID MCP Server — 300+ API-uri în spatele a patru unelte (instructions, search, metadata, execute) fără modificări la microservicii, economisind sute de ore de inginerie; discovery-ul cu căutare și reranking a dus acuratețea selecției API-urilor de la ~85% la 95%+.",
+        "Pipeline-uri de evaluare — trasări distribuite publice, seturi de date golden, cozi de adnotare și framework-uri LLM-as-a-judge prin API-ul LangSmith, îmbunătățind observabilitatea și capturând scorurile experților direct în platformă.",
+        "MCP Playground — inițiat și acum folosit de 5+ echipe de inginerie pentru a testa serverele cu mai multe modele folosind interogări reale, plus un framework de consistență care compară apelurile de unelte și argumentele între rulări repetate și punctează încrederea în lansare.",
+        "API Platform — am mutat 15+ microservicii de la manifeste Kubernetes brute la chart-uri Helm (~25% mai puțină frecare în ziua de deploy), am remediat vulnerabilități critice, am eliminat secrete hardcodate din istoricul git în 10 repository-uri și am instrumentat dashboard-uri OpenSearch peste evenimentele și metricile clusterului."
       ]
     },
     {
       "id": "exp-2",
-      "roleOrDegree": "Consultant - Shutterfly, USA",
+      "roleOrDegree": "Consultant, Forward Deployed — client: Shutterfly LLC, USA",
       "organization": "Genpact",
-      "period": "mar. 2025 - feb. 2024",
+      "period": "feb. 2024 – mar. 2025",
       "description": [
-        "Am construit un agent AI Text2SQL pentru analiza datelor clienților, îmbunătățind eficiența și reducând dependența de echipa de date cu 25%.",
-        "Am construit un sistem de management Mnesia DB pentru corectarea și recuperarea datelor, economisind 10.000 $ per incident.",
-        "Am construit microservicii pentru aplicațiile de batching Forge, crescând capacitatea de batching a presei și îmbunătățind fluxul de lucru cu 50%."
+        "Am construit o aplicație de chat Text2SQL astfel încât echipa de produs să poată interoga comenzi, reclamații și produse în limbaj natural, reducând solicitările ad-hoc către echipa de date cu ~25%.",
+        "Am extins-o cu un agent watchdog care semnalează proactiv probleme emergente — lipsa hârtiei, alternative de materiale, risipă și întârzieri.",
+        "Am înlocuit sistemele Forge vechi cu microservicii RabbitMQ + Celery, ridicând debitul cu ~50%."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "Oracle DB",
+        "Azure OpenAI",
+        "EC2",
+        "S3",
+        "Erlang OTP",
+        "RabbitMQ",
+        "Celery",
+        "Jenkins"
+      ],
       "roleAndResponsibilities": [
-        "Am condus o echipă de 3 dezvoltatori pe modernizarea codebase-ului, soluții cloud-native și inițiative GenAI.",
-        "Am pionierat adoptarea în producție a inițiativelor GenAI, dincolo de POC-uri.",
-        "Am împărțit responsabilitatea PagerDuty și am gestionat rotațiile on-call pentru suportul de producție."
+        "Am livrat lucrări de GenAI și modernizare pentru un client din SUA, de la discovery până la suportul în producție.",
+        "Am gestionat rotațiile on-call și am menținut sistemele clientului funcționale în perioadele de vârf sezonier.",
+        "Am lucrat direct cu părțile interesate din produs și inginerie ale clientului pentru a transforma nevoile de business în funcționalități livrate."
       ],
       "projectHighlights": [
-        "Am dezvoltat un agent AI Text2SQL pentru a interoga și analiza date despre clienți, cum ar fi istoricul comenzilor, reclamațiile și tipurile de produse, ceea ce a îmbunătățit eficiența și a redus dependența de echipele de date cu 25%.",
-        "Am dezvoltat un sistem de management pentru Mnesia DB care a ajutat la corectare și restaurare în cazul unor date upstream greșite de asset sau comandă, economisind 10.000 $ per incident.",
-        "Am construit microservicii (generare PDF, cutlines, template-uri etc.) pentru aplicațiile de batching Forge, crescând capacitatea și îmbunătățind fluxul de lucru cu 50%."
+        "Product Intelligence Agent — aplicație de chat Text2SQL peste comenzi, reclamații și produse, cu o buclă de feedback LangGraph care autocorectează erorile SQL; a redus solicitările ad-hoc către echipa de date cu ~25%.",
+        "Watchdog Agent — construit peste aceeași logică de produs pentru a semnala proactiv probleme emergente precum lipsa hârtiei, alternative de materiale, risipă și întârzieri de livrare.",
+        "Forge Module — microservicii de producție (generare PDF, cutlines, mapare de template-uri) pe RabbitMQ cu workeri Celery, ridicând debitul cu ~50%.",
+        "Mnesia DB Viewer — unealtă full-stack (subproces Python) cu instrumente pentru clusterul Erlang OTP pentru corectarea și restaurarea datelor, economisind ~$10K per incident de producție."
       ]
     },
     {
       "id": "exp-3",
-      "roleOrDegree": "Inginer full stack junior",
-      "organization": "Creditsafe",
-      "period": "feb. 2024 - oct. 2021",
+      "roleOrDegree": "Inginer Full Stack Junior",
+      "organization": "Creditsafe Technology",
+      "period": "oct. 2021 – feb. 2024",
       "description": [
-        "Contribuitor-cheie la migrarea Ledger Insights de la un .NET vechi la un stack modern Python, React, AWS și PostgreSQL.",
-        "Am construit microservicii critice și componente UI scalabile, susținând deal-uri B2B de 500.000 $.",
-        "Am construit un Data Editing Tool pentru echipele de guvernanță, îmbunătățind calitatea datelor de la 88% la 98%."
+        "Am condus migrarea Ledger Insights de la .NET vechi la Python, React, AWS și PostgreSQL, îmbunătățind experiența și ridicând retenția clienților cu ~35%.",
+        "Am scalat funcționalități premium (AR Requests, CFO Reports, trade groups, Combined Experience) care au susținut deal-uri B2B în valoare de ~$150K.",
+        "Am construit o unealtă de editare a datelor folosită în toate entitățile, ridicând calitatea datelor companiei de la ~85% la ~95%."
       ],
-      "tags": [],
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "React",
+        "JavaScript",
+        "PostgreSQL",
+        "ECS",
+        "S3",
+        "Terraform",
+        "Azure Pipelines",
+        ".NET",
+        "Jinja"
+      ],
       "roleAndResponsibilities": [
-        "Am colaborat cu echipele de engineering și produs ca să livrez soluții scalabile, gata de producție.",
-        "Am împins proactiv calitatea codului, performanța și securitatea prin code review, pair programming și knowledge sharing.",
-        "Am menținut documentația tehnică și wiki-urile de arhitectură ca să îmbunătățesc alinierea și partajarea cunoștințelor."
+        "Am lucrat pe servicii backend și pagini React pe măsură ce platforma a trecut de la .NET la un stack modern Python și AWS.",
+        "Am îmbunătățit calitatea codului și performanța prin review-uri, pair programming și schimb de cunoștințe.",
+        "Am întreținut documentația tehnică și notele de arhitectură pentru a menține echipa aliniată."
       ],
       "projectHighlights": [
-        "Am jucat un rol-cheie în migrarea platformei Ledger Insights de la .NET vechi la un stack modern (Python, React, AWS, Postgres).",
-        "Am dezvoltat microservicii critice (AR Requests, rapoarte CFO, Combined Experience etc.) împreună cu componente și pagini frontend scalabile, ceea ce a ajutat la asigurarea de deal-uri B2B de 500.000 $.",
-        "Am dezvoltat un Data Editing Tool pentru echipele de guvernanță a datelor din toate entitățile, ca să corecteze date de companie incorecte și redundante (calitate de la 88% la 98%)."
+        "Ledger Insights — contribuție de la cap la coadă la migrarea platformei de la .NET vechi la Python, React, AWS și PostgreSQL, îmbunătățind UX-ul și ridicând retenția clienților cu ~35%.",
+        "Funcționalități premium — AR Requests, CFO Reports, trade groups și Combined Experience pe servicii backend și pagini React, susținând deal-uri B2B în valoare de ~$150K.",
+        "Global Data Editing Tool — aplicație Flask folosită în toate entitățile pentru a corecta date companie inexacte și redundante, ridicând calitatea datelor de la ~85% la ~95%.",
+        "API-uri de date pentru clienții din SUA — endpoint-uri REST peste cheltuieli de business, plăți comerciale și conturi de încasat, cu fluxuri de autorizare care trimit înapoi în bazele de date de producție înregistrările auditate."
       ]
     }
   ]

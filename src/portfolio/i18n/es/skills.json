@@ -2,7 +2,7 @@
   "section": {
     "eyebrow": "Fortalezas principales",
     "heading": "Habilidades & Expertise",
-    "description": "Los stacks que uso para IA agéntica, entrega full-stack e ingeniería de plataforma cloud."
+    "description": "Los stacks con los que trabajo en IA agéntica, entrega full-stack e ingeniería de plataforma cloud."
   },
   "categories": [
     {
@@ -11,16 +11,20 @@
         { "name": "IA agéntica" },
         { "name": "Harnesses de agentes" },
         { "name": "Orquestación multi-agente" },
-        { "name": "LangGraph / LangChain" },
-        { "name": "RAG (búsqueda híbrida, reranking)" },
-        { "name": "Búsqueda vectorial" },
+        { "name": "LangChain / LangGraph" },
+        { "name": "Strands" },
+        { "name": "Tool Calling" },
         { "name": "Servidores y clientes MCP" },
         { "name": "OAuth 2.0" },
-        { "name": "Tool Calling" },
+        { "name": "RAG (búsqueda híbrida, reranking)" },
+        { "name": "Embeddings" },
+        { "name": "Búsqueda vectorial" },
+        { "name": "pgvector" },
+        { "name": "OpenSearch Vector DB" },
         { "name": "Ingeniería de prompts y contexto" },
         { "name": "Evaluación y guardrails" },
         { "name": "Jueces LLM (Ragas)" },
-        { "name": "OpenSearch Vector DB" }
+        { "name": "LangSmith" }
       ]
     },
     {
@@ -32,6 +36,7 @@
         { "name": "APIs REST" },
         { "name": "PostgreSQL" },
         { "name": "Oracle DB" },
+        { "name": "SQLAlchemy" },
         { "name": "RabbitMQ" },
         { "name": "Celery" },
         { "name": "Docker" }

@@ -2,7 +2,7 @@
   "section": {
     "eyebrow": "選定プロジェクト",
     "heading": "注目プロジェクト",
-    "description": "個人でエンドツーエンドに構築したプロダクトと、チームと共にリリース・スケールしたプロフェッショナルプロジェクト。",
+    "description": "個人でエンドツーエンドに構築したプロダクトと、チームと共にリリース・スケールしたプロフェッショナルプラットフォーム。",
     "personal": "個人プロジェクト",
     "professional": "プロフェッショナルプロジェクト",
     "live": "ライブ",
@@ -17,27 +17,28 @@
   "personal": [
     {
       "id": "personal-1",
-      "title": "get1agent",
+      "title": "One Agent",
+      "company": "get1agent.com",
       "category": "personal",
-      "summary": "エージェント、MCP ツール、RAG パイプラインを構築・実行・共有できる、完全サーバーレスなマルチテナント AWS プラットフォーム。AI アシスト MCP サーバービルダー、LLM ジャッジ・アノテーションキューを備えた評価ラボ、Bedrock Guardrails、エージェントマーケットプレイス、スキルカタログを提供。",
+      "summary": "エージェント、MCP ツール、RAG パイプラインを構築・実行・共有するための、完全サーバーレスなマルチテナント AWS プラットフォーム。AI 支援の MCP サーバービルダー、LLM ジャッジとアノテーションキューを備えた評価ラボ、Bedrock Guardrails、エージェントマーケットプレイス、スキルカタログを搭載。",
       "bullets": [
-        "プランナー・長期記憶・コンテキスト圧縮・ヒューマンインザループ割り込みを備えたエージェントランタイム（インライン引用付き）。",
+        "プランナー、長期記憶、コンテキスト圧縮、ヒューマンインザループ割り込みを備えたエージェントランタイム（インライン引用付き）。",
         "マルチエージェントワークフロービルダー：決定論的 Graph と動的 Swarm オーケストレーション、ライブ実行タイムライン。",
-        "引用付き RAG：セマンティック＋BM25 ハイブリッド検索を RRF で統合、Bedrock Rerank と small-to-big 検索に対応。"
+        "引用付き RAG：セマンティック＋BM25 のハイブリッド検索を RRF で統合、Bedrock Rerank、small-to-big 検索。"
       ],
       "fullDetails": [
-        "AWS Lambda と Bedrock AgentCore 上のマルチテナントサーバーレスプラットフォーム。ユーザーごとにナレッジベース、エージェント、ワークフロー、スキル、ツールを作成・共有可能。KMS 暗号化・オペレーター非参照の BYOK ボールトとユーザー別クォータを実装。",
-        "エージェントランタイム：リクエストをサブクエリ・タスクへ分解するプランナー、長期記憶、コンテキスト圧縮、ヒューマンインザループ割り込み、インライン引用・フィードバック付きチャット（Strands Agents + Bedrock AgentCore）。",
-        "Strands Agents ベースのワークフロービルダー：決定論的 Graph と動的 Swarm オーケストレーション（コーディネーターホスト、並列実行、ノード単位上書き、ライブ実行タイムライン）。",
-        "MCP レイヤー：5 種類のサーバー（knowledge、code interpreter、web fetch、browser、custom tools）、サードパーティ向け OAuth 2.0 ブローカー、ポリシーチェック付き AgentCore Gateway ルーティング。加えて AI アシストビルダーでカスタム MCP サーバーを生成・マイクロVM 上でサンドボックステスト。",
-        "引用付き検索：イベント駆動型取り込み（PDF、DOCX、XLSX）、Titan 埋め込み（S3 Vectors）＋BM25 ハイブリッド検索を RRF 統合、Bedrock Rerank、small-to-big 検索、ページ・シート単位の引用を実装。",
-        "品質・運用：トレースリプレイ（A/B モデル比較）、データセット・アノテーションキュー、Ragas 準拠 LLM ジャッジ、署名付きトレースリンク、Bedrock Guardrails、CloudWatch/X-Ray への OpenTelemetry、AI クレジット予算、コスト最適化（プロンプトキャッシュ、セマンティックキャッシュ）。"
+        "AWS Lambda と Bedrock AgentCore 上のマルチテナントサーバーレスプラットフォーム。ユーザーはナレッジベース、エージェント、ワークフロー、スキル、ツールを構築・共有でき、ユーザー単位のクォータと KMS 暗号化されたオペレーター非参照の BYOK ボールトを備える。",
+        "エージェントランタイム：リクエストをサブクエリと TODO ステップに分解するプランナー、長期記憶、コンテキスト圧縮、ヒューマンインザループ割り込み、インライン引用とフィードバック付きチャット（Strands Agents + Bedrock AgentCore）。",
+        "Strands Agents 上のワークフロービルダー：決定論的 Graph と動的 Swarm オーケストレーション — コーディネーターホスト、並列実行、ノード単位上書き、ライブ実行タイムライン。",
+        "MCP レイヤー：5 つのサーバー（knowledge、code interpreter、web fetch、browser、custom tools）、サードパーティサーバー向け OAuth 2.0 ブローカー、ポリシーチェック付き AgentCore Gateway ルーティング。さらにカスタム MCP サーバーを生成しマイクロ VM 上でサンドボックステストする AI 支援ビルダー。",
+        "出典を明示する検索：イベント駆動型取り込み（PDF、DOCX、XLSX）、ハイブリッドなセマンティック＋キーワード検索（S3 Vectors 内の Titan 埋め込み、BM25）を RRF で統合、Bedrock Rerank、small-to-big 検索、ページ・シート単位の引用。",
+        "品質と運用：A/B モデル実行によるトレースリプレイ、データセットとアノテーションキュー、Ragas 準拠の LLM ジャッジ、署名付きトレースリンク、Bedrock Guardrails、CloudWatch/X-Ray への OpenTelemetry、AI クレジット予算、コスト最適化（プロンプトキャッシュ、セマンティックキャッシュ）。"
       ],
       "topSkills": [
         "AWS Lambda",
         "Bedrock AgentCore",
         "Strands Agents",
-        "MCP Server Builder",
+        "MCP サーバービルダー",
         "Bedrock Guardrails",
         "評価ラボ"
       ],
@@ -51,9 +52,11 @@
         "S3 Vectors",
         "DynamoDB",
         "RAG（ハイブリッド検索、RRF、リランキング）",
+        "コードインタプリタ",
         "OpenTelemetry",
         "React",
-        "GitHub Actions"
+        "GitHub Actions",
+        "Terraform"
       ],
       "liveUrl": "https://www.get1agent.com/",
       "sourceUrl": "https://github.com/sodekiranavinash/get1agent",
@@ -66,33 +69,39 @@
       "title": "Pitch Intel",
       "company": "S&P Global",
       "category": "professional",
-      "summary": "エージェント型営業インテリジェンスプラットフォーム。調査から送信可能なピッチ資料までを自動生成し、ピッチレポート作成時間を約 3 日から約 30 分に短縮。ドラッグ&ドロップのエージェントワークフロービルダーと多形式出力に対応。",
+      "summary": "調査をすぐに送れるピッチ資料へ変えるエージェント型営業インテリジェンスプラットフォーム。ドラッグ&ドロップのエージェントワークフロービルダーと多形式出力により、ピッチレポート作成を約 3 日から約 30 分に短縮。",
       "bullets": [
-        "ピッチレポート作成時間を約 3 日から約 30 分に短縮。",
-        "再利用可能なエージェントからワークフローを構成するドラッグ&ドロップビルダー（共有ギャラリー、RBAC 対応）。",
-        "インフォグラフィック・HTML・PDF・PowerPoint 形式でレポートを出力。"
+        "ピッチレポート作成を約 3 日から約 30 分に短縮。",
+        "再利用可能なエージェントからエージェント型ワークフローを構成するドラッグ&ドロップビルダー（共有ギャラリー、RBAC 対応）。",
+        "レポートをインフォグラフィック・HTML・PDF・PowerPoint で出力。"
       ],
-      "caseStudy": "営業・価格設定チームはピッチ前に公開情報・社内データ・過去実績を収集するのに数日を要していた。AI が調査に基づくピッチ資料を自動生成することで、この時間を大幅に削減することが目的でした。",
+      "caseStudy": "営業・商用価格設定チームはピッチ前に公開情報、独自の企業データ、過去の経緯を集めるのに何日も費やしていた。AI が生成する調査に基づくピッチ資料でその時間を短縮することが目標だった。",
       "fullDetails": [
-        "プランナーエージェントと専門サブエージェント（ウェブ調査、現行パッケージ、バトルカード、ピッチ生成）を単一ワークフローでオーケストレーション。",
-        "ドラッグ&ドロップ UI で再利用可能なエージェントからワークフローを構成・共有ギャラリーへ公開・ロールベースでアクセス制御。",
-        "承認済みウェブソース・社内データ・営業用 MCP サーバーに基づく根拠あるレポートをインフォグラフィック・HTML・PDF・PowerPoint で出力。",
+        "プランナーエージェントと専門サブエージェント（ウェブ調査、現在のパッケージ、バトルカード、ピッチ生成）を単一のワークフローにオーケストレーション。",
+        "ドラッグ&ドロップ UI で再利用可能なエージェントからワークフローを構成し、共有ギャラリーへ公開、ロールベースアクセス制御でアクセスを管理。",
+        "承認済みウェブソース、独自の企業データ、営業用 MCP サーバーに基づくレポートをインフォグラフィック・HTML・PDF・PowerPoint で提供。",
         "任意の MCP サーバーとそのツールをワークフローに組み込み可能。"
       ],
-      "highlights": [
-        "作業時間：3 日 → 30 分",
-        "エージェントギャラリー＆RBAC 対応ワークフロービルダー",
-        "多形式出力（インフォグラフィック、HTML、PDF、PPT）"
-      ],
-      "skills": [
+      "topSkills": [
         "LangGraph",
-        "FastMCP",
+        "FastAPI",
         "React",
         "OpenSearch",
-        "FastAPI",
         "PostgreSQL",
+        "Kubernetes"
+      ],
+      "allSkills": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "FastMCP",
+        "React",
+        "OpenSearch ベクトル検索",
+        "AWS Bedrock",
         "Kubernetes",
-        "AWS"
+        "S3",
+        "PostgreSQL",
+        "LangSmith"
       ]
     },
     {
@@ -100,31 +109,35 @@
       "title": "Chat AI MCP Server",
       "company": "S&P Global",
       "category": "professional",
-      "summary": "顧客が Microsoft Copilot、Claude、Databricks などの MCP クライアントから SPGCI データへ安全にアクセスできる顧客向け MCP サーバー。100 社以上に採用。",
+      "summary": "構造化・非構造化データ向けに SPGCI Python SDK を公開する顧客向け MCP サーバー。MS Copilot、Claude、Databricks を通じて 200+ 社の顧客に採用され、既存の検索経路を再利用して SME レビューサイクルを 90% 短縮。",
       "bullets": [
-        "100 社以上に採用",
-        "SPGCI Python SDK を MCP として公開",
-        "LLM 回答と SME 回答の一貫性を維持"
+        "MS Copilot、Claude、Databricks を通じて 200+ 社の顧客に採用。",
+        "構造化データ向けに LLM 生成 SDK コードを実行し、非構造化データには AIRD API を利用。",
+        "既存の検索経路を再利用して SME レビューサイクルを 90% 短縮。"
       ],
-      "caseStudy": "顧客は自分たちが普段使う AI ツール（Copilot、Claude 等）から SPGCI データに直接アクセスしたいと要望。MCP サーバーとして安全に機能を公開することで解決しました。",
+      "caseStudy": "既存 Chat AI プロダクトの精度と信頼性を損なわず、新たなツールごとに SME 評価を繰り返すことなく、MCP をサービスとして顧客に提供したいというビジネス要望があった。",
       "fullDetails": [
-        "FastMCP により SPGCI 関数を MCP ツールとして公開（スキーマ・説明付き）。",
-        "構造化データは LLM 生成コード実行、非構造化データは AIRD API を活用。",
-        "クライアント認証・ログ・セキュリティガードレールを実装。",
-        "複数の LLM プラットフォームで 100 社以上に採用。"
+        "顧客向け Chat AI チームのための、構造化・非構造化検索をカバーする 5 つの MCP ツール。",
+        "構造化データ向けに、分離サンドボックス（AgentCore Code Interpreter）で LLM 生成コードを実行。",
+        "非構造化データ向けの AIRD（AI-Ready Data）API。チームの中核プロンプトと検索経路を再利用して回答の同等性を確保し、SME レビューサイクルを 90% 短縮。",
+        "URL パラメータと環境変数により、追加データセットのオンボーディングが容易。"
       ],
-      "highlights": [
-        "100 社以上の顧客採用",
-        "Copilot、Claude、Databricks と連携",
-        "安全なコード実行によるデータクエリ"
-      ],
-      "skills": [
+      "topSkills": [
         "FastMCP",
-        "Python",
-        "MCP",
+        "FastAPI",
+        "Code Interpreter",
         "AWS",
-        "Kubernetes",
-        "Kong API Gateway"
+        "Kubernetes"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "AWS Bedrock",
+        "AgentCore Code Interpreter",
+        "MCP protocol",
+        "REST APIs",
+        "Kubernetes"
       ]
     },
     {
@@ -132,31 +145,288 @@
       "title": "RAPID MCP Server",
       "company": "S&P Global",
       "category": "professional",
-      "summary": "300 以上の既存 API を 4 つのインテリジェントな MCP ツール（instructions、search、metadata、execute）に統合。バックエンドマイクロサービスへの変更は不要。",
+      "summary": "300+ の API サーフェスを単一の MCP インターフェースに変換 — マイクロサービスを変更せずに検索・実行可能。search-and-rerank 戦略により LLM の API 選択精度を約 85% から 95%+ に向上。",
       "bullets": [
-        "300 以上の API を 4 ツールに統合",
-        "LLM の API 選択精度：85% → 95% 以上",
-        "既存マイクロサービスへの変更ゼロ"
+        "4 つのツール（instructions、search、metadata、execute）で API サーフェス全体をカバー。",
+        "マイクロサービスのコード変更なし — 数百時間のエンジニアリング工数を削減。",
+        "search-and-rerank 型の探索により API 選択精度を約 85% から 95%+ に向上。"
       ],
-      "caseStudy": "数百の API を直接 LLM に公開すると API 選択精度が低下。抽象化レイヤー（指示・発見・メタデータ・実行）を MCP として提供し、既存 API を再利用する形で解決しました。",
+      "caseStudy": "RAPID マイクロサービスは自動化フレームワークによって生成・デプロイされている。その同じ仕組みを MCP にも適用し、マイクロサービスコードに触れずに数百の API をツールとして公開したいという要望があった。",
       "fullDetails": [
-        "4 つの MCP ツール：instructions（利用ガイド）、search（セマンティック＋キーワード＋リランキング）、metadata（API スキーマ）、execute（API 呼び出し・レスポンス整形）。",
-        "API 仕様・サンプルをインデックス化し、ユーザー意図に基づく発見を実現。",
-        "検索・リランキングにより API 選択精度を約 85% から 95% 以上に向上。",
-        "既存マイクロサービスに一切変更不要な非侵襲設計。"
+        "MCP アーキテクチャをエンドツーエンドで担当：4 つのツール（instructions、search、metadata、execute）を通じて 300+ の API を公開。",
+        "search-and-rerank 型の探索戦略 — モデルがツールセットを検索し、上位 k 件の候補を確認してから適切なエンドポイントを実行。",
+        "マイクロサービスへの変更はゼロで数百時間のエンジニアリング工数を削減。LLM の API 選択精度は約 85% から 95%+ に向上。",
+        "現在は社内 AI アプリケーションで広く利用。"
       ],
-      "highlights": [
-        "300 以上の API をカバー",
-        "選択精度：85% → 95% 以上",
-        "非侵襲アーキテクチャ"
-      ],
-      "skills": [
+      "topSkills": [
         "FastMCP",
-        "LangGraph",
-        "OpenSearch",
-        "RAG",
+        "リランキング",
         "FastAPI",
-        "Kong API Gateway"
+        "AWS",
+        "Kubernetes"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "検索 & リランキング",
+        "MCP protocol",
+        "AWS",
+        "Kubernetes",
+        "OpenSearch"
+      ]
+    },
+    {
+      "id": "prof-4",
+      "title": "MCP Playground",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "本番前に実際のクエリで複数モデルに対して MCP サーバーをテストするプレイグラウンド。現在 5+ のエンジニアリングチームが利用し、リリース信頼度をスコアリングする一貫性フレームワークを備える。",
+      "bullets": [
+        "5+ のエンジニアリングチームが複数モデルに対してサーバーを検証するために利用。",
+        "ツール呼び出しイベントをライブ配信し、モデルが何をしたかを正確に確認可能。",
+        "一貫性フレームワークが反復実行間でツール呼び出しと引数を比較。"
+      ],
+      "caseStudy": "チームは本番統合に踏み切る前に、実際のツール実行を含めて MCP ツールの精度と一貫性を検証したいと考えていた。",
+      "fullDetails": [
+        "UI から MCP サーバーを追加し、ツール実行に合わせてイベントをストリーミング。マルチモーダル出力に対応。",
+        "複数モデルに対して実際のクエリを実行し、応答を並べて比較。",
+        "一貫性モジュールは同じテストクエリを繰り返し、実行間でツール呼び出しと引数を測定。",
+        "リリース信頼度スコアを生成し、サーバーが本番投入の準備が整ったタイミングをチームに示す。"
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "MCP クライアント",
+        "LangGraph",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "MCP クライアント",
+        "LangGraph",
+        "マルチモーダル",
+        "評価",
+        "PostgreSQL",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "prof-5",
+      "title": "API Platform",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "Kubernetes 上の 15+ マイクロサービスのデプロイ・セキュリティ・オブザーバビリティ。生のマニフェストを Helm チャートへ移行し、重大脆弱性を修正、クラスタイベント・メトリクスに対するダッシュボードを追加。",
+      "bullets": [
+        "生の Kubernetes マニフェストから Helm チャートへ — デプロイ当日の手間を約 25% 削減。",
+        "重大脆弱性を修正し、10 リポジトリにわたる git 履歴からハードコードされたシークレットを除去。",
+        "より迅速なトリアージのため、Kubernetes イベント・メトリクスに対する OpenSearch ダッシュボードを整備。"
+      ],
+      "caseStudy": "15+ のマイクロサービスを抱えるプラットフォームチームには、クラスタ全体でより迅速で安全なリリースと、より優れた本番可視性が必要だった。",
+      "fullDetails": [
+        "15+ のマイクロサービスのデプロイを生の Kubernetes マニフェストから Helm チャートへ刷新し、デプロイ当日の手間を約 25% 削減。",
+        "Fluent Bit、OpenTelemetry、Data Prepper によりプラットフォームのセキュリティを刷新し、重大脆弱性を修正、10 リポジトリにわたる git 履歴からハードコードされたシークレットを除去。",
+        "Kubernetes イベント・メトリクスに対する OpenSearch ダッシュボードを整備し、本番課題の検知とトリアージを迅速化。"
+      ],
+      "topSkills": [
+        "Kubernetes",
+        "Helm",
+        "OpenTelemetry",
+        "OpenSearch",
+        "CI/CD"
+      ],
+      "allSkills": [
+        "Kubernetes",
+        "Helm",
+        "Docker",
+        "OpenTelemetry",
+        "Fluent Bit",
+        "Data Prepper",
+        "OpenSearch",
+        "Kong API Gateway",
+        "セキュリティ強化"
+      ]
+    },
+    {
+      "id": "prof-6",
+      "title": "Product Intelligence Agent",
+      "company": "Genpact · Shutterfly",
+      "category": "professional",
+      "summary": "プロダクトチームが注文・クレーム・商品を自然言語で問い合わせられる Text2SQL チャットアプリ。LangGraph のフィードバックループが SQL エラーを自己修正し、データチームへのアドホック依頼を約 25% 削減。",
+      "bullets": [
+        "データチームへのアドホック依頼を約 25% 削減。",
+        "LangGraph のノードとエッジがフィードバックループを形成し、SQL エラーを自己修正。",
+        "ウォッチドッグエージェントが不足・廃棄・遅延などの新たな課題を検出。"
+      ],
+      "caseStudy": "プロダクトチームは顧客インサイトやトレンドをデータチームに依存していた。アドホック分析を待つのではなく、自然言語で質問できるようにすることが目標だった。",
+      "fullDetails": [
+        "注文・クレーム・商品に対する Text2SQL チャットアプリケーションで、データチームへのアドホック依頼を約 25% 削減。",
+        "LangGraph のノード＆エッジ設計により、エージェントが自ら SQL エラー修正ループを自動化。",
+        "自動データサンプリング、クエリ例、カラム説明によりクエリ精度と一貫性を向上。",
+        "同じプロダクトロジック上のウォッチドッグエージェントが、紙不足・代替素材・廃棄・配送遅延などの新たな課題をプロアクティブに検出。"
+      ],
+      "topSkills": [
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "SQLAlchemy",
+        "Oracle DB"
+      ],
+      "allSkills": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "SQLAlchemy",
+        "Azure OpenAI",
+        "Oracle DB",
+        "AWS EC2"
+      ]
+    },
+    {
+      "id": "prof-7",
+      "title": "Forge Module",
+      "company": "Genpact · Shutterfly",
+      "category": "professional",
+      "summary": "レガシー Forge システムを置き換える本番マイクロサービス — PDF 生成・カットライン・テンプレートマッピング。RabbitMQ と Celery ワーカーで構築し、スループットを約 50% 向上、材料廃棄を削減。",
+      "bullets": [
+        "RabbitMQ と Celery ワーカーでスループットを約 50% 向上。",
+        "Erlang OTP エンジンのスケーラビリティのボトルネックとなっていたモノリスを置き換え。",
+        "新しいテンプレート製品ラインをより迅速に顧客へ提供。"
+      ],
+      "caseStudy": "既存のモノリスが Erlang OTP エンジンのスケーラビリティのボトルネックとなり、Forge のスループットとパフォーマンスを改善するために新しいマイクロサービスが必要だった。",
+      "fullDetails": [
+        "PDF 生成・カットライン・テンプレートマッピング向けの新マイクロサービスを RabbitMQ と Celery ワーカーで構築し、スループットを約 50% 向上。",
+        "カットラインにより材料廃棄を削減し、材料コストを数千ドル節約。",
+        "新製品ライン向けの XML テンプレートにより市場投入までの時間を短縮し、新規顧客を獲得。"
+      ],
+      "topSkills": [
+        "FastAPI",
+        "RabbitMQ",
+        "Celery",
+        "Erlang OTP",
+        "Docker"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "RabbitMQ",
+        "Celery",
+        "Erlang OTP",
+        "XML テンプレート",
+        "Docker",
+        "AWS EC2",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "prof-8",
+      "title": "Mnesia DB Viewer",
+      "company": "Genpact · Shutterfly",
+      "category": "professional",
+      "summary": "繁忙期のインシデント時に Mnesia DB のデータを検査・修正・バックアップ・復元する Web アプリ。Python サブプロセス方式と Erlang OTP ツールにより、本番インシデント 1 件あたり約 $10K を削減。",
+      "bullets": [
+        "Erlang クラスタへの Python サブプロセス方式。",
+        "Mnesia の行を更新して書き戻す REST API。",
+        "自動バックアップ・復元フロー。"
+      ],
+      "caseStudy": "繁忙期には不適切なアセットや注文データが Mnesia DB を破損し、Erlang エンジンを停止させることがあったため、クライアントはデータを安全に修正・復元する手段を必要としていた。",
+      "fullDetails": [
+        "Python サブプロセス方式で Mnesia DB のデータを管理するフルスタック Web アプリケーション。",
+        "Mnesia の行を更新して書き戻す REST API と、診断のための Erlang OTP クラスタツール。",
+        "Mnesia DB データの自動復元・バックアップ。",
+        "診断・復旧時間を短縮し、本番インシデント 1 件あたり約 $10K を削減。"
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "Mnesia DB",
+        "サブプロセス",
+        "AWS EC2"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Mnesia DB",
+        "Erlang OTP",
+        "Python サブプロセス",
+        "AWS EC2"
+      ]
+    },
+    {
+      "id": "prof-9",
+      "title": "Ledger Insights",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "レガシー .NET から Python、React、AWS、PostgreSQL へ財務・会計プラットフォームをモダナイズ。AR Requests、CFO Reports、トレードグループなどのプレミアム機能を提供し、継続率を約 35% 向上。",
+      "bullets": [
+        "レガシー .NET から Python、React、AWS、PostgreSQL へ — 継続率を約 35% 向上。",
+        "バックエンドと React にわたるプレミアム機能 — 約 $150K の B2B 案件。",
+        "トレードグループ、CFO レポート、AR リクエスト、債務者支払トレンド。"
+      ],
+      "caseStudy": "Ledger Insights は、トレードグループ、レポート、売掛金、債務者支払トレンドを欠いていた Ledger 3D のギャップを埋めるために存在し、そうした機能を失うことなくモダナイズする必要があった。",
+      "fullDetails": [
+        "プラットフォームをレガシー .NET から Python、React、AWS、PostgreSQL へ移行し、UX を改善、顧客継続率を約 35% 向上。",
+        "欠けていたプレミアム機能を構築：AR Requests、CFO Reports、トレードグループ、Combined Experience、債務者支払トレンド。",
+        "約 $150K 相当の B2B 案件を支えるバックエンドサービスと React ページをスケール。",
+        "Azure Pipelines 上の CI/CD パイプラインでデプロイを自動化。"
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "AWS",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "JavaScript",
+        ".NET（レガシー）",
+        "PostgreSQL",
+        "AWS ECS / Lambda / S3",
+        "Terraform",
+        "Azure Pipelines"
+      ]
+    },
+    {
+      "id": "prof-10",
+      "title": "Global Data Editing Tool",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "エンティティ横断で不正確・冗長な企業データを修正するデータガバナンスアプリ。Flask の編集ワークフローでデータ品質を約 85% から約 95% へ向上し、監査済みの編集を本番へ書き戻し。",
+      "bullets": [
+        "エンティティ横断で使われる Flask 編集アプリケーション — データ品質を約 85% から約 95% に。",
+        "承認ワークフローを備えた米国顧客データに対する REST API。",
+        "監査済みの編集が本番データベースへ反映。"
+      ],
+      "caseStudy": "ベンダー提供データは常に正確・最新とは限らないため、ビジネスにはそれを構造的に修正し、監査済みの変更を本番へ書き戻す手段が必要だった。",
+      "fullDetails": [
+        "エンティティ横断で不正確・冗長な企業データを修正する Flask データ編集アプリケーション。データ品質を約 85% から約 95% へ向上。",
+        "追加のデータチェックと編集のため、顧客向けプラットフォームに統合された REST API。",
+        "監査済みレコードを本番データベースへ戻す承認ワークフロー。",
+        "Jinja テンプレートと WTForms で構築したエンティティ単位の動的フォームとバリデーション。"
+      ],
+      "topSkills": [
+        "Flask",
+        "REST APIs",
+        "PostgreSQL",
+        "AWS",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Python",
+        "Flask",
+        "REST APIs",
+        "Jinja",
+        "WTForms",
+        "PostgreSQL",
+        "AWS ECS / S3",
+        "Terraform"
       ]
     }
   ]

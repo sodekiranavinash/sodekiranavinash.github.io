@@ -2,121 +2,60 @@
   "section": {
     "eyebrow": "Puncte forte",
     "heading": "Competențe și expertiză",
-    "description": "Instrumentele, platformele și disciplinele pe care le folosesc ca să livrez experiențe îngrijite, gata de producție."
+    "description": "Stack-urile pe care le folosesc în IA agentică, livrarea full-stack și ingineria platformelor cloud."
   },
   "categories": [
     {
-      "categoryName": "AI",
+      "categoryName": "IA și agentică",
       "skills": [
-        {
-          "name": "Prompt Engineering"
-        },
-        {
-          "name": "RAG"
-        },
-        {
-          "name": "A2A Communication"
-        },
-        {
-          "name": "Multi-Agent Systems"
-        },
-        {
-          "name": "MCP"
-        },
-        {
-          "name": "AI Evaluation"
-        },
-        {
-          "name": "Lang Chain"
-        },
-        {
-          "name": "Langraph"
-        },
-        {
-          "name": "OpenSearch Vector DB"
-        }
+        { "name": "IA agentică" },
+        { "name": "Harness-uri de agenți" },
+        { "name": "Orchestrare multi-agent" },
+        { "name": "LangChain / LangGraph" },
+        { "name": "Strands" },
+        { "name": "Apelarea uneltelor" },
+        { "name": "Servere & clienți MCP" },
+        { "name": "OAuth 2.0" },
+        { "name": "RAG (căutare hibridă, reranking)" },
+        { "name": "Embedding-uri" },
+        { "name": "Căutare vectorială" },
+        { "name": "pgvector" },
+        { "name": "OpenSearch Vector DB" },
+        { "name": "Inginerie de prompturi & context" },
+        { "name": "Evaluare & guardrails" },
+        { "name": "Judecători LLM (Ragas)" },
+        { "name": "LangSmith" }
       ]
     },
     {
-      "categoryName": "Full stack",
+      "categoryName": "Full Stack",
       "skills": [
-        {
-          "name": "FastAPI"
-        },
-        {
-          "name": "React JS"
-        },
-        {
-          "name": "Python"
-        },
-        {
-          "name": "JavaScript"
-        },
-        {
-          "name": "TypeScript"
-        },
-        {
-          "name": "SQL"
-        },
-        {
-          "name": "PostgreSQL"
-        },
-        {
-          "name": "Oracle DB"
-        },
-        {
-          "name": "MariaDB"
-        },
-        {
-          "name": "Flask MVT"
-        },
-        {
-          "name": "Golang(basics)"
-        },
-        {
-          "name": ".NET(basics)"
-        }
+        { "name": "Python (FastAPI, Flask)" },
+        { "name": "React (TypeScript)" },
+        { "name": "JavaScript" },
+        { "name": "API-uri REST" },
+        { "name": "PostgreSQL" },
+        { "name": "Oracle DB" },
+        { "name": "SQLAlchemy" },
+        { "name": "RabbitMQ" },
+        { "name": "Celery" },
+        { "name": "Docker" }
       ]
     },
     {
-      "categoryName": "Cloud și infra",
+      "categoryName": "Cloud & platformă",
       "skills": [
-        {
-          "name": "AWS - EC2, ECS, EKS, Lambda, S3, RDS, SES, etc"
-        },
-        {
-          "name": "Kubernetes"
-        },
-        {
-          "name": "Open Search"
-        },
-        {
-          "name": "Helm"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "Jenkins"
-        },
-        {
-          "name": "Ansible"
-        },
-        {
-          "name": "Kong API Gateway"
-        },
-        {
-          "name": "Open Telemetry"
-        },
-        {
-          "name": "Jaeger"
-        },
-        {
-          "name": "Goldilocks"
-        },
-        {
-          "name": "Grafana"
-        }
+        { "name": "AWS - Lambda, ECS, Bedrock, AgentCore" },
+        { "name": "API Gateway & Step Functions" },
+        { "name": "SQS, EventBridge, S3 Vectors" },
+        { "name": "DynamoDB" },
+        { "name": "Kubernetes" },
+        { "name": "Helm" },
+        { "name": "Kong API Gateway" },
+        { "name": "Terraform" },
+        { "name": "CI/CD (GitHub Actions, Jenkins)" },
+        { "name": "Observabilitate (OpenTelemetry, CloudWatch)" },
+        { "name": "KMS" }
       ]
     }
   ]

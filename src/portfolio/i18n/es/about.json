@@ -2,7 +2,7 @@
   "hero": {
     "welcome": "Bienvenido a mi espacio de trabajo",
     "greeting": "Hola, soy",
-    "subtitle": "Ingeniero IA | FDE",
+    "subtitle": "Ingeniero de IA Aplicada — IA Agéntica · MCP · RAG · AWS",
     "description": "IA agéntica, servidores MCP y RAG — del prototipo a producción en AWS y Kubernetes.",
     "availability": "Hyderabad, India · Abierto a reubicación",
     "downloadCv": "Descargar CV",
@@ -23,9 +23,9 @@
     "experienceText": "Experiencia profesional"
   },
   "name": "Kiran Avinash Sode",
-  "title": "Ingeniero IA | Forward Deployed Engineer",
+  "title": "Ingeniero de IA Aplicada | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Soy un Ingeniero IA y Forward Deployed Engineer (FDE) con 5 años de experiencia desplegando sistemas GenAI y full-stack del POC a producción. Me integro con producto, ventas e ingeniería para transformar necesidades ambiguas en prototipos funcionales — luego fortalezco los flujos LLM y la plataforma Kubernetes y serverless AWS subyacente para producción real."
+    "Soy Ingeniero de IA Aplicada y Forward Deployed Engineer (FDE) con 5 años en ingeniería de software — los últimos 2+ desplegado en el terreno — construyendo aplicaciones de IA Generativa de producción y full-stack de principio a fin. Me integro con equipos de ventas, negocio y datos para llevar productos de IA empresariales desde la prueba de concepto hasta el despliegue, la evaluación y la iteración, fortaleciendo los flujos LLM y las plataformas Kubernetes y serverless de AWS que los sustentan. Sólido en IA agéntica, MCP, RAG y evaluación de LLM."
   ],
   "metrics": [
     {
@@ -36,7 +36,7 @@
     {
       "label": "Años como FDE",
       "value": "2+",
-      "description": "Desplegado con producto & ventas"
+      "description": "Forward-deployed con producto & ventas"
     },
     {
       "label": "Productos IA lanzados",
@@ -59,6 +59,6 @@
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "Email",
   "connect": {
-    "text": "Con sede en Hyderabad, India — abierto a reubicación (Países Bajos, Japón) y trabajo remoto global. Siempre feliz de hablar sobre productos IA, plataformas de agentes o roles FDE."
+    "text": "Con sede en Hyderabad, India — abierto a reubicación (Países Bajos, Japón) y trabajo remoto global. Siempre dispuesto a hablar sobre productos de IA, plataformas de agentes o roles FDE."
   }
 }

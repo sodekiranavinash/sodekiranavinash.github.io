@@ -1,6 +1,8 @@
 {
   "section": {
+    "eyebrow": "Trabalho selecionado",
     "heading": "Trabalho em destaque",
+    "description": "Produtos pessoais que construo de ponta a ponta e plataformas profissionais que entreguei e escalei com equipas.",
     "personal": "Projetos pessoais",
     "professional": "Projetos profissionais",
     "live": "LIVE",
@@ -12,323 +14,419 @@
     "highlights": "Destaques",
     "skills": "Competências"
   },
-  "personal": [],
+  "personal": [
+    {
+      "id": "personal-1",
+      "title": "One Agent",
+      "company": "get1agent.com",
+      "category": "personal",
+      "summary": "Uma plataforma AWS totalmente serverless e multi-inquilino para construir, executar e partilhar agentes, ferramentas MCP e pipelines RAG. Inclui um construtor de servidores MCP assistido por IA, um laboratório de avaliação com LLM judges e filas de anotação, Bedrock Guardrails, um marketplace de agentes e um catálogo de competências.",
+      "bullets": [
+        "Runtime de agentes com um planner, memória de longo prazo, compressão de contexto e interrupções human-in-the-loop, com citações inline.",
+        "Construtor de fluxos multiagente: orquestração determinística Graph e dinâmica Swarm com uma linha temporal de execução em direto.",
+        "RAG com citações: pesquisa híbrida semântica + BM25 fundida com RRF, Bedrock Rerank e recuperação small-to-big."
+      ],
+      "fullDetails": [
+        "Plataforma serverless multi-inquilino em AWS Lambda e Bedrock AgentCore onde os utilizadores constroem e partilham bases de conhecimento, agentes, fluxos, competências e ferramentas, com quotas por utilizador e um cofre BYOK cifrado com KMS e opaco para o operador.",
+        "Runtime de agentes: um planner que decompõe pedidos em subqueries e passos de tarefas, memória de longo prazo, compressão de contexto, interrupções human-in-the-loop e um chat com citações inline e feedback (Strands Agents + Bedrock AgentCore).",
+        "Construtor de fluxos sobre Strands Agents: orquestração determinística Graph e dinâmica Swarm — host coordenador, execução paralela, overrides por nó e uma linha temporal de execução em direto.",
+        "Camada MCP: cinco servidores (knowledge, code interpreter, web fetch, browser, custom tools), um broker OAuth 2.0 para servidores de terceiros e encaminhamento pelo AgentCore Gateway verificado por políticas — além de um construtor assistido por IA que gera e testa em sandbox servidores MCP personalizados em microVMs.",
+        "Recuperação que cita as suas fontes: ingestão orientada a eventos (PDF, DOCX, XLSX), pesquisa híbrida semântica + por palavras-chave (embeddings Titan em S3 Vectors, BM25) fundida com RRF, Bedrock Rerank, recuperação small-to-big e citações de página/folha.",
+        "Qualidade e operações: replay de traces com execuções A/B de modelos, conjuntos de dados e filas de anotação, LLM judges alinhados com Ragas, links de trace assinados, Bedrock Guardrails, OpenTelemetry para CloudWatch/X-Ray, orçamentos de créditos de IA e alavancas de custo (prompt caching, cache semântica)."
+      ],
+      "topSkills": [
+        "AWS Lambda",
+        "Bedrock AgentCore",
+        "Strands Agents",
+        "Construtor de servidores MCP",
+        "Bedrock Guardrails",
+        "Laboratório de avaliação"
+      ],
+      "allSkills": [
+        "Python",
+        "AWS Lambda",
+        "Amazon Bedrock",
+        "Bedrock AgentCore",
+        "Strands Agents",
+        "Servidores MCP & OAuth 2.0",
+        "S3 Vectors",
+        "DynamoDB",
+        "RAG (pesquisa híbrida, RRF, reranking)",
+        "Code interpreter",
+        "OpenTelemetry",
+        "React",
+        "GitHub Actions",
+        "Terraform"
+      ],
+      "liveUrl": "https://www.get1agent.com/",
+      "sourceUrl": "https://github.com/sodekiranavinash/get1agent",
+      "architectureUrl": "https://www.get1agent.com/architecture"
+    }
+  ],
   "professional": [
     {
       "id": "prof-1",
       "title": "Pitch Intel",
-      "company": "S&P Energy",
+      "company": "S&P Global",
       "category": "professional",
-      "summary": "Agente de inteligência comercial (pitch, fluxos personalizados)",
+      "summary": "Plataforma agêntica de inteligência comercial que transforma investigação em material de pitch pronto a enviar. Reduz a preparação de relatórios de pitch de ~3 dias para ~30 minutos, com um construtor de fluxos de agentes de arrastar e largar e saída em vários formatos.",
       "bullets": [
-        "Desenvolvi Planner Agent e subagentes especializados.",
-        "UI de arrastar e largar para desenhar fluxos de agentes e mapear inputs.",
-        "Suporta pitches de vendas em texto, HTML, PPT, etc."
+        "Reduz a preparação de relatórios de pitch de ~3 dias para ~30 minutos.",
+        "Construtor de arrastar e largar para compor fluxos agênticos a partir de agentes reutilizáveis, com galeria partilhada e RBAC.",
+        "Entrega relatórios como infográficos, HTML, PDF e PowerPoint."
       ],
-      "caseStudy": "Para clientes novos ou renovações, a equipa comercial precisa de reunir muitos dados e preparar um pitch deck. Quer reduzir esse tempo usando IA para gerar o pitch.",
+      "caseStudy": "As equipas de vendas e de preços comerciais passavam dias a reunir informação pública, dados proprietários da empresa e histórico antes de um pitch. O objetivo era reduzir esse tempo com material de pitch gerado por IA e baseado em investigação.",
       "fullDetails": [
-        "Planner Agent e vários subagentes (pesquisa web, packages atuais, pitch_generator, battlecards, etc.) integrados num fluxo para gerar um pitch.",
-        "Componentes UI para arrastar e largar agentes e os respetivos inputs para criar um fluxo.",
-        "Geração de pitches em texto, ficheiro HTML, ficheiro PPT, etc., consoante a escolha do utilizador.",
-        "Integração de qualquer servidor MCP e das respetivas ferramentas no fluxo atual."
+        "Agente planner mais subagentes especializados (pesquisa web, packages atuais, battlecards, geração de pitch) orquestrados num único fluxo.",
+        "UI de arrastar e largar para compor fluxos a partir de agentes reutilizáveis, publicá-los numa galeria partilhada e gerir o acesso com controlo baseado em funções.",
+        "Relatórios fundamentados em fontes web aprovadas, dados proprietários da empresa e servidores MCP de vendas, entregues como infográficos, HTML, PDF e PowerPoint.",
+        "Qualquer servidor MCP e as suas ferramentas podem ser integrados num fluxo."
       ],
       "topSkills": [
+        "LangGraph",
         "FastAPI",
         "React",
-        "LangGraph",
-        "EKS",
-        "SES",
-        "S3",
-        "PostgreSQL"
+        "OpenSearch",
+        "PostgreSQL",
+        "Kubernetes"
       ],
       "allSkills": [
-        "FastAPI",
-        "React",
+        "Python",
         "LangGraph",
-        "Crawl4AI",
-        "OpenSearch VectorDB",
-        "AWS EKS, SES, S3 etc",
-        "AgentCore Code Interpreter",
+        "FastAPI",
+        "FastMCP",
+        "React",
+        "Pesquisa vetorial OpenSearch",
+        "AWS Bedrock",
+        "Kubernetes",
+        "S3",
         "PostgreSQL",
-        "AzureOpenAI API"
+        "LangSmith"
       ]
     },
     {
       "id": "prof-2",
-      "title": "MCP Playground",
-      "company": "S&P Energy",
+      "title": "Chat AI MCP Server",
+      "company": "S&P Global",
       "category": "professional",
-      "summary": "Playground de IA agêntica para testar e validar ferramentas MCP",
+      "summary": "Servidor MCP virado para o cliente que expõe o SPGCI Python SDK para dados estruturados e não estruturados. Adotado por 200+ clientes em MS Copilot, Claude e Databricks, reduzindo o ciclo de revisão dos SME em 90% ao reutilizar o caminho de recuperação existente.",
       "bullets": [
-        "Desenhei e desenvolvi um playground MCP para testar ferramentas MCP.",
-        "Mostra eventos à medida que as ferramentas são executadas.",
-        "Módulo de consistência para correr testes contra perguntas de especialistas."
+        "Adotado por 200+ clientes em MS Copilot, Claude e Databricks.",
+        "Executa código SDK gerado por LLM para dados estruturados e APIs AIRD para dados não estruturados.",
+        "Reduziu o ciclo de revisão dos SME em 90% ao reutilizar o caminho de recuperação existente."
       ],
-      "caseStudy": "A empresa queria validar a precisão e a consistência das ferramentas MCP antes de as colocar em produção.",
+      "caseStudy": "O negócio queria oferecer MCP como serviço aos clientes sem perder a precisão e a fiabilidade do produto Chat AI existente, e sem repetir a avaliação dos SME para cada nova ferramenta.",
       "fullDetails": [
-        "Playground MCP para testar ferramentas e validar execuções de forma multimodal face a perguntas de especialistas.",
-        "Adicionar servidores MCP ao playground pela UI e fazer stream de eventos durante a execução.",
-        "Módulo de consistência para correr testes contra perguntas de especialistas com suporte multimodal."
+        "Cinco ferramentas MCP que cobrem recuperação estruturada e não estruturada para a equipa Chat AI virada para o cliente.",
+        "Execução de código gerado por LLM num sandbox isolado (AgentCore Code Interpreter) para dados estruturados.",
+        "APIs AIRD (AI-Ready Data) para dados não estruturados, reutilizando os prompts centrais e o caminho de recuperação da equipa para paridade de respostas — reduzindo o ciclo de revisão dos SME em 90%.",
+        "Parâmetros de URL e variáveis de ambiente facilitam o onboarding de conjuntos de dados adicionais."
       ],
       "topSkills": [
+        "FastMCP",
         "FastAPI",
-        "ReactJS",
-        "LangGraph",
-        "EKS",
-        "PostgreSQL",
-        "Multi Modal"
+        "Code Interpreter",
+        "AWS",
+        "Kubernetes"
       ],
       "allSkills": [
         "Python",
+        "FastMCP",
         "FastAPI",
-        "ReactJS",
-        "LangGraph",
-        "MCP Client",
-        "EKS",
-        "PostgreSQL",
-        "Multi Modal"
+        "AWS Bedrock",
+        "AgentCore Code Interpreter",
+        "Protocolo MCP",
+        "REST APIs",
+        "Kubernetes"
       ]
     },
     {
       "id": "prof-3",
-      "title": "Chat AI MCP",
-      "company": "S&P Energy",
+      "title": "RAPID MCP Server",
+      "company": "S&P Global",
       "category": "professional",
-      "summary": "Servidor MCP virado para clientes (dados estruturados e não estruturados)",
+      "summary": "Transforma uma superfície de 300+ APIs numa única interface MCP — pesquisável e executável sem alterações nos microserviços. Uma estratégia de pesquisa e reranking elevou a precisão de seleção de API do LLM de ~85% para 95%+.",
       "bullets": [
-        "Executa código SPGCI PySDK gerado por LLM para obter dados.",
-        "Ferramentas MCP com a precisão e fiabilidade do Platts Chat AI.",
-        "Acesso e onboarding simples de vários conjuntos de dados."
+        "Quatro ferramentas (instructions, search, metadata, execute) cobrem toda a superfície de API.",
+        "Sem alterações no código dos microserviços — poupando centenas de horas de engenharia.",
+        "A descoberta com pesquisa e reranking elevou a precisão de seleção de API de ~85% para 95%+."
       ],
-      "caseStudy": "A empresa queria oferecer MCP como serviço com a mesma precisão e fiabilidade do Platts Chat AI, sem repetir a avaliação de especialistas em cada nova ferramenta MCP.",
+      "caseStudy": "Os microserviços RAPID são gerados e implementados por um framework de automatização. O negócio queria o mesmo tratamento para MCP — centenas de APIs expostas como ferramentas sem tocar no código dos microserviços.",
       "fullDetails": [
-        "5 ferramentas MCP (get_methods, get_method_details, execute, get_agentic_metadata, agentic_search) para obter dados estruturados e não estruturados.",
-        "Integração do AWS AgentCore Code Interpreter para executar código gerado por LLM de forma segura num ambiente isolado.",
-        "Acesso e onboarding de vários conjuntos de dados via parâmetros de URL e variáveis de ambiente."
+        "Assumi a arquitetura MCP de ponta a ponta: 300+ APIs expostas através de quatro ferramentas (instructions, search, metadata, execute).",
+        "Estratégia de descoberta com pesquisa e reranking — o modelo pesquisa no conjunto de ferramentas, revê os top-k candidatos e depois executa o endpoint correto.",
+        "Zero alterações nos microserviços, poupando centenas de horas de engenharia; precisão de seleção de API do LLM melhorou de ~85% para 95%+.",
+        "Agora amplamente usado em aplicações de IA internas."
       ],
       "topSkills": [
         "FastMCP",
+        "Reranking",
         "FastAPI",
-        "EKS",
-        "Code Interpreter",
-        "PostgreSQL"
+        "AWS",
+        "Kubernetes"
       ],
       "allSkills": [
         "Python",
         "FastMCP",
         "FastAPI",
+        "Pesquisa & reranking",
+        "Protocolo MCP",
         "AWS",
-        "PostgreSQL",
-        "AgentCore Code Interpreter"
+        "Kubernetes",
+        "OpenSearch"
       ]
     },
     {
       "id": "prof-4",
-      "title": "RAPID MCP",
-      "company": "S&P Energy",
+      "title": "MCP Playground",
+      "company": "S&P Global",
       "category": "professional",
-      "summary": "Servidor MCP interno (dados estruturados das API Rapid)",
+      "summary": "Playground para testar servidores MCP contra vários modelos com queries reais antes da produção. Agora usado por 5+ equipas de engenharia, com um framework de consistência que atribui uma pontuação de confiança para o lançamento.",
       "bullets": [
-        "Solução MCP para transformar centenas de API Rapid em ferramentas MCP.",
-        "Estratégia de pesquisa MCP para ultrapassar limites das ferramentas LLM.",
-        "Pesquisa com API de reranking para destacar as API relevantes."
+        "Usado por 5+ equipas de engenharia para validar servidores contra vários modelos.",
+        "Transmite eventos de chamadas de ferramentas em direto para que as equipas vejam exatamente o que o modelo fez.",
+        "O framework de consistência compara chamadas de ferramentas e argumentos entre execuções repetidas."
       ],
-      "caseStudy": "Os microserviços Rapid são criados com Rapid Automation e implantados. A empresa precisava de um framework que convertesse centenas de API Rapid em ferramentas MCP sem tocar no código do microserviço.",
+      "caseStudy": "As equipas queriam validar a precisão e a consistência das ferramentas MCP — incluindo execuções reais de ferramentas — antes de se comprometerem com uma integração em produção.",
       "fullDetails": [
-        "Solução Rapid MCP com ferramentas (instructions, search, get_unique_values, execute, utility_tools) para transformar centenas de API Rapid em API executáveis e pesquisáveis sem alterar código ao nível do microserviço.",
-        "Arquitetura de pesquisa MCP para ultrapassar limites das ferramentas LLM ao pesquisar nas API Rapid e reordená-las por relevância.",
-        "Ferramentas MCP de utilidade para criar ficheiros CSV e imagens markdown a partir dos dados obtidos."
+        "Adicionar servidores MCP através da UI e transmitir eventos à medida que as ferramentas são executadas, com suporte para saída multimodal.",
+        "Executar queries reais contra vários modelos e comparar respostas lado a lado.",
+        "O módulo de consistência repete as mesmas queries de teste e mede chamadas de ferramentas e argumentos entre execuções.",
+        "Produz uma pontuação de confiança para o lançamento, para que as equipas saibam quando um servidor está pronto para produção."
       ],
       "topSkills": [
-        "FastMCP",
         "FastAPI",
-        "EKS",
-        "Code Interpreter",
+        "React",
+        "Cliente MCP",
+        "LangGraph",
         "PostgreSQL"
       ],
       "allSkills": [
         "Python",
-        "FastMCP",
-        "Reranker API",
         "FastAPI",
-        "AWS",
-        "PostgreSQL"
+        "React",
+        "Cliente MCP",
+        "LangGraph",
+        "Multimodal",
+        "Avaliação",
+        "PostgreSQL",
+        "Kubernetes"
       ]
     },
     {
       "id": "prof-5",
-      "title": "Text2SQL AI Agent",
-      "company": "Genpact",
+      "title": "API Platform",
+      "company": "S&P Global",
       "category": "professional",
-      "summary": "Linguagem natural para SQL (análise de clientes, tendências, insights)",
+      "summary": "Deployment, segurança e observabilidade para 15+ microserviços em Kubernetes. Migrei manifestos em bruto para charts Helm, corrigi vulnerabilidades críticas e adicionei dashboards sobre eventos e métricas do cluster.",
       "bullets": [
-        "Agente de IA para converter perguntas em linguagem natural em SQL.",
-        "Arquitetura LangGraph de nós e arestas com ciclo de feedback.",
-        "Amostragem de dados, de queries e ferramentas SQLAlchemy."
+        "Manifestos Kubernetes em bruto para charts Helm — ~25% menos atrito no dia de deployment.",
+        "Corrigi vulnerabilidades críticas e removi segredos codificados do histórico do git em 10 repositórios.",
+        "Dashboards OpenSearch sobre eventos e métricas de Kubernetes para um triage mais rápido."
       ],
-      "caseStudy": "A equipa de produto dependia das equipas de dados para insights e tendências de clientes. A empresa queria usar IA para obter dados e analisar tendências a partir de queries SQL complexas.",
+      "caseStudy": "Uma equipa de plataforma responsável por 15+ microserviços precisava de lançamentos mais rápidos e seguros e de melhor visibilidade de produção em todo o parque de clusters.",
       "fullDetails": [
-        "Agente de IA para converter perguntas NL em queries SQL e obter info, insights e tendências a partir de dados de clientes.",
-        "Com um design de arestas e nós, o agente automatiza ciclos de correção de erros SQL.",
-        "Amostragem automática de dados, exemplos de queries e descrições de colunas para melhorar precisão e consistência."
+        "Modernizei o deployment de 15+ microserviços de manifestos Kubernetes em bruto para charts Helm, reduzindo o atrito no dia de deployment em ~25%.",
+        "Reformulei a segurança da plataforma com Fluent Bit, OpenTelemetry e Data Prepper, corrigi vulnerabilidades críticas e removi segredos codificados do histórico do git em 10 repositórios.",
+        "Instrumentei dashboards OpenSearch sobre eventos e métricas de Kubernetes, dando às equipas deteção e triage mais rápidos de problemas de produção."
       ],
       "topSkills": [
-        "FastAPI",
-        "ReactJS",
-        "LangGraph",
-        "SqAlchemy",
-        "AWS",
-        "Oracle DB"
+        "Kubernetes",
+        "Helm",
+        "OpenTelemetry",
+        "OpenSearch",
+        "CI/CD"
       ],
       "allSkills": [
-        "Python",
-        "FastAPI",
-        "ReactJS",
-        "LangGraph",
-        "SqAlchemy",
-        "AWS - EC2",
-        "Oracle DB",
-        "Docker"
+        "Kubernetes",
+        "Helm",
+        "Docker",
+        "OpenTelemetry",
+        "Fluent Bit",
+        "Data Prepper",
+        "OpenSearch",
+        "Kong API Gateway",
+        "Reforço de segurança"
       ]
     },
     {
       "id": "prof-6",
-      "title": "Mnesia DB Viewer",
-      "company": "Genpact",
+      "title": "Product Intelligence Agent",
+      "company": "Genpact · Shutterfly",
       "category": "professional",
-      "summary": "Aplicação web para gerir dados Mnesia DB (restauro, backup, etc.)",
+      "summary": "Aplicação de chat Text2SQL para que a equipa de produto consulte encomendas, reclamações e produtos em linguagem natural. Um ciclo de feedback LangGraph autocorrige erros de SQL e reduziu os pedidos ad-hoc à equipa de dados em ~25%.",
       "bullets": [
-        "Aplicação web full stack para gerir dados Mnesia DB.",
-        "API REST para atualizar linhas Mnesia e voltar a gravá-las.",
-        "Restauro e backup automáticos de dados Mnesia."
+        "Reduziu os pedidos ad-hoc à equipa de dados em ~25%.",
+        "Nós e arestas LangGraph criam um ciclo de feedback que autocorrige erros de SQL.",
+        "O agente watchdog revela problemas emergentes como escassez, desperdício e atrasos."
       ],
-      "caseStudy": "Em épocas de pico, por assets ou dados de jobs incorretos, o motor Erlang cai devido a dados Mnesia corrompidos. A empresa queria uma aplicação web para gerir esses dados.",
+      "caseStudy": "A equipa de produto dependia das equipas de dados para insights e tendências de clientes. O objetivo era deixá-la fazer perguntas em linguagem natural em vez de esperar por análises ad-hoc.",
       "fullDetails": [
-        "Aplicação web full stack para gerir Mnesia DB com uma abordagem de subprocess Python.",
-        "Componentes UI escaláveis e API REST para atualizar linhas e voltar a gravá-las.",
-        "Restauro e backup automáticos através de um processo de automatização."
+        "Aplicação de chat Text2SQL sobre encomendas, reclamações e produtos, reduzindo os pedidos ad-hoc à equipa de dados em ~25%.",
+        "O design de nós e arestas LangGraph permite ao agente automatizar o seu próprio ciclo de correção de erros de SQL.",
+        "Amostragem automática de dados, exemplos de queries e descrições de colunas melhoram a precisão e a consistência das queries.",
+        "Um agente watchdog sobre a mesma lógica de produto revela proativamente problemas emergentes — escassez de papel, alternativas de material, desperdício e atrasos de entrega."
       ],
       "topSkills": [
+        "LangGraph",
         "FastAPI",
-        "ReactJS",
-        "AWS",
-        "mnesia db",
-        "sub process"
+        "React",
+        "SQLAlchemy",
+        "Oracle DB"
       ],
       "allSkills": [
         "Python",
+        "LangGraph",
         "FastAPI",
-        "ReactJS",
-        "AWS - EC2",
-        "mnesia db",
-        "sub process"
+        "React",
+        "SQLAlchemy",
+        "Azure OpenAI",
+        "Oracle DB",
+        "AWS EC2"
       ]
     },
     {
       "id": "prof-7",
-      "title": "Forge Microservices",
-      "company": "Genpact",
+      "title": "Forge Module",
+      "company": "Genpact · Shutterfly",
       "category": "professional",
-      "summary": "Microserviços para Forge (geração de PDF, cutlines, templates, etc.)",
+      "summary": "Microserviços de produção que substituem os sistemas Forge legados — geração de PDF, cutlines e mapeamento de templates. Construídos em RabbitMQ com workers Celery, aumentando o throughput em ~50% e reduzindo o desperdício de material.",
       "bullets": [
-        "Novos microserviços para Forge para melhorar a escalabilidade.",
-        "Funcionalidade de cut lines que reduziu o desperdício de material em 30%.",
-        "Templates para novas linhas de produto, +20% de clientes."
+        "RabbitMQ com workers Celery, aumentando o throughput em ~50%.",
+        "Substituí um monólito que se tinha tornado o gargalo de escalabilidade do motor Erlang OTP.",
+        "As novas linhas de produto com templates chegaram mais rapidamente aos clientes."
       ],
-      "caseStudy": "O monólito existente tornou-se um gargalo para a escalabilidade do motor Erlang OTP. A empresa precisava de novos microserviços para Forge.",
+      "caseStudy": "Um monólito existente tinha-se tornado o gargalo da escalabilidade do motor Erlang OTP, pelo que eram necessários novos microserviços para o Forge melhorarem o throughput e o desempenho.",
       "fullDetails": [
-        "Novos microserviços para Forge para melhorar escalabilidade e throughput.",
-        "Funcionalidade de cut lines que reduziu o desperdício de material em 30% e poupou milhares de dólares.",
-        "Templates XML para novas linhas de produto que trouxeram novos clientes e aumentaram a receita em 20% ao reduzir o time-to-market."
+        "Novos microserviços para geração de PDF, cutlines e mapeamento de templates em RabbitMQ com workers Celery, aumentando o throughput em ~50%.",
+        "Os cutlines reduziram o desperdício de material e pouparam milhares de dólares em custos de material.",
+        "Templates XML para as novas linhas de produto encurtaram o time to market e trouxeram novos clientes."
       ],
       "topSkills": [
         "FastAPI",
-        "AWS EC2",
+        "RabbitMQ",
+        "Celery",
         "Erlang OTP",
-        "XML",
-        "Docker",
-        "CI/CD"
+        "Docker"
       ],
       "allSkills": [
         "Python",
         "FastAPI",
-        "AWS EC2",
+        "RabbitMQ",
+        "Celery",
         "Erlang OTP",
-        "XML",
-        "Docker"
+        "Templates XML",
+        "Docker",
+        "AWS EC2",
+        "Jenkins"
       ]
     },
     {
       "id": "prof-8",
-      "title": "Ledger Insights",
-      "company": "Creditsafe",
+      "title": "Mnesia DB Viewer",
+      "company": "Genpact · Shutterfly",
       "category": "professional",
-      "summary": "Modernização do Ledger Insights (finanças e contabilidade)",
+      "summary": "Aplicação web para inspecionar, corrigir, fazer backup e restaurar dados da base de dados Mnesia durante incidentes em época alta. Uma abordagem de subprocess Python com ferramentas Erlang OTP poupou ~$10K por incidente de produção.",
       "bullets": [
-        "Contributos de ponta a ponta para a modernização do Ledger Insights.",
-        "Microserviços críticos em falta no Ledger 3D.",
-        "Componentes UI, charts e gráficos para melhorar a UI/UX."
+        "Abordagem de subprocess Python para o cluster Erlang.",
+        "APIs REST para atualizar linhas Mnesia e voltar a gravá-las.",
+        "Fluxos automatizados de backup e restauro."
       ],
-      "caseStudy": "O Ledger Insights foi construído para cobrir falhas do Ledger 3D, que não tem Trade Groups, Reports, Accounts Receivable nem tendências de pagamento de devedores.",
+      "caseStudy": "Na época alta, dados de assets ou encomendas incorretos podiam corromper a base de dados Mnesia e derrubar o motor Erlang, pelo que o cliente precisava de uma forma segura de corrigir e restaurar dados.",
       "fullDetails": [
-        "Contributos significativos para o redesign, reskin e redevelopment do Ledger Insights.",
-        "Microserviços críticos para Trade Groups, Reports, Accounts Receivable e tendências de pagamento de devedores.",
-        "Componentes UI para uma melhor UX juntamente com charts e gráficos complexos.",
-        "Pipeline CI/CD para automatizar o deployment do produto."
+        "Aplicação web full-stack para gerir dados da base de dados Mnesia através de uma abordagem de subprocess Python.",
+        "APIs REST para atualizar linhas Mnesia e voltar a gravá-las, com ferramentas de cluster Erlang OTP para diagnóstico.",
+        "Restauro e backup automatizados dos dados da base de dados Mnesia.",
+        "Poupou ~$10K por incidente de produção ao reduzir o tempo de diagnóstico e recuperação."
       ],
       "topSkills": [
-        "Fast API",
-        "React JS",
-        "AWS",
-        "Oracle DB",
-        "Docker"
+        "FastAPI",
+        "React",
+        "Mnesia DB",
+        "Subprocess",
+        "AWS EC2"
       ],
       "allSkills": [
-        "Fast API",
-        ".NET Framework",
-        "React",
-        "AWS - ECS, lambda, S3 etc",
         "Python",
-        "javaScript",
-        "SQLAlchemy",
-        "Oracle DB",
-        "Docker"
+        "FastAPI",
+        "React",
+        "Mnesia DB",
+        "Erlang OTP",
+        "Subprocess Python",
+        "AWS EC2"
       ]
     },
     {
       "id": "prof-9",
-      "title": "Global DET",
+      "title": "Ledger Insights",
       "company": "Creditsafe",
       "category": "professional",
-      "summary": "Governação de dados e controlo de qualidade",
+      "summary": "Modernizei uma plataforma de finanças e contabilidade do .NET legado para Python, React, AWS e PostgreSQL. Entreguei funcionalidades premium como AR Requests, CFO Reports e trade groups, elevando a retenção em ~35%.",
       "bullets": [
-        "Aplicação de gestão de dados que melhorou a precisão em 7%.",
-        "API REST para plataformas de clientes com validação de dados.",
-        "Fluxos de entidades dinâmicos com Jinja, WTForms, Airflow, etc."
+        ".NET legado para Python, React, AWS e PostgreSQL — retenção subiu ~35%.",
+        "Funcionalidades premium em backend e React — ~$150K em negócios B2B.",
+        "Trade groups, relatórios CFO, AR requests e tendências de pagamento de devedores."
       ],
-      "caseStudy": "Os dados fornecidos pelos vendors nem sempre são precisos ou atualizados. A organização precisava de uma forma estruturada de corrigir dados e melhorar a qualidade em todas as entidades.",
+      "caseStudy": "O Ledger Insights existia para colmatar as lacunas do Ledger 3D, que não tinha trade groups, relatórios, contas a receber nem tendências de pagamento de devedores — e precisava de ser modernizado sem perder essas capacidades.",
       "fullDetails": [
-        "Aplicação Flask MVT sobre flask manager para editar dados de forma estruturada, melhorando a precisão de 90% para 97%.",
-        "API REST integradas diretamente em plataformas viradas para o cliente que exigiam checks e edições extra.",
-        "Fluxo personalizado com templates Jinja, formulários WTF e validação para criar formulários por tipo de entidade.",
-        "DAG Airflow para extrair dados editados e carregá-los para S3 para processamento no Redshift de produção."
+        "Conduzi a migração da plataforma do .NET legado para Python, React, AWS e PostgreSQL, melhorando a UX e elevando a retenção de clientes em ~35%.",
+        "Construí as capacidades premium em falta: AR Requests, CFO Reports, trade groups, Combined Experience e tendências de pagamento de devedores.",
+        "Escalei os serviços de backend e as páginas React que suportavam negócios B2B no valor de ~$150K.",
+        "Pipeline de CI/CD em Azure Pipelines para automatizar o deployment."
       ],
       "topSkills": [
-        "Flask MVT",
-        "jQuery",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
         "AWS",
-        "MariaDB",
         "Terraform"
       ],
       "allSkills": [
-        "Flask MVT",
-        "jQuery",
         "Python",
-        "javaScript",
-        "AWS - ECS, S3 etc",
+        "FastAPI",
+        "React",
+        "JavaScript",
+        ".NET (legado)",
+        "PostgreSQL",
+        "AWS ECS / Lambda / S3",
         "Terraform",
-        "MariaDB",
-        "Oracle DB"
+        "Azure Pipelines"
+      ]
+    },
+    {
+      "id": "prof-10",
+      "title": "Global Data Editing Tool",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Aplicação de governação de dados para corrigir dados de empresa incorretos e redundantes em todas as entidades. Os fluxos de edição Flask elevaram a qualidade dos dados de ~85% para ~95%, com edições auditadas enviadas de volta para produção.",
+      "bullets": [
+        "Aplicação de edição Flask usada em todas as entidades — qualidade dos dados de ~85% para ~95%.",
+        "APIs REST sobre dados de clientes dos EUA com fluxos de autorização.",
+        "As edições auditadas regressam às bases de dados de produção."
+      ],
+      "caseStudy": "Os dados fornecidos pelos fornecedores nem sempre eram precisos ou atuais, pelo que o negócio precisava de uma forma estruturada de os corrigir e de enviar as alterações auditadas de volta para produção.",
+      "fullDetails": [
+        "Aplicação de edição de dados Flask usada em todas as entidades para retificar dados de empresa incorretos e redundantes, elevando a qualidade dos dados de ~85% para ~95%.",
+        "APIs REST integradas em plataformas viradas para o cliente para verificações e edições de dados adicionais.",
+        "Fluxos de autorização que enviam registos auditados de volta para as bases de dados de produção.",
+        "Formulários e validação dinâmicos por entidade construídos com templates Jinja e WTForms."
+      ],
+      "topSkills": [
+        "Flask",
+        "REST APIs",
+        "PostgreSQL",
+        "AWS",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Python",
+        "Flask",
+        "REST APIs",
+        "Jinja",
+        "WTForms",
+        "PostgreSQL",
+        "AWS ECS / S3",
+        "Terraform"
       ]
     }
   ]

@@ -17,7 +17,8 @@
   "personal": [
     {
       "id": "personal-1",
-      "title": "get1agent",
+      "title": "One Agent",
+      "company": "get1agent.com",
       "category": "personal",
       "summary": "Komplett serverlose, multi-tenant AWS-Plattform zum Erstellen, Ausführen und Teilen von Agenten, MCP-Tools und RAG-Pipelines. Liefert KI-gestützten MCP-Server-Builder, Evaluationslab mit LLM-Judges und Annotationsqueues, Bedrock Guardrails, Agenten-Marktplatz und Skills-Katalog.",
       "bullets": [
@@ -51,13 +52,382 @@
         "S3 Vectors",
         "DynamoDB",
         "RAG (hybride Suche, RRF, Reranking)",
+        "Code Interpreter",
         "OpenTelemetry",
         "React",
-        "GitHub Actions"
+        "GitHub Actions",
+        "Terraform"
       ],
       "liveUrl": "https://www.get1agent.com/",
       "sourceUrl": "https://github.com/sodekiranavinash/get1agent",
       "architectureUrl": "https://www.get1agent.com/architecture"
+    }
+  ],
+  "professional": [
+    {
+      "id": "prof-1",
+      "title": "Pitch Intel",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "Agentische Vertriebsintelligenz-Plattform, die Recherche in versandfertiges Pitch-Material verwandelt. Sie verkürzt die Pitch-Berichtserstellung von ~3 Tagen auf ~30 Minuten, mit Drag-and-Drop-Workflow-Builder und Multi-Format-Ausgabe.",
+      "bullets": [
+        "Verkürzt die Pitch-Berichtserstellung von ~3 Tagen auf ~30 Minuten.",
+        "Drag-and-Drop-Builder zum Zusammenstellen agentischer Workflows aus wiederverwendbaren Agenten, mit gemeinsamer Galerie und RBAC.",
+        "Liefert Berichte als Infografiken, HTML, PDF und PowerPoint."
+      ],
+      "caseStudy": "Vertriebs- und Commercial-Pricing-Teams verbrachten Tage damit, öffentliche Informationen, proprietäre Unternehmensdaten und frühere Historie vor einem Pitch zusammenzutragen. Das Ziel war, diese Zeit mit KI-generiertem, recherchebasiertem Pitch-Material zu verkürzen.",
+      "fullDetails": [
+        "Planner-Agent plus spezialisierte Sub-Agenten (Web-Recherche, aktuelle Pakete, Battlecards, Pitch-Generierung), orchestriert zu einem einzigen Workflow.",
+        "Drag-and-Drop-UI zum Zusammenstellen von Workflows aus wiederverwendbaren Agenten, Veröffentlichen in einer gemeinsamen Galerie und Verwalten des Zugriffs mit rollenbasierter Zugriffskontrolle.",
+        "Berichte, die auf genehmigten Web-Quellen, proprietären Unternehmensdaten und Vertriebs-MCP-Servern basieren, geliefert als Infografiken, HTML, PDF und PowerPoint.",
+        "Jeder MCP-Server und seine Tools können in einen Workflow eingebunden werden."
+      ],
+      "topSkills": [
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "OpenSearch",
+        "PostgreSQL",
+        "Kubernetes"
+      ],
+      "allSkills": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "FastMCP",
+        "React",
+        "OpenSearch-Vektorsuche",
+        "AWS Bedrock",
+        "Kubernetes",
+        "S3",
+        "PostgreSQL",
+        "LangSmith"
+      ]
+    },
+    {
+      "id": "prof-2",
+      "title": "Chat AI MCP Server",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "Kundenseitiger MCP-Server, der das SPGCI Python SDK für strukturierte und unstrukturierte Daten exponiert. Von über 200 Kunden auf MS Copilot, Claude und Databricks übernommen; verkürzte die SME-Review-Zykluszeit um 90%, indem der bestehende Retrieval-Pfad wiederverwendet wurde.",
+      "bullets": [
+        "Von über 200 Kunden auf MS Copilot, Claude und Databricks übernommen.",
+        "Führt LLM-generierten SDK-Code für strukturierte Daten und AIRD-APIs für unstrukturierte Daten aus.",
+        "Verkürzte die SME-Review-Zykluszeit um 90%, indem der bestehende Retrieval-Pfad wiederverwendet wurde."
+      ],
+      "caseStudy": "Das Business wollte MCP als Service für Kunden anbieten, ohne die Genauigkeit und Zuverlässigkeit des bestehenden Chat AI-Produkts zu verlieren und ohne die SME-Evaluierung für jedes neue Tool zu wiederholen.",
+      "fullDetails": [
+        "Fünf MCP-Tools für strukturierte und unstrukturierte Retrieval für das kundenseitige Chat AI-Team.",
+        "LLM-generierte Codeausführung in einer isolierten Sandbox (AgentCore Code Interpreter) für strukturierte Daten.",
+        "AIRD (AI-Ready Data)-APIs für unstrukturierte Daten, unter Wiederverwendung der Kern-Prompts und des Retrieval-Pfads des Teams für Antwortparität — Verkürzung der SME-Review-Zykluszeit um 90%.",
+        "URL-Parameter und Umgebungsvariablen erleichtern das Onboarding zusätzlicher Datensätze."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "FastAPI",
+        "Code Interpreter",
+        "AWS",
+        "Kubernetes"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "AWS Bedrock",
+        "AgentCore Code Interpreter",
+        "MCP-Protokoll",
+        "REST APIs",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "prof-3",
+      "title": "RAPID MCP Server",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "Verwandelt eine API-Landschaft von über 300 APIs in eine einzige MCP-Schnittstelle — durchsuchbar und ausführbar ohne Änderungen an Microservices. Eine Search-and-Rerank-Strategie hob die LLM-API-Auswahlgenauigkeit von ~85% auf 95%+.",
+      "bullets": [
+        "Vier Tools (instructions, search, metadata, execute) decken die gesamte API-Landschaft ab.",
+        "Keine Codeänderungen an Microservices — Einsparung hunderter Engineering-Stunden.",
+        "Search-and-Rerank-Discovery hob die API-Auswahlgenauigkeit von ~85% auf 95%+."
+      ],
+      "caseStudy": "RAPID-Microservices werden von einem Automatisierungsframework generiert und bereitgestellt. Das Business wollte dieselbe Behandlung für MCP — hunderte APIs als Tools exponiert, ohne Microservice-Code anzufassen.",
+      "fullDetails": [
+        "MCP-Architektur End-to-End verantwortet: über 300 APIs über vier Tools (instructions, search, metadata, execute) exponiert.",
+        "Search-and-Rerank-Discovery-Strategie — das Modell durchsucht das Toolset, prüft die Top-k-Kandidaten und führt dann den richtigen Endpunkt aus.",
+        "Keine Microservice-Änderungen, Einsparung hunderter Engineering-Stunden; LLM-API-Auswahlgenauigkeit von ~85% auf 95%+ verbessert.",
+        "Heute breit genutzt in internen KI-Anwendungen."
+      ],
+      "topSkills": [
+        "FastMCP",
+        "Reranking",
+        "FastAPI",
+        "AWS",
+        "Kubernetes"
+      ],
+      "allSkills": [
+        "Python",
+        "FastMCP",
+        "FastAPI",
+        "Suche & Reranking",
+        "MCP-Protokoll",
+        "AWS",
+        "Kubernetes",
+        "OpenSearch"
+      ]
+    },
+    {
+      "id": "prof-4",
+      "title": "MCP Playground",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "Playground zum Testen von MCP-Servern gegen mehrere Modelle mit echten Abfragen vor der Produktion. Heute von über 5 Engineering-Teams genutzt, mit einem Konsistenz-Framework, das die Release-Sicherheit bewertet.",
+      "bullets": [
+        "Von über 5 Engineering-Teams genutzt, um Server gegen mehrere Modelle zu validieren.",
+        "Streamt Tool-Call-Events live, damit Teams genau sehen, was das Modell getan hat.",
+        "Konsistenz-Framework vergleicht Tool-Calls und Argumente über wiederholte Läufe."
+      ],
+      "caseStudy": "Teams wollten die Genauigkeit und Konsistenz von MCP-Tools validieren — einschließlich tatsächlicher Tool-Ausführungen — bevor sie sich für eine Produktionsintegration entschieden.",
+      "fullDetails": [
+        "MCP-Server über die UI hinzufügen und Events streamen, während Tools ausgeführt werden, mit Unterstützung für multimodale Ausgabe.",
+        "Echte Abfragen gegen mehrere Modelle ausführen und Antworten Seite an Seite vergleichen.",
+        "Konsistenzmodul wiederholt dieselben Testabfragen und misst Tool-Calls und Argumente über Läufe hinweg.",
+        "Erzeugt einen Release-Sicherheits-Score, damit Teams wissen, wann ein Server produktionsbereit ist."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "MCP-Client",
+        "LangGraph",
+        "PostgreSQL"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "MCP-Client",
+        "LangGraph",
+        "Multi-Modal",
+        "Evaluation",
+        "PostgreSQL",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "prof-5",
+      "title": "API Platform",
+      "company": "S&P Global",
+      "category": "professional",
+      "summary": "Deployment, Sicherheit und Observability für über 15 Microservices auf Kubernetes. Verlagerte rohe Manifests zu Helm-Charts, behob kritische Schwachstellen und ergänzte Dashboards über Cluster-Events und Metriken.",
+      "bullets": [
+        "Rohe Kubernetes-Manifests zu Helm-Charts — ~25% weniger Friktion am Deployment-Tag.",
+        "Kritische Schwachstellen behoben und hartcodierte Secrets aus der Git-Historie in 10 Repos bereinigt.",
+        "OpenSearch-Dashboards über Kubernetes-Events und -Metriken für schnellere Triage."
+      ],
+      "caseStudy": "Ein Plattformteam, das über 15 Microservices verantwortete, benötigte schnellere, sicherere Releases und bessere Produktionssichtbarkeit über den gesamten Cluster-Bestand.",
+      "fullDetails": [
+        "Modernisierte das Deployment für über 15 Microservices von rohen Kubernetes-Manifests zu Helm-Charts, wodurch die Friktion am Deployment-Tag um ~25% sank.",
+        "Überarbeitete die Plattformsicherheit mit Fluent Bit, OpenTelemetry und Data Prepper, behob kritische Schwachstellen und bereinigte hartcodierte Secrets aus der Git-Historie in 10 Repos.",
+        "Instrumentierte OpenSearch-Dashboards über Kubernetes-Events und -Metriken und gab Teams so eine schnellere Erkennung und Triage von Produktionsproblemen."
+      ],
+      "topSkills": [
+        "Kubernetes",
+        "Helm",
+        "OpenTelemetry",
+        "OpenSearch",
+        "CI/CD"
+      ],
+      "allSkills": [
+        "Kubernetes",
+        "Helm",
+        "Docker",
+        "OpenTelemetry",
+        "Fluent Bit",
+        "Data Prepper",
+        "OpenSearch",
+        "Kong API Gateway",
+        "Sicherheits-Härtung"
+      ]
+    },
+    {
+      "id": "prof-6",
+      "title": "Product Intelligence Agent",
+      "company": "Genpact · Shutterfly",
+      "category": "professional",
+      "summary": "Text2SQL-Chat-App, damit das Produktteam Bestellungen, Beschwerden und Produkte in natürlicher Sprache abfragen kann. Ein LangGraph-Feedback-Loop korrigiert SQL-Fehler selbst und reduzierte ad-hoc Data-Team-Anfragen um ~25%.",
+      "bullets": [
+        "Reduzierte ad-hoc Data-Team-Anfragen um ~25%.",
+        "LangGraph-Knoten und -Kanten bilden einen Feedback-Loop, der SQL-Fehler selbst korrigiert.",
+        "Watchdog-Agent erkennt aufkommende Probleme wie Engpässe, Abfall und Verzögerungen."
+      ],
+      "caseStudy": "Das Produktteam war für Kundeninsights und Trends von Datenteams abhängig. Das Ziel war, Fragen in natürlicher Sprache stellen zu können, statt auf ad-hoc-Analysen zu warten.",
+      "fullDetails": [
+        "Text2SQL-Chat-Anwendung über Bestellungen, Beschwerden und Produkte, reduzierte ad-hoc Data-Team-Anfragen um ~25%.",
+        "LangGraph-Design aus Knoten und Kanten lässt den Agenten seinen eigenen SQL-Fehlerkorrektur-Loop automatisieren.",
+        "Automatische Datenstichproben, Abfragebeispiele und Spaltenbeschreibungen verbessern Abfragegenauigkeit und -konsistenz.",
+        "Watchdog-Agent auf derselben Produktlogik erkennt proaktiv aufkommende Probleme — Papiermangel, Materialalternativen, Abfall und Lieferverzögerungen."
+      ],
+      "topSkills": [
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "SQLAlchemy",
+        "Oracle DB"
+      ],
+      "allSkills": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "SQLAlchemy",
+        "Azure OpenAI",
+        "Oracle DB",
+        "AWS EC2"
+      ]
+    },
+    {
+      "id": "prof-7",
+      "title": "Forge Module",
+      "company": "Genpact · Shutterfly",
+      "category": "professional",
+      "summary": "Produktions-Microservices als Ersatz für Legacy Forge-Systeme — PDF-Generierung, Schnittlinien und Template-Mapping. Auf RabbitMQ mit Celery-Workern gebaut, Durchsatzsteigerung um ~50% und weniger Materialabfall.",
+      "bullets": [
+        "RabbitMQ mit Celery-Workern, Durchsatzsteigerung um ~50%.",
+        "Ersetzte einen Monolithen, der zum Skalierbarkeitsengpass für die Erlang OTP Engine geworden war.",
+        "Neue Template-Produktlinien erreichten Kunden schneller."
+      ],
+      "caseStudy": "Ein bestehender Monolith war zum Engpass für die Skalierbarkeit der Erlang OTP Engine geworden, daher wurden neue Microservices für Forge benötigt, um Durchsatz und Performance zu verbessern.",
+      "fullDetails": [
+        "Neue Microservices für PDF-Generierung, Schnittlinien und Template-Mapping auf RabbitMQ mit Celery-Workern, Durchsatzsteigerung um ~50%.",
+        "Schnittlinien reduzierten Materialverschwendung und sparten tausende Dollar an Materialkosten.",
+        "XML-Templates für neue Produktlinien verkürzten die Time-to-Market und brachten neue Kunden."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "RabbitMQ",
+        "Celery",
+        "Erlang OTP",
+        "Docker"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "RabbitMQ",
+        "Celery",
+        "Erlang OTP",
+        "XML-Templates",
+        "Docker",
+        "AWS EC2",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "prof-8",
+      "title": "Mnesia DB Viewer",
+      "company": "Genpact · Shutterfly",
+      "category": "professional",
+      "summary": "Web-App zum Inspizieren, Korrigieren, Sichern und Wiederherstellen von Mnesia DB-Daten bei Vorfällen in der Hochsaison. Ein Python-Subprozess-Ansatz mit Erlang OTP-Tooling sparte ~$10K pro Produktionsvorfall.",
+      "bullets": [
+        "Python-Subprozess-Ansatz in den Erlang-Cluster.",
+        "REST-APIs zum Aktualisieren von Mnesia-Zeilen und Zurückschreiben.",
+        "Automatisierte Backup- und Wiederherstellungsabläufe."
+      ],
+      "caseStudy": "In der Hochsaison konnten fehlerhafte Asset- oder Bestelldaten die Mnesia DB beschädigen und die Erlang Engine zum Absturz bringen, daher benötigte der Kunde einen sicheren Weg, Daten zu korrigieren und wiederherzustellen.",
+      "fullDetails": [
+        "Full-Stack-Webanwendung zur Verwaltung von Mnesia DB-Daten mit einem Python-Subprozess-Ansatz.",
+        "REST-APIs zum Aktualisieren von Mnesia-Zeilen und Zurückschreiben, mit Erlang OTP Cluster-Tooling zur Diagnose.",
+        "Automatisierte Wiederherstellung und Sicherung von Mnesia DB-Daten.",
+        "Einsparung von ~$10K pro Produktionsvorfall durch Verkürzung von Diagnose- und Wiederherstellungszeit."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "Mnesia DB",
+        "Subprozess",
+        "AWS EC2"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Mnesia DB",
+        "Erlang OTP",
+        "Python-Subprozess",
+        "AWS EC2"
+      ]
+    },
+    {
+      "id": "prof-9",
+      "title": "Ledger Insights",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Modernisierte eine Finanz- und Buchhaltungsplattform von Legacy-.NET zu Python, React, AWS und PostgreSQL. Lieferte Premium-Features wie AR Requests, CFO Reports und Handelsgruppen, Steigerung der Kundenbindung um ~35%.",
+      "bullets": [
+        "Legacy-.NET zu Python, React, AWS und PostgreSQL — Kundenbindung um ~35% gesteigert.",
+        "Premium-Features über Backend und React — ~$150K in B2B-Deals.",
+        "Handelsgruppen, CFO-Reports, AR-Requests und Zahlungstrends von Schuldnern."
+      ],
+      "caseStudy": "Ledger Insights existierte, um die Lücken in Ledger 3D zu schließen, dem Handelsgruppen, Reports, Forderungen und Zahlungstrends von Schuldnern fehlten — und es musste modernisiert werden, ohne diese Fähigkeiten zu verlieren.",
+      "fullDetails": [
+        "Trieb die Migration der Plattform von Legacy-.NET zu Python, React, AWS und PostgreSQL voran, verbesserte die UX und steigerte die Kundenbindung um ~35%.",
+        "Baute die fehlenden Premium-Fähigkeiten: AR Requests, CFO Reports, Handelsgruppen, Combined Experience und Zahlungstrends von Schuldnern.",
+        "Skalierte Backend-Services und die React-Seiten, die B2B-Deals im Wert von ~$150K unterstützten.",
+        "CI/CD-Pipeline auf Azure Pipelines zur Automatisierung des Deployments."
+      ],
+      "topSkills": [
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "AWS",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Python",
+        "FastAPI",
+        "React",
+        "JavaScript",
+        ".NET (Legacy)",
+        "PostgreSQL",
+        "AWS ECS / Lambda / S3",
+        "Terraform",
+        "Azure Pipelines"
+      ]
+    },
+    {
+      "id": "prof-10",
+      "title": "Global Data Editing Tool",
+      "company": "Creditsafe",
+      "category": "professional",
+      "summary": "Data-Governance-App zur Korrektur ungenauer und redundanter Firmendaten über Entitäten hinweg. Flask-Bearbeitungsworkflows hoben die Datenqualität von ~85% auf ~95%, mit geprüften Änderungen, die zurück in die Produktion geschrieben werden.",
+      "bullets": [
+        "Flask-Bearbeitungsanwendung, unternehmensweit genutzt — Datenqualität von ~85% auf ~95%.",
+        "REST-APIs über US-Kundendaten mit Autorisierungsworkflows.",
+        "Geprüfte Änderungen fließen zurück in die Produktionsdatenbanken."
+      ],
+      "caseStudy": "Von Lieferanten bereitgestellte Daten waren nicht immer korrekt oder aktuell, daher benötigte das Business einen strukturierten Weg, sie zu korrigieren und geprüfte Änderungen zurück in die Produktion zu schreiben.",
+      "fullDetails": [
+        "Flask-Anwendung zur Datenbearbeitung, unternehmensweit genutzt zur Korrektur ungenauer und redundanter Firmendaten, Anhebung der Datenqualität von ~85% auf ~95%.",
+        "REST-APIs in kundenseitige Plattformen integriert für zusätzliche Datenprüfungen und -korrekturen.",
+        "Autorisierungsworkflows, die geprüfte Datensätze zurück in die Produktionsdatenbanken schreiben.",
+        "Dynamische Formulare und Validierung pro Entität, erstellt mit Jinja-Templates und WTForms."
+      ],
+      "topSkills": [
+        "Flask",
+        "REST APIs",
+        "PostgreSQL",
+        "AWS",
+        "Terraform"
+      ],
+      "allSkills": [
+        "Python",
+        "Flask",
+        "REST APIs",
+        "Jinja",
+        "WTForms",
+        "PostgreSQL",
+        "AWS ECS / S3",
+        "Terraform"
+      ]
     }
   ]
 }

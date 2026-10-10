@@ -2,8 +2,8 @@
   "hero": {
     "welcome": "Bem-vindo ao meu espaço de trabalho",
     "greeting": "Olá, sou",
-    "subtitle": "Engenheiro de IA | FDE",
-    "description": "IA agêntica, servidores MCP e RAG — do protótipo à produção no AWS e Kubernetes.",
+    "subtitle": "Engenheiro de IA Aplicada — IA agêntica · MCP · RAG · AWS",
+    "description": "IA agêntica, servidores MCP e RAG — do protótipo à produção na AWS e Kubernetes.",
     "availability": "Hyderabad, Índia · Aberto a realocação",
     "downloadCv": "Baixar CV",
     "tryOneAgent": "Experimentar One Agent",
@@ -16,16 +16,16 @@
     "titleLabel": "Título",
     "aboutLabel": "Como trabalho como FDE",
     "approachEyebrow": "Abordagem",
-    "approachDescription": "Três hábitos que moldam como levo o trabalho de IA de uma conversa para algo que as equipes podem executar em produção.",
+    "approachDescription": "Três hábitos que moldam como levo o trabalho de IA de uma conversa para algo que as equipas conseguem executar em produção.",
     "educationLabel": "Educação",
     "skillsLabel": "Habilidades",
     "socialLabel": "Conectar",
     "experienceText": "Experiência profissional"
   },
   "name": "Kiran Avinash Sode",
-  "title": "Engenheiro de IA | Forward Deployed Engineer",
+  "title": "Engenheiro de IA Aplicada | Forward Deployed Engineer",
   "bioParagraphs": [
-    "Sou um Engenheiro de IA e Forward Deployed Engineer (FDE) com 5 anos de experiência entregando sistemas GenAI e full-stack do POC à produção. Integro-me a produto, vendas e engenharia para transformar necessidades ambíguas em protótipos funcionais — depois fortaleco os fluxos LLM e a plataforma Kubernetes e serverless AWS subjacente para produção real."
+    "Sou um Engenheiro de IA Aplicada e Forward Deployed Engineer (FDE) com 5 anos em engenharia de software — os últimos 2+ em forward-deployed — a construir aplicações de IA Generativa e full-stack em produção de ponta a ponta. Integro-me com equipas de vendas, negócio e dados para entregar produtos de IA empresarial desde a prova de conceito até ao deployment, avaliação e iteração, consolidando os fluxos LLM e as plataformas Kubernetes e serverless AWS subjacentes. Sólido em IA agêntica, MCP, RAG e avaliação de LLM."
   ],
   "metrics": [
     {
@@ -59,6 +59,6 @@
   "email": "kiranavinash.sode@gmail.com",
   "emailLabel": "Email",
   "connect": {
-    "text": "Baseado em Hyderabad, Índia — aberto a realocação (Países Baixos, Japão) e trabalho remoto global. Sempre feliz para falar sobre produtos de IA, plataformas de agentes ou cargos FDE."
+    "text": "Baseado em Hyderabad, Índia — aberto a realocação (Países Baixos, Japão) e trabalho remoto global. Sempre disponível para falar sobre produtos de IA, plataformas de agentes ou cargos de FDE."
   }
 }
